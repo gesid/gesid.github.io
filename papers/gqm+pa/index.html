@@ -1,0 +1,216 @@
+
+	<title>GQM+PA - Página de Suporte</title>
+<!DOCTYPE html>
+<html lang="en"><head>
+
+<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="css/style.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link href="style.css" rel="stylesheet">
+
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+
+	<script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>Material para artigo</title>
+
+ 
+    
+  <script type="text/javascript">
+    jQuery(document).ready(function($) { 
+    $(".scroll").click(function(event){        
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 400);
+        $('.active').removeClass('active');
+        $(this).parent().addClass('active');
+    });
+    });
+  </script>
+
+  <script type="text/javascript">
+    $(function() {
+        $(window).scroll(function(){
+
+            var topo = $('.jumbotron').height() + 81; // altura do topo
+            var scrollTop = $(window).scrollTop(); // qto foi rolado a barra
+            var tamPagina = $(document).height(); // altura da página
+            var larPagina = $(document).width(); // altura da página
+            var larguraMenu = $('#menu').width();
+
+            if((2 * larguraMenu) < larPagina){ //movimenta o menu apenas se o modo mobile não estiver ativo
+
+              if(scrollTop > topo){
+                  $('#menu').css({'width' : larguraMenu+'px', 'position' : 'absolute', 'z-index':'9','margin-top' : scrollTop - (topo-5)});
+              }else{
+                  $('#menu').css({'position' : 'relative', 'margin-top' : 0});
+              }               
+            }
+
+        });
+    });
+  </script>
+
+  </head>
+
+  <body id="topo">
+  	<p>
+
+    <div class="container">
+
+     
+        <p class="creditos" id="texto">Material de auxílio para o artigo</p>
+        <h3 id="gqm">GQM+PA: A Framework based on Goal-Question-Metric and Action Research for Teaching Software Measurement</h3>
+        <hr />
+        <p id="text">Saori Costa, Federal University of Ceará, Crateús, Ceará, Brazil, saoricosta@gmail.com.br</p>
+        <p id="text">Allysson Allex Araújo, Federal University of Ceará Crateús, Ceará, Brazil, allysson.araujo@crateus.ufc.br</p>
+        <p id="text">Jerffeson Souza, State University of Ceará, Fortaleza, Ceará, Brazil, jerffeson.souza@uece.br</p>
+      
+ <hr/> 
+
+      <div class="row">
+        <div class="col-lg-2">
+          
+  <div class="row">
+  <div class="col-12">
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active" id="v-pills-profile-tab" data-toggle="pill" href="#abstract" role="tab" aria-controls="v-pills-profile" aria-selected="false">Abstract</a>
+      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#planogqm" role="tab" aria-controls="v-pills-profile" aria-selected="false">Plano GQM</a>
+      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#trabalhosrelacionados" role="tab" aria-controls="v-pills-profile" aria-selected="false">Trabalhos Relacionados</a>
+      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#framework" role="tab" aria-controls="v-pills-profile" aria-selected="false">Framework GQM+PA</a>
+      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#questionarios" role="tab" aria-controls="v-pills-messages" aria-selected="false">Questionários</a>
+      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#entrevista" role="tab" aria-controls="v-pills-messages" aria-selected="false">Entrevista</a>
+      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#planilhas" role="tab" aria-controls="v-pills-settings" aria-selected="false">Planilhas</a>
+       <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#projetos" role="tab" aria-controls="v-pills-settings" aria-selected="false">Projetos</a>
+       <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#avaliacaotecnica" role="tab" aria-controls="v-pills-settings" aria-selected="false">Avaliação Técnica</a>
+       <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#monografia" role="tab" aria-controls="v-pills-settings" aria-selected="false">Monografia</a>
+    </div>
+  </div>
+ 
+</div>
+            
+        
+        </div>
+        <div class="col-lg-10">
+
+          <h2 id="abstract">1 - Abstract</h2>
+          <p align="justify">
+
+Software measurement is a crucial practice in software quality assurance and is intrinsically associated with software metric assessment. However, the software metrics definition is a complex task, thus requiring decision support methods. Among the methods usually approached, one can highlight the Goal-Question-Metric (GQM) that aligns the definition of metrics to the objectives of the organization. In addition, the understanding of software processes is closely linked to different situational characteristics, including previous experience. Hence, there is an on-going challenge in teaching software measurement, addressing theory and practical experience to make software engineering students aware of a well-prepared career. Therefore, we propose a framework called GQM+PA for teaching software measurement based on the integration of the Action Research method with the GQM process. Regarding the empirical evaluation, we investigated multiple case studies at the Federal University of Ceará (Campus Crateús) through a quali-quantitative perspective. Results reveal that the students were able to improve their knowledge and empirically perceive the value of software measurement, including basic concepts, metrics and GQM.
+
+          </p>
+          <p><b>Keywords:</b> Software Quality, Software Measurement, GQM, Action Research,
+Software Teaching.
+          </p>
+
+        
+
+
+          <h2 id="abstract">Resumo</h2>
+          <p align="justify">
+
+            A medição de software é uma prática crucial na garantia de qualidade de software e está intrinsecamente associada à avaliação de métricas de software. No entanto, a definição de métricas de software é uma tarefa complexa, exigindo, assim, métodos de suporte à decisão. Entre os métodos geralmente abordados, destaca-se Goal-Question-Metric (GQM), que alinha a definição de métricas aos objetivos da organização. Além disso, a compreensão dos processos de software está intimamente ligada a diferentes características situacionais, incluindo a experiência anterior. Portanto, existe um desafio contínuo no ensino de medição de software, abordando a teoria e a experiência prática para conscientizar os estudantes de engenharia de software sobre uma carreira bem sucedida. Portanto, propomos uma estrutura chamada GQM + PA para o ensino de medição de software com base na integração do método de Pesquisa-Ação com o processo GQM. Em relação à avaliação empírica, investigamos vários estudos de caso na Universidade Federal do Ceará (Campus Crateús), sob uma perspectiva quali-quantitativa. Os resultados revelam que os alunos foram capazes de aprimorar seus conhecimentos e perceber empiricamente o valor da medição de software, incluindo conceitos básicos, métricas e GQM.
+
+           
+          </p>
+          <p><b> Palavras-chave:</b> Qualidade de Software, Medição de Software, GQM, Pesquisa-Ação, Ensino de Software.
+          </p>
+
+
+
+          <hr/>
+         
+          <h2 id="planogqm">2 - Plano GQM </h2>
+           <p>
+                Download de <a href="https://drive.google.com/open?id=1xxX6senD-_Z-nUqdu3ZppU_qGR3YsUqt8pLbQyxT24I">Plano GQM. </a>
+            </p> 
+            <hr/> 
+
+           
+         
+            <h2 id="trabalhosrelacionados">3 - Trabalhos Relacionados </h2>
+             <p>
+                  Download de <a href="https://docs.google.com/document/d/1xnh5p3HGQi_3oY86Ctxe6X45Bpqi74uTWluSqzsC_HU/edit?usp=sharing">Trabalhos Relacionados. </a>
+              </p> 
+              <hr/> 
+            
+         
+              <h2 id="framework">4 - Framework GQM+PA </h2>
+               <p>
+                    Download de <a href="https://docs.google.com/document/d/1SBYaO-93P53Czdpgkvs1AgRHSZ29YdjwYkStL-1bHGw/edit?usp=sharing">Framework GQM+PA. </a>
+                </p> 
+                <hr/> 
+
+     
+         
+         <h2 id="questionarios">5 - Questionários </h2>
+          <p>
+               Download de <a href="https://drive.google.com/open?id=1aiSZu3pxxm8vJnuDxQnr_j4hWNekwORfHSzsXDjo_wo">Questionário #1, </a>
+               <a href="https://drive.google.com/open?id=17alIwdeChf-vulLGTehXdiRzFFhk_pTWl-ZagcXT1G4">Questionário #2 </a>e
+               <a href="https://drive.google.com/open?id=1rAQQmxviE6nX5PisaPl5elA-RYHpnSo5qoq9dVdBCeU">Questionário #3</a>.
+           </p> 
+           <hr/>  
+
+         
+         <h2 id="entrevista"> 6 - Entrevista </h2>
+          <p>
+               Download de <a href="https://drive.google.com/open?id=1OOVxYoOsPWvmMz0qWbTFY67w2Lz2i4zdRWzm61cwjlc">síntese da entrevista</a> com Gerente.
+           </p> 
+           <hr/> 
+
+
+           <h2 id="planilhas">7 - Planilhas para Rotinas</h2>
+               Download de  <a href="https://drive.google.com/open?id=1t_IXVi4sTzPNmsuuLOqhcVY7RPoIukwI5m4D2DeKx9I" target="_blank"> Rotina Diária </a> e
+               <a href="https://drive.google.com/open?id=1iUM_gOLLI2uQC9tw_1tnd6XP1SJ9EelUABJS0tqFNlU" target="_blank"> Rotina de Retrospectiva</a>.
+
+                <hr/> 
+
+
+           <h2 id="projetos">8 - Projetos</h2>
+               Download de  <a href="https://drive.google.com/open?id=1LmhyT1hWF8kpN6Yteb8fdGO9NpcDmZRn06YSZ3WwJ4s" target="_blank"> descrição geral dos projetos avaliados</a>.
+
+              <hr/> 
+
+          
+              <h2 id="avaliacaotecnica">9 - Avaliação Técnica</h2>
+                  Download de  <a href="https://drive.google.com/open?id=1vaUF86PQXM8XMdU3o2el1EJCIvytj71HPAMyVRXQkoo" target="_blank"> avalição técnica</a>.
+   
+                 <hr/> 
+
+            <h2 id="monografia">10 - Monografia</h2>
+            Download de <a href="https://drive.google.com/file/d/1rR3ILdqKaWXRS7BB_N9Oe9S3hk9kXFXw/view?usp=sharing" target="_blank"> Monografia de Graduação</a> defendida na Universidade Federal do Ceará (Campus de Crateús).
+
+      <!-- Site footer -->
+ <hr/> 
+
+      <p>
+      <footer class="footer">
+        <p>Junho 2020 (última atualização: Junho 2020).</p>
+      </footer>
+
+    </div> 
+
+
+
+    <script src="index_arquivos/ie10-viewport-bug-workaround.js"></script>
+  
+
+</body></html>
