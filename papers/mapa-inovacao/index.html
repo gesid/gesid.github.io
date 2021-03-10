@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin=""/>
+
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+  integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+  crossorigin=""></script>
+
+  <script src="https://kit.fontawesome.com/16786d0779.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/como-utilizar.css">
+
+  <title>Proposta de Mapa Interativo e Colaborativo para Ecossistemas de Inovacão: Um Estudo de Caso Baseado no Estado do Ceará - Página de Suporte</title>
+</head>
+
+<body style="width: 100%; background-color:#FAFAFA;">
+  <header style="height: 12%">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="padding: 0;margin: 0; height: 100%;">
+      <div class="container">
+        <!--Logo -->
+        <!--<a href="javascript:void(0)" class="navbar-brand"><img src="img\logos\ecossistema-cearense.png" style="width: 180px;"></a>-->
+        <!--Navegação-->
+        <center><h4 class="d-flex justify-content-center fontindice" style="color: #FFFFFF;">Proposta de Mapa Interativo e Colaborativo para Ecossistemas de Inovacão: Um Estudo de Caso Baseado no Estado do Ceará</h4></center>
+      </div>
+    </nav>
+  </header> <!--Fim do cabeçalho-->  
+
+<div id="divPrincipal">
+  <main class="container-fluid" style="height:auto; background-color: #EBEBEB;">
+    <div id="linhas" class="row">
+
+      <div id="divLista" class="col-2 position-fixed d-flex align-items-center" style="height: 85%"> 
+        <ul class="nav flex-column" style="text-align:left;">
+          <li class="nav-item barraFixa">
+            <h5 class="font-weight-bold">Índice</h5>
+          </li>
+          <li id="nl1" class="nav-item barraFixa">
+            <a class="nav-link barraEscolha font-weight-bold fontindice" href="javascript:void(0)">1. Abstract</a>
+          </li>
+          <li id="nl2" class="nav-item barraFixa">
+            <a class="nav-link barraEscolha font-weight-bold fontindice" href="javascript:void(0)">2. Ecossistema de Inovação</a>
+          </li>
+          <li id="nl3" class="nav-item barraFixa">
+            <a class="nav-link barraEscolha font-weight-bold fontindice" href="javascript:void(0)">3. Trabalhos Relacionados</a>
+          </li>
+          <li id="nl4" class="nav-item barraFixa">
+            <a class="nav-link barraEscolha font-weight-bold fontindice" href="javascript:void(0)">4. Procedimentos Metodológico</a>
+          </li>
+          <li id="nl5" class="nav-item barraFixa">
+            <a class="nav-link barraEscolha font-weight-bold fontindice" href="javascript:void(0)">5. Proposta de Mapa Interativo e Colaborativo</a>
+          </li>
+          <li id="nl6" class="nav-item barraFixa">
+            <a class="nav-link barraEscolha font-weight-bold fontindice" href="javascript:void(0)">6. Referência</a>
+          </li>
+          <li id="nl7" class="nav-item barraFixa">
+            <a class="nav-link barraEscolha font-weight-bold fontindice" href="javascript:void(0)">7. Apêndices</a>
+          </li>          
+        </ul>
+      </div>
+
+      <div id="divConteudo" class="col offset-2" style="background-color:#FFFFFF;padding: 20px;">
+
+       <!-- <h6 class="font-weight-bold">Material de auxílio para o artigo</h6>-->
+
+        <div class="dropdown-divider divMargin"></div>
+
+        <center><h6 style="color: #A1A1A1;"> Rommel de Castro, State University of Ceará, Fortaleza, Ceará, Brazil, rommeldcastro@gmail.com</h6>
+        <h6 style="color: #A1A1A1;"> Allysson Allex Araújo, Federal University of Ceará, Crateús, Ceará, Brazil, allysson.araujo@crateus.ufc.br</h6>
+        <h6 style="color: #A1A1A1;"> Pamella Soares, State University of Ceará, Fortaleza, Ceará, Brazil, pamella.soares@aluno.uece.br</h6>
+        <h6 style="color: #A1A1A1;"> Matheus Paixão, State University of Ceará, Fortaleza, Ceará, Brazil, matheus.paixao@uece.br</h6>
+        <h6 style="color: #A1A1A1;"> Paulo Henrique M. Maia, State University of Ceará, Fortaleza, Ceará, Brazil, pauloh.maia@uece.br</h6>
+        <h6 style="color: #A1A1A1;"> Jerffeson Souza, State University of Ceará, Fortaleza, Ceará, Brazil, jerffeson.souza@uece.br</h6></center>
+
+        <div class="dropdown-divider divMargin"></div>
+
+        <div style=" text-align:justify-content;" class="container">
+          <h3 id="topico1" class="font-weight-bold">1. Abstract</h3>
+
+          <p class="textosup">The collaboration between agents within an innovation ecosystem proves to be an important socioeconomic agenda to be explored. Among the initiatives that contribute towards this issue, the adoption of interactive maps stands out. However, regardless of their relevance, these projects still face a lack of empirical Human-Computer Interaction evaluation. Hence, we aim to develop and evaluate an interactive and collaborative map exploring the state of Ceará as a case study that, despite its recognized prominence, does not have an open source initiative at a state scale for mapping its agents. Under a quali-quantitative methodological scope, we justify this work by framing it within the dynamics of innovation diffusion. In addition to providing an open source solution in line with the 4C Collaboration Model, this work pioneers in conducting an empirical evaluation of User Experience, Usability, and Perception of Value in the context of a Brazilian innovation ecosystem.</p>
+
+          <p class="textosup"> <b>Keywords:</b> Innovation Ecosystem. Collaborative Systems. User Experience.</p>
+
+          <h3 id="topico0" class="font-weight-bold">Resumo</h3>
+
+          <p class="textosup">A colaboração entre os agentes que entrelaçam um ecossistema de inovação demonstra-se uma importante pauta socioeconômica a ser explorada. Dentre as iniciativas que contribuem para tal consolidação, destaca-se a adoção de mapas interativos que, apesar de relevantes, enfrentam uma lacuna empírica quanto à avaliação da User Experience (UX). Diante dessa oportunidade, esta pesquisa objetiva desenvolver e avaliar um mapa interativo e colaborativo explorando o estado do Ceará como estudo de caso que, mesmo reconhecidamente proeminente, ainda não dispõe de nenhuma iniciativa intrinsecamente open source, de expressão estadual e colaborativa para mapeamento dos seus agentes. Sob um escopo metodológico quali-quantitativo, este trabalho se justifica devido ao seu enquadramento dentro da dinâmica de difusão da inovação. Portanto, além da disponibilização de uma solução open source aderente ao Modelo 4C de Colaboração, este trabalho contribui, de forma pioneira, na condução de um experimento para avaliação empírica de UX, Usabilidade e Percepção de Valor no contexto de um ecossistema de inovação brasileiro.</p>
+
+          <p class="textosup"> <b>Palavras-chave:</b> Ecossistema de Inovação. Sistemas Colaborativos. Experiência do Usuário.</p>
+
+          <div class="dropdown-divider divMargin"></div>
+
+          <h3 id="topico2" class="font-weight-bold">2. Ecossistema de Inovação</h3>
+
+          <p class="textosup">Davila, Epstein e Shelton (2009) destacam que a longo prazo a inovação é a única forma de garantir o futuro de qualquer empresa, de forma mais contínua e por mais tempo. Neste sentido, Moor (1996) sugere que empresas que seriam potencias concorrentes dentro de um mercado, trabalhem de forma conjunta, promovendo um mutualismo o qual teria como intuito viabilizar a evolução em conjunto dos participantes da rede, tornando-os mais fortes e mais propensos a se manterem vivos no mercado.</p>
+
+          <p class="textosup">Essa cooperação entre os participantes de um sistema com o intuito de geração de inovações é definida como ecossistema de inovação. Para Jackson (2011), um ecossistema de inovação é uma complexa relação entre atores e entidades, cujo o objetivo é fomentar o desenvolvimento e a inovação da tecnologia. Por sua vez, Jin-fu (2010) classifica o ecossistema de inovação como um sistema dinâmico de instituições e pessoas interconectadas, necessárias para impulsionar o desenvolvimento econômico e de tecnologias. Dentro desse sistema estão inclusos diversos atores, que participam de formas variadas nesse processo de geração de tecnologia e conhecimento, movido pela necessidade de pesquisa para o mercado. Spinosa e Krama (2014) definem os ecossistemas de inovação como "ativos de competitividade na economia do conhecimento"e elencam alguns ponto que são característicos de um ecossistema de inovação:</p>
+
+          <ul class="textosup">
+            <li>Lugares propícios para empreendedorismo baseado em conhecimento, na criação de inovações;</li>
+            <li>São locais onde existem um intercâmbio de informações, trabalho e equipe e práticas produtivas entre os participantes;</li>
+            <li>Normalmente são representados por parques tecnológicos e espaços de pesquisa, porém não são exclusivamente isso, são organizações que tem como intuito a promoção da cultura da inovação, da competitividade e das instituições de pesquisa, estimulam o fluxo de conhecimento entre universidades e centros de pesquisa, auxiliam na criação e desenvolvimento de empreendimentos, através do processo de incubação, gera sinergia entre os diversos atores identificando as vocações locais e regionais, buscando viabilidade econômica e tecnológica;</li>
+            <li>São influenciadores de políticas de inovação que vem do poder público, sendo as causas ou os incentivadores das mesmas;</li>
+            <li>Envolvem um esforço integrado do governo, universidades e empresas, a chamada hélice tripla.</li>
+          </ul>
+
+          <p class="textosup">Segundo Jin-fu (2010), o modelo para desenvolvimento de produtos, em um ecossistema de inovação, funciona da seguinte forma: os resultados das pesquisas básicas são financiados pelo governo e por instituições privadas, desta forma elas evoluem para ciências aplicadas ou tecnologia básica, que serão financiadas por instituições financeiras de capital de risco, para o desenvolvimento de produtos para o mercado. Caso os resultados sejam bem-sucedidos, e o produto se encaixar no mercado, eles se transformarão em produtos comerciais.</p>
+
+
+          <p class="textosup">Em relação aos participantes que compõem essa interação, Jackson (2011) divide-os em atores, que são os recursos materiais utilizados no desenvolvimento de novos produtos, como os equipamentos, as instalações, os fundos, entre outros, e o capital humano que serão os estudantes, professores, funcionários, pesquisadores, entre outros, esses irão compor as entidades, que são representadas pelas instituições que fomentam o desenvolvimento da tecnologia, como as universidades, institutos federais, firmas de negócio, venture capitalists, formuladores de políticas, organizações de desenvolvimento econômico local, indústrias, etc.</p>
+
+          <p class="textosup">Uma forma como pode ser descrito o arranjo institucional de um ecossistema de inovação é pelo modelo de Tripla Hélice (ETZKOWITZ; LEYDESDORFF, 2000), que propõe configurações baseadas nas variações das relações entre universidade, indústria e governo. Tal proposta concebe que a configuração do arranjo institucional entre esses três componentes do sistema, evoluem até chegar no modelo de Tripla Hélice III. Sendo a primeira configuração a Tripla Hélice I, onde o estado engloba tanto a universidade como a indústria, determinando a relação entre eles, como mostra a Figura a em seguida. A configuração Tripla Hélice II, mostrada na Figura b, consiste em uma separação institucional com fronteiras bem determinadas entre universidade, governo e indústria. Por fim, no modelo de Tripla Hélice III ocorre uma sobreposição institucional, como mostra a Figura c, com cada qual assumindo o papel do outro e com organizações híbridas emergentes nas interfaces. Esse modelo vem sendo buscado por diversos países, pois oferecem grandes benefícios que geram consequências positivas para os integrantes.</p>
+
+          <div class="d-flex justify-content-center"> 
+            <img src="img/tripla-helice.png" style="width: 600px; margin:10px;">
+          </div>
+
+          <p class="textosup">Dentre tantos participantes desse ecossistema, pode-se destacar as startups, as incubadoras, as aceleradoras, os coworking, as mentorias, os eventos, os investidores privados, além das universidades e do governo (ABSTARTUPS, 2017).</p>
+
+          <p class="textosup">As startups são empresas que tem como premissa ofertar serviços baseados em inovação, independente do seu desempenho no mercado. São negócios que surgem a partir de demandas emergentes, criam novas demandas e desenvolvem novos modelos de negócios (OECD, 2013). Elas são caracterizadas por um conjunto de competências como criatividade, experiência, talento, e visões de mundo, a tornando um modelo de empresa jovem e embrionária. Apesar de serem empresas pequenas, elas despertam um interesse cada vez maior de grandes indústrias que estão na busca por inovações, pois elas tem como fundamento um empreendedorismo focado na pesquisa, investigação e no desenvolvimento de novas ideias (SILVA et al., 2013).</p>
+
+          <p class="textosup">As incubadoras, por sua vez, têm com o objetivo a busca por talentos empreendedores, para com isso acelerar o desenvolvimento de novas empresas e tecnologias. Elas oferecem serviços de suportes para as startups que estão na fase inicial, como assistência no desenvolvimento de negócios, planos de marketing, formação de equipes de gestão, obtenção de capital, além de espaços, compartilhamento equipamentos e serviços administrativos (GRIMALDI; GRANDI, 2005). Assim, elas dão suporte a jovens empreendedores e auxiliam na criação de ideias de negócios para startups no início das operações (NGUYEN-DUC et al., ).</p>
+
+          <p class="textosup">As aceleradoras oferecem auxílios como espaço para escritório, orientação, networking, serviços de gerenciamento, conhecimento e experiência para empresas em estado inicial obterem sucesso. O auxílio das aceleradoras ocorrem através da formação da equipe de empreendedores, mentorias e ajuste do negócio desde o protótipo até o desenvolvimento da ideia. Os participantes do projeto são selecionados através de um processo seletivo que irá analisar o potencial dos empreendimentos (RADOJEVICH-KELLEY; HOFFMAN, 2012). A principal diferença entre uma aceleradora e uma incubadora é o período do programa, as aceleradoras tem programas mais curtos de no máximo 3 a 6 meses (NGUYEN-DUC et al., ).</p>
+
+          <p class="textosup">Os coworkings podem ser definidos como sendo grandes escritórios com diversos tipos de serviços, que são compartilhados por pessoas que trabalham de forma independente, mas que desejam compartilhar conhecimentos com outras pessoas que possuem objetivos similares. Esse tipo de ambiente é interessante para quem deseja um local de trabalho com uma boa infraestrutura e uma gama de serviços, mas que não desejam gerenciar seu próprio ambiente de trabalho e seus custos. Devido as essas características, os coworkings se tornam ambientes férteis para o desenvolvimento de startups, pois facilitam o acesso a um ambiente de trabalho e incentivam o surgimento de conexões interpessoais (LEFORESTIER, 2009).</p>
+
+          <p class="textosup">Os mentores são de extrema importância no estágio inicial de uma startup, pois eles oferecem orientação ao empreendedor iniciante, por meio de sua experiência. Eles incentivam os empreendedores iniciantes a aprender com suas próprias atitudes, para que com isso, eles possam tirar lições que sejam úteis para seu futuro. A orientação é uma boa forma de apoio aos empreendedores, pois os possibilita melhorar suas habilidades de gerenciamento e aprender de forma prática (ST-JEAN; AUDET, 2009).</p>
+
+          <p class="textosup">Os eventos são uma oportunidade de intercâmbio entre empreendedores, onde é possível conhecer diferentes tipos de startups de sucesso ou até mesmo ainda em crescimento, apresentar seu projeto para a comunidade, conseguir novos clientes ou investidores, etc (NGUYEN-DUC et al., ).</p>
+
+          <p class="textosup">Os empreendedores, para iniciar suas atividades, bem como para difundir seus produtos e soluções, necessitam de investimentos, e para isso é de vital importância a figura das instituições que apoiam o desenvolvimento através do financiamento das iniciativas de inovação. Como exemplo desse tipo instituição, existe, para fase inicial, o seed capital e, para a fase de expansão, os anjos investidores e o venture capital (OECD, 2013).</p>
+
+          <p class="textosup">Dentro desse contexto de inovação, as universidades desempenham um papel cada vez mais relevante nos processos de invenção, inovação e comercialização. Com isso acabam sendo locais férteis para o surgimento de atividades de empreendedorismo, como startups, incubadoras, além da formação de capital humano capacitado para realização dessa tarefa (PEDRINHO et al., 2020).</p>
+
+          <p class="textosup">O governo também demonstra-se de fundamental importância dentro desse meio, pois é por onde surgem políticas públicas que criam um quadro jurídico favorável, incentivando a participação de entidades interessadas em investir nesse meio, além de fornecer aconselhamento e formação aos atores desse processo (OECD, 2013).</p>
+
+          <p class="textosup">Com a percepção de que a inovação é uma fonte relevante de valor agregado e que as inter-relações impulsionam o desenvolvimento de novos produtos, surge um forte cenário onde a criação de ecossistemas posiciona-se de particular relevância (KON, 2016), pois, com a formação de redes de diferentes participantes, as organizações se beneficiam com o acesso facilitado a informações e recursos, ou seja, vantagens competitivas que empreendimentos externos à essa rede não têm acesso (BOLTANSKI; CHIAPELLO, 2005).</p>
+
+          <h4><strong>Ecossistema Cearense de Inovação</strong></h4>
+
+          <p class="textosup">Na região Nordeste, o ecossistema cearense concentra 16% das startup ativas, sendo o terceiro maior, perdendo somente para Bahia e Pernambuco (NORDESTE, 2019). Nesse sentido, constata-se diferentes iniciativas de inovação tecnológica em diversas regiões do estado, dentre as quais pode-se destacar com mais exposição as comunidades de Fortaleza, reconhecida como Rapadura Valley, e a comunidade da região do Cariri, chamada de Kariri Valley.</p>
+
+          <h5>Rapadura Valley</h5>
+
+          <p class="textosup">maior ecossistema do Ceará é o Rapadura Valley, que corresponde a comunidade de inovação de Fortaleza e atualmente possui 79 startups mapeadas pela Associação Brasileira de Startups (ABStartups), sendo assim a terceira capital do nordeste com maior número de iniciativas (ABSTARTUP, 2019). O posicionamento geográfico de Fortaleza é um trunfo para fortalecer a comunidade local, devido a sua posição geográfica privilegiada que potencializa sua atuação enquanto hub tecnológico que conecta o Brasil aos Estados Unidos e Europa (OPOVO, 2019). A região de Fortaleza é forte no que diz respeito a suporte, formação e eventos, porém ainda deixa a desejar no quesito financiamento (ABSTARTUP, 2019), o qual é considerado um fator fundamental em todos os estágios de desenvolvimento de negócios inovadores.</p>
+
+          <p class="textosup">Ao se analisar a classificação das startups quanto a fase de operação (ver a Figura abaixo) disponibilizado em ABSTARTUP, 2019, percebe-se que quase metade das organizações mapeadas (45,5%) encontra-se no estágio de Operação. Por sua vez, 49% identificaram-se como estando em fase de Tração ou Scale Up.</p>
+
+          <div class="d-flex justify-content-center"> 
+            <img src="img/rapadura-fase1.png" style="width: 400px; margin:10px;">
+          </div>
+
+          <p class="textosup">Adicionalmente, ao se averiguar na figura que segue, percebe-se a distribuição das startups em relação ao mercado de atuação, demonstra-se bastante diversificado. Pode-se perceber que Educação (15%), Saúde e Bem-Estar (10,60%) e Varejo/Atacado (10,6%) apresentam-se, respectivamente, como os três segmentos com mais startups.</p>
+
+          <div class="d-flex justify-content-center"> 
+            <img src="img/rapadura-segmento-atuacao.png" style="width: 500px; margin:10px;">
+          </div>
+
+          <p class="textosup">Segundo o relatório da Abstartup (2019), dentre os participantes relevantes para a comunidade, pode-se destacar as estruturas de suporte, que contam com espaços de trabalho, com 15 entidades participantes, as estruturas de apoio jurídico, com 5 entidades participantes, e o apoio contábil com 1 entidade participante. As estruturas de formação contam com as incubadoras, que possuem 5 representantes mapeados, as aceleradoras, com 7 entidades, os parques tecnológicos, com 3 participantes e, finalmente, o programa de mentoria, com 9 representantes. Além disso, o Rapadura Valley conta com diversas entidades que auxiliam com financiamentos, apoio do governo através da criação de leis que auxiliam na criação de um ambiente fértil para o surgimento e o crescimento de iniciativas, uma forte participação das universidades, tanto públicas como privadas, ajudando na formação de talentos e por último também há a participação das grandes empresas locais se relacionando com as startups do sistema.</p>
+
+          <h5>Kariri Valley</h5>
+
+          <p class="textosup">O Kariri Valley, situado na região do Cariri, no sul do Ceará, é a segunda maior iniciativa de inovação do estado. É considerado uma comunidade recente, iniciado apenas em 2015, porém já recebeu uma série de eventos importantes do segmento e vem se fortalecendo nos últimos anos (ABSTARTUP, 2019).</p>
+
+          <p class="textosup">Ao se analisar o relatório da ABSTARTUP, 2019 (ver a figura que segue) em relação a fase de operação das startups do Kariri Valley verifica-se que 50% encontra-se em fase de operação, enquanto 50% na fase de Tração. Por ser uma comunidade recente, percebe-se também uma razoável presença de startups em Ideação, enquanto nenhuma iniciativa em fase de Scale Up foi identificada.</p>
+
+          <div class="d-flex justify-content-center"> 
+            <img src="img/kariri-fase1.png" style="width: 400px; margin:10px;">
+          </div>
+
+          <p class="textosup">Por sua vez, ao avaliar a composição da comunidade em relação ao mercado de atuação, verifica-se na Figura abaixo uma quantidade de segmentos menor em comparação ao Rapadura Valley, sendo o setor de serviços aquele com mais representantes (33%).</p>
+
+          <div class="d-flex justify-content-center"> 
+            <img src="img/kariri-segmento-atuacao.png" style="width: 400px; margin:10px;">
+          </div>
+
+          <p class="textosup">O Kariri Valley conta com diversos eventos voltados para os iniciantes, como também eventos voltados para o compartilhamento de conhecimento técnico de diversas áreas entre seus componentes. Conforme mapeado pela Abstartup (2019), a comunidade do Kariri Valley é composta por diversos participantes de diferentes áreas, dentre as quais tem-se as estruturas de suporte com os espaços de trabalho, com 3 entidades participantes, apoio jurídico, com 1 participante e apoio contábil, com 2 entidades. As estruturas de formação contam com incubadoras com, tendo 2 entidades participantes, e 1 aceleradora participante. Verifica-se também que não há muitas iniciativas de financiamento, porém o ambiente conta com a participação do governo, e de centros tecnológicos formado pelas universidades e escolas técnicas, públicas e privadas da região, além de algumas empresas privadas que se relacionam com a comunidade (ABSTARTUP, 2019).</p>
+
+          <div class="dropdown-divider divMargin"></div>
+
+          <h3 id="topico3" class="font-weight-bold">3. Trabalhos Relacionados</h3>
+
+          <h4>Literatura Acadêmica</h4>
+
+          <p class="textosup">No trabalho desenvolvido por Lisboa (2017), foi realizada a construção de um aplicativo para smartphone que permite o mapeamento de árvores urbanas na região de Curitiba, no Paraná, por qualquer usuário que possuir o aplicativo. O objetivo desse projeto é fornecer informações para que se possa realizar um planejamento assertivo da arborização urbana, contribuindo para o embelezamento da paisagem e para mitigar problemas ocasionados pelo desenvolvimento urbano. A implementação do projeto foi realizada com a utilização do aplicativo Sapelli para implementação da funcionalidade de coleta de informações e mídia, a plataforma de armazenamento dos dados utilizados foi o Geokey e a interface web de mapas utilizado no projeto foi o Community Maps. Além do aplicativo para smartphone, também foi desenvolvido um website que tem como objetivo a divulgação e o monitoramento do experimento e dos dados. Como resultado, durante quatro dias de experimentação, 35 usuários contribuíram com o mapeamento de 98 árvores e além disso, houveram 19 respostas ao formulário avaliativo da plataforma.</p> 
+          <p class="textosup"> Schaefer (2017) propôs a criação de um mapa colaborativo, por meio de uma aplicação para smartphone (nomeado de Andaê), com o intuito de mapear problemas sociais e urbanos em uma cidade. A contribuição do trabalho consiste em permitir que os usuários se comuniquem e notifiquem problemas no perímetro urbano, tornando-os contribuidores para uma melhoria do espaço urbano. O sistema foi desenvolvido para smartphone e foi validado por meio de um teste de usabilidade com um conjunto de usuários. Como resultado, a aplicação foi definida como aderente aos requisitos de aplicação colaborativa e atingiu a meta no quesito informar e garantir a segurança do usuário. A aplicação é livre e ilimitada para a utilização de qualquer usuário.</p> 
+          <p class="textosup">Também foram utilizados como base para esta pesquisa, trabalhos que tinham como finalidade a avaliação de usabilidade e experiência do usuário, como é o caso do trabalho de Valentim, Silva e Conte (2015). No artigo em questão, os autores se propuseram a fazer uma análise de um aplicativo web móvel chamado de Swarm, que tem o intuito de funcionar como uma ferramenta que auxilia usuários a encontrar amigos por meio de check-ins. Para a avaliação foram utilizados dois métodos: o AttrakDiff e o Teste de Usabilidade, que avaliam respectivamente a UX e a Usabilidade. Os testes foram planejados pela própria equipe, utilizando material próprio e participaram do teste 20 usuários de forma individual. Os resultados da avaliação mostraram que é possível a análise dessas duas variáveis, mesmo com poucos recursos, e indicaram a necessidade de melhorias no aplicativo em alguns pontos relativo a experiência do usuário, bem como na usabilidade, onde o software se mostrou confuso e difícil de realizar algumas atividades.</p> 
+          <p class="textosup">O trabalho proposto por Gordillo et al. (2014) faz uma investigação da influência dos métodos utilizados para analisar a usabilidade e a UX no desenvolvimento de uma plataforma de e-Learning. Os pontos analisados foram: qual o método mais útil, a maneira como eles influenciaram o desenvolvimento, e qual foi a percepção da utilidade em comparação com os outros fatores. Foram avaliados 8 métodos, alguns deles foram avaliados como mais eficazes, já outros, com pouca utilidade. Além dos resultados da avaliação dos métodos, a análise de Usabilidade e UX foi considerado, por unanimidade, pela a equipe desenvolvimento, muito importante no desenvolvimento de um software.</p> 
+          <p class="textosup">Percebe-se, também, ao analisar a literatura, uma escassez de trabalhos que avaliem empiricamente a UX em soluções de geovisualização para o contexto de ecossistemas de inovação, posicionando, assim, o presente trabalho, como uma contribuição valiosa.</p>
+
+          <h4>Iniciativa de Mapeamento de Ecossistemas de Inovação</h4>
+
+          <p class="textosup">Dentre as diversas iniciativas de mapeamento do ecossistema de inovação que são encontradas no Brasil, pode-se destacar três principais, as quais serviram de referência para o desenvolvimento deste projeto. Tais iniciativas foram selecionadas pois foram identificados em cada uma delas, diferentes requisitos que poderiam servir de referência para o desenvolvimento do mapa aqui proposto. Na sequência serão detalhadas as características de cada iniciativa.</p>
+
+          <p class="textosup">Em Minas Gerais o projeto de mapeamento é do Sistema Mineiro de Inovação (SIMI), que desenvolveu um portal que reúne em um único local as principais informações sobre empreendedorismo, ciência, tecnologia e inovação a respeito do ecossistema de inovação de Minas Gerais, além de fornecer informações dos integrantes por meio do mapa da inovação. Por ele é possível encontrar a posição geográfica das entidades, além das descrições e dos sites de cada um, a adição de novos componentes do ecossistema é feita de forma colaborativa. Todas essas funcionalidades auxiliam na divulgação das iniciativas do ecossistema mineiro.</p>
+
+          <p class="textosup">O ecossistema de Santa Catarina é mapeado por uma iniciativa de alunos e professores da Universidade Federal de Santa Catarina (UFSC) chamada VIA, que suporta as atividades realizadas pelo Grupo de Pesquisa e Habitats de Inovação e Empreendedorismo dessa Universidade. Os temas mapeados vão desde os habitats de inovação de Santa Catarina, a legislação brasileira para Ciências, Tecnologia e Inovação (CTI), até o ecossistema de inovação de Santa Catarina propriamente dito.</p>
+
+          <p class="textosup">Já em Alagoas, as iniciativas tecnológicas de seu ecossistema são mapeados por uma plataforma criada pela Secretaria de Estado da Ciência, da Tecnologia e da Inovação (SECTI). Ela funciona como um mapa colaborativo e é similar às outras plataformas no quesito exibição dos dados no mapa, com isso, permite um maior conhecimento das iniciativas de inovação do estado de Alagoas, tendo como propósito fortalecer o ecossistema local.</p>
+
+          <p class="textosup">Para o trabalho em questão, foram identificadas características pertinentes dos projetos citados anteriormente. Dentre elas, as principais que serviram como inspiração foram: o layout, algumas funcionalidades e a forma de exibição das entidades cadastradas. O mapa proposto neste projeto é mais abrangente no sentido de documentação, pois detalha desde as startups dos ecossistemas do estado até as áreas as quais os ecossistemas das diversas regiões do estado abrangem. Do mesmo modo dos mapas da região de Minas Gerais e Alagoas, ele também é colaborativo, permitindo qualquer pessoa adicionar um novo integrante, desta forma, facilitando a entrada de novos participantes. Uma diferença fundamental diante dos mapas citados é o fato do mapa proposto nesta pesquisa ser open-source, podendo ser aprimorado pela comunidade e, com isso, evoluir ao longo do tempo, seja no Ceará ou adaptado para outros estados.</p>
+
+          <div class="dropdown-divider divMargin"></div>
+
+          <h3 id="topico4" class="font-weight-bold">4. Procedimentos Metodológicos</h3>
+
+          <h4><strong>Caracterização dos participantes</strong></h4>
+
+          <p class="textosup">A Tabela que segue apresenta uma síntese caracterizando os participantes cujos nomes foram omitidos para preservar a confidencialidade. Dentre os participantes, percebe-se uma variedade de organizações e perfis profissionais, o que contribui para uma diversidade de perspectivas e enriquece os resultados obtidos.</p>
+
+          <div class="d-flex justify-content-center"> 
+            <img src="img/caracterizacao-participantes.jpg" style="width: 1100px; margin:10px;">
+          </div>
+
+          <h4><strong>Atrakdiff</strong></h4>
+
+          <p class="textosup">Para avaliação da UX, adotou-se o questionário AttrakDiff (HASSENZAHL, 2004) devido à capacidade de avaliar a atratividade através dos diferentes aspectos de uma aplicação. Conforme ilustrado na Figura 8, o AttrakDiff possui 28 itens, que podem ser avaliados por meio de uma escala que vai de -3 a 3, com o ponto 0 como valor neutro. As extremidades dessa escala são representadas por pares de adjetivos opostos, sobre os quais o usuário vai se basear para expor sua sensação relativa à aplicação. Os itens são divididos em três grupos de escalas: Qualidade Pragmática (PQ), Qualidade Hedônica (constituída pela Identificação (HQI) e Estímulo (HQS) e, por último, Atratividade (ATT), como é exibido na Figura a seguir</p>
+
+          <div class="d-flex justify-content-center"> 
+            <img src="img/questionarioAttrakDiff.jpg" style="width: 500px; margin:10px;">
+          </div>
+
+          <div class="dropdown-divider divMargin"></div>
+
+          <h3 id="topico5" class="font-weight-bold">5. Proposta de Mapa Interativo e Colaborativo</h3>
+
+          <h4><strong>Requisitos de Software</strong></h4>
+
+          <p class="textosup"> A partir de uma análise prévia de iniciativas de mapeamento realizadas em outros estados e em consonância às dimensões do Modelo 4C, este trabalho identificou os Requisitos Funcionais (RF) e os Requisitos de Qualidade (RQ) para que o sistema cumpra com o seu objetivo principal de divulgar e fortalecer os integrantes do ecossistema de inovação do estado do Ceará. Cabe destacar que tal levantamento tem o propósito de viabilizar um Produto Mínimo Viável (do inglês Minimum Viable Product ou MVP). A ideia é que novas funcionalidades ou melhorias sejam sugeridas e concretizadas conforme o produto for lançado e usufruído pela comunidade. Através da Tabela abaixo, tem-se a lista e a descrição dos requisitos funcionais e requisitos de qualidade do sistema identificados a priori.</p>
+
+          <div class="d-flex justify-content-center"> 
+            <img src="img/requisitos.jpg" style="width: 1100px; margin:10px;">
+          </div>
+
+          <p class="textosup">A Figura que segue exemplifica o Diagrama de Caso de Uso da aplicação. Uma das funcionalidades do sistema, como visto nesta figura, é a realização do login. Ele não é obrigatório para a utilização do mapa colaborativo, porém para a maior parte das funcionalidades, ele se faz necessário. A importância de ter os usuários logados no sistema, está relacionada a uma maior segurança da aplicação, pois, assim, torna-se possível reconhecer quem são os usuários, bem como, saber quem são os responsáveis pelas informações adicionadas na plataforma, o que também possibilita que as informações dos usuários do ecossistema, possam ser consultadas, incentivando, assim, a comunicação entre os participantes desta rede.</p>
+
+          <div class="d-flex justify-content-center"> 
+            <img src="img/caso-de-uso.jpg" style="width: 450px; margin:10px;">
+          </div>
+
+          <p class="textosup">O sistema em questão, funciona de forma colaborativa. Neste caso, para um melhor funcionamento da aplicação, faz-se necessário que haja a participação de diversos usuários.Tais usuários, como visto na Figura 9, poderão adicionar informações na aplicação, como os participantes do ecossistema, a delimitação das comunidades existentes dentro do estado, além da divulgação de eventos por meio da plataforma. Estas informações serão exibidas no mapa da página principal da aplicação. Com isso, as instituições participantes terão sua identidade divulgadas de forma acessível, para qualquer pessoa que acessar a página. Além disso, cada marcador, que é a representação de um participante no mapa, quando é interagido com um clique, exibe um quadro com as informações básicas do integrante dando a possibilidade do usuário conhecer mais sobre a instituição.</p>
+
+          <p class="textosup">Na aplicação também é possível consultar os participantes por meio do mural organizado por categorias. Dentro do mural, cada categoria possui uma listagem de todas as entidades da mesma categoria. Desta forma, ela permite a visualização, em lista, das informações referentes aos integrantes do ecossistema e, consequentemente, aumenta o conhecimento sobre as iniciativas existentes. Esta seleção também pode ser feita utilizando a filtragem do mapa, o que possibilita uma visão sobre uma ou mais categorias especificas, baseada em sua posição geográfica, permitindo, assim, conhecer quais iniciativas estão próximas ao usuário.</p>
+
+          <h4><strong>Arquitetura do Projeto</strong></h4>
+
+          <p class="textosup">O desenvolvimento do projeto foi feito utilizando as linguagens HTML, CSS e JavaScript, amplamente adotadas para o desenvolvimento de aplicações web. Para auxiliar no desenvolvimento da interface da aplicação adotou-se o framework front-end Bootstrap2. Este framework tem o intuito de facilitar o desenvolvimento da interface da aplicação, oferecendo padrões em HTML, CSS e JavaScript, por meio de bibliotecas prontas que permitem a implementação de diversos recursos e otimiza o desenvolvimento do projeto. As funcionalidades da aplicação, como dito anteriormente, foram desenvolvidas utilizando a linguagem de programação JavaScript, porém, por motivos de praticidade, também foi utilizado o jQuery3, que é uma biblioteca com funcionalidades em JavaScript que interagem com o HTML, desta forma, simplificando algumas tarefas.</p>
+
+          <p class="textosup">A aplicação foi desenvolvida utilizando a arquitetura Model-View-Controller (MVC) (BUSCHMANN; HENNEY; SCHIMDT, 2007) e a infraestrutura da aplicação foi construída por meio das ferramentas da plataforma de desenvolvimento Firebase, que é um Backend as a Service (BaaS) para construção de aplicações web e mobile da Google. A utilização do Firebase é feita através da integração da plataforma com a aplicação, por meio da adição do Software Development Kit (SDK) da ferramenta desejada e do fornecimento das configurações do projeto Firebase do aplicativo. Após as configurações iniciais, o Firebase pode ser inicializado. Para o desenvolvimento do aplicativo proposto, foram utilizadas as funcionalidades Firebase Authentication, para gerenciar as autenticações dos usuário da ferramentas, Real Time Database, que é um banco de dados sincronizado em tempo real, o que faz dele uma ferramenta poderosa para sistemas colaborativos e Cloud Storage, para o armazenamento de imagens. Alinhado as descrições previamente contextualizadas, a Figura abaixo mostra a modelo de arquitetura da aplicação.</p>
+
+          <div class="d-flex justify-content-center"> 
+            <img src="img/arquitetura.png" style="width: 600px; margin:10px;">
+          </div>
+
+          <p class="textosup">A interface de mapas utilizadas no sistema desenvolvido, foi obtida por meio da API Leaflet, que é uma biblioteca JavaScript de código aberto, utilizada no desenvolvimento de aplicações de mapas. Tal API utiliza o conceito de mapas em mosaico, que é um tipo de mapa exibido pela união de diversas imagens ou dados vetoriais, solicitados a medida que o usuário navega por ele. Cada bloco de imagem representa uma parte do mapa, e a quantidades de blocos no qual o mapa é dividido, varia de acordo com o zoom aplicado. O mapa exibido, varia de acordo com o layout que está sendo utilizado na API, assim, é possível utilizar diversos tipos diferentes de mapas.</p>
+
+          <h4><strong>Demonstração do Sistema</strong></h4>
+
+          <p class="textosup">A demonstração do sistema é feita na página <a href="https://mapa-inovacao.netlify.app/como-utilizar.html">"Como Utilizar"</a></p>
+
+          <div class="dropdown-divider divMargin"></div>
+
+          <h3 id="topico6" class="font-weight-bold">6. Referências</h3>
+
+          <p class="textosup">LISBOA, P. G. Mapeamento colaborativo de árvores urbanas. 2017.</p>
+
+          <p class="textosup">SCHAEFER, L. Andaê: Ferramenta colaborativa para monitoramento e geolocalização de problemas sociais e urbanos. 2017.</p>
+
+          <p class="textosup">VALENTIM, N. M. C.; SILVA,W.; CONTE, T. Avaliando a experiência do usuário ea usabilidade de um aplicativo web móvel: Um relato de experiência. In: CIbSE. [S.l.: s.n.], 2015. p. 788.</p>
+
+          <p class="textosup">GORDILLO, A.; BARRA, E.; AGUIRRE, S.; QUEMADA, J. The usefulness of usability and user experience evaluation methods on an e-learning platform development from a developer’s perspective: A case study. In: IEEE. 2014 IEEE Frontiers in Education Conference (FIE) Proceedings. [S.l.], 2014. p. 1–8.</p>
+
+          <p class="textosup">DAVILA, T.; EPSTEIN, M. J.; SHELTON, R. As regras da inovação. [S.l.]: Bookman Editora, 2009.</p>
+
+          <p class="textosup">MOOR, J. F. The death of competition. NY: Harper Business, 1996.</p>
+
+          <p class="textosup">JACKSON, D. J. What is an innovation ecosystem. National Science Foundation, v. 1, n. 2, 2011.</p>
+          <p class="textosup">JIN-FU, W. Framework for university-industry cooperation innovation ecosystem: Factors and countermeasure. In: IEEE. 2010 International Conference on Challenges in Environmental Science and Computer Engineering. [S.l.], 2010. v. 2, p. 303–306.</p>
+
+          <p class="textosup">SPINOSA, L.; KRAMA, M. Ecossistema de inovação e meio urbano: principais desafios para seus gestores. In: . [S.l.: s.n.], 2014.</p>
+
+          <p class="textosup">ETZKOWITZ, H.; LEYDESDORFF, L. The dynamics of innovation: from national systems and “mode 2” to a triple helix of university–industry–government relations. Research policy, Elsevier, v. 29, n. 2, p. 109–123, 2000.</p>
+
+          <p class="textosup">ABSTARTUPS. Ecossistema de startups! O que é, como funciona, o que já sabemos sobre ele? 2017. Disponível em: <a href="https://abstartups.com.br/ ecossistema-de-startups-o-que-e-como-funciona-o-que-ja-sabemos-sobre-ele">https://abstartups.com.br/ ecossistema-de-startups-o-que-e-como-funciona-o-que-ja-sabemos-sobre-ele</a>. Acesso em: 22 outubro 2020.</p>
+
+          <p class="textosup">OECD. Start-up Latin America: Promoting Innovation in the Region. [S.l.]: Organisation for Economic Co-operation and Development Paris, 2013.</p>
+
+          <p class="textosup">SILVA, C. G. D.; IBDAIWI, T. K. R.; BIBIANO, N. R.; PERES, M.; SANTOS, M. C. S. dos; FALKEMBACH, G. F. O perfil dos empreendedores nas startups: um estudo de caso na incubadora tecnológica de santa maria. 2013.</p>
+
+          <p class="textosup">GRIMALDI, R.; GRANDI, A. Business incubators and new venture creation: an assessment of incubating models. Technovation, Elsevier, v. 25, n. 2, p. 111–121, 2005.</p>
+
+          <p class="textosup">NGUYEN-DUC, A.; MÜNCH, J.; PRIKLADNICKI, R.; WANG, X.; ABRAHAMSSON, P. Fundamentals of software startups. Springer.</p>
+
+          <p class="textosup">RADOJEVICH-KELLEY, N.; HOFFMAN, D. L. Analysis of accelerator companies: An exploratory case study of their programs, processes, and early results. Small Business Institute Journal, v. 8, n. 2, p. 54–70, 2012.</p>
+
+          <p class="textosup">LEFORESTIER, A. The co-working space concept cine term project. Indian Institute of Management (IIMAHD): Ahmedabad, India, 2009.</p>
+
+          <p class="textosup">ST-JEAN, E.; AUDET, J. Factors leading to satisfaction in a mentoring scheme for novice entrepreneurs. International Journal of Evidence Based Coaching & Mentoring, v. 7, n. 1, 2009.</p>
+
+          <p class="textosup">PEDRINHO, G. C.; CARVALHO, D. N. de; TEIXEIRA, C. S.; LEZANA, Á. G. R. Universidade e o ecossistema de inovação: revisão estruturada de literatura. Navus-Revista de Gestão e Tecnologia, v. 10, p. 01–23, 2020.</p>
+
+          <p class="textosup">BOLTANSKI, L.; CHIAPELLO, E. The new spirit of capitalism. International journal of politics, culture, and society, Springer, v. 18, n. 3-4, p. 161–188, 2005.</p>
+
+          <p class="textosup">NORDESTE, D. do. Ceará concentra 16% das startups ativas no Nordeste. 2019. Disponível em: <a href="https://diariodonordeste.verdesmares.com.br/editorias/negocios/ceara-concentra-16-das-startups-ativas-no-nordeste-1.2178586">https://diariodonordeste.verdesmares.com.br/editorias/negocios/ceara-concentra-16-das-startups-ativas-no-nordeste-1.2178586</a>. Acesso em: 17 maio 2020.</p>
+
+          <p class="textosup">ABSTARTUP. Mapeamento de comunidades emergentes - Região Nordeste. [S.l.]: ABstartup - Associação Brasileira de Startup, 2019.</p>
+
+          <p class="textosup">HASSENZAHL, M. The interplay of beauty, goodness, and usability in interactive products. Human–Computer Interaction, Taylor & Francis, v. 19, n. 4, p. 319–349, 2004.</p>
+
+          <p class="textosup">BUSCHMANN, F.; HENNEY, K.; SCHIMDT, D. Pattern-Oriented Software Architecture: On Patterns And Pattern Language, Volume 5. [S.l.]: John wiley & sons, 2007. v. 5.</p>
+
+          <p class="textosup"></p>
+          <p class="textosup"></p>
+          <p class="textosup"></p>
+          <p class="textosup"></p>
+
+          <div class="dropdown-divider divMargin"></div>
+
+          <h3 id="topico7" class="font-weight-bold">7. Apêndices</h3>
+
+          <center>Convite para participação</center>
+          <div class="d-flex justify-content-center">
+            <img src="img/email-convite.png" style="width: 800px; margin:10px;">
+          </div>
+
+          <center>Recepção e explicação do questionário</center>
+          <div class="d-flex justify-content-center">
+            <img src="img/recepcao.png" style="width: 400px; margin:10px;">
+          </div>
+
+          <center>Ficha de caracterização do candidato</center>
+          <div class="d-flex justify-content-center">
+            <img src="img/caracterizacao.png" style="width: 400px; margin:10px;">
+          </div>
+
+          <center>Percepção de valor da aplicação</center>
+          <div class="d-flex justify-content-center">
+            <img src="img/percepcao-valor.png" style="width: 400px; margin:10px;">
+          </div>
+
+          <small style="font-style: oblique;">Dezembro 2020 (Ultima atualização: Dezembro 2020)</small>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!--<footer class="footerstyle">
+    <div class="d-flex justify-content-center"> 
+      <small>Atualizado em 17 de dezembro de 2020</small>
+    </div>
+  </footer>
+</div>-->
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script src="javascript/como-utilizar.js"></script>
+    
+  </body>
+  </html>
