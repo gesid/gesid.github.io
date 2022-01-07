@@ -1,141 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-140464432-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-<head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140464432-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      gtag('config', 'UA-140464432-1');
+    </script>
 
-  gtag('config', 'UA-140464432-1');
-</script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>GESID | UFC - Campus Crateús</title>
+    <meta
+      name="description"
+      content="Grupo de Estudos em Sistemas de Informação e Inovação Digital"
+    />
+    <meta
+      name="keywords"
+      content="sistemas de informação, inovação, inovação digital, tecnologia, information systems, digial innovation, innovation, software engineering, ufc, crateus, campus crateus"
+    />
+    <meta name="author" content="Allysson Allex Araújo" />
 
-	<title>GESID | UFC - Campus Crateús</title>
-	<meta name="description" content="Grupo de Estudos em Sistemas de Informação e Inovação Digital">
-    <meta name="keywords" content="sistemas de informação, inovação, inovação digital, tecnologia, information systems, digial innovation, innovation, software engineering, ufc, crateus, campus crateus">
-    <meta name="author" content="Allysson Allex Araújo">
+    <!-- Google font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round"
+      rel="stylesheet"
+    />
 
-	<!-- Google font -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
 
-	<!-- Bootstrap -->
-	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Owl Carousel -->
+    <link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+    <link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
 
-	<!-- Owl Carousel -->
-	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
-	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+    <!-- Magnific Popup -->
+    <link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
 
-	<!-- Magnific Popup -->
-	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
+    <!-- Font Awesome Icon -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
 
-	<!-- Font Awesome Icon -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
 
-	<!-- Custom stlylesheet -->
-	<link type="text/css" rel="stylesheet" href="css/style.css" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-</head>
+  <body>
+    <!-- Header -->
+    <header id="home">
+      <!-- Background Image -->
+      <div
+        class="bg-img"
+        style="background-image: url('./img/background1.jpg')"
+      >
+        <div class="overlay"></div>
+      </div>
+      <!-- /Background Image -->
 
-<body>
-	<!-- Header -->
-	<header id="home">
-		<!-- Background Image -->
-		<div class="bg-img" style="background-image: url('./img/background1.jpg');">
-			<div class="overlay"></div>
-		</div>
-		<!-- /Background Image -->
+      <!-- Nav -->
+      <nav id="nav" class="navbar nav-transparent">
+        <div class="container">
+          <div class="navbar-header">
+            <!-- Logo -->
+            <div class="navbar-brand">
+              <a href="index.html">
+                <img class="logo" src="img/logo.png" alt="logo" />
+                <img class="logo-alt" src="img/logo-alt.png" alt="logo" />
+              </a>
+            </div>
+            <!-- /Logo -->
 
-		<!-- Nav -->
-		<nav id="nav" class="navbar nav-transparent">
-			<div class="container">
+            <!-- Collapse nav button -->
+            <div class="nav-collapse">
+              <span></span>
+            </div>
+            <!-- /Collapse nav button -->
+          </div>
 
-				<div class="navbar-header">
-					<!-- Logo -->
-					<div class="navbar-brand">
-						<a href="index.html">
-							<img class="logo" src="img/logo.png" alt="logo">
-							<img class="logo-alt" src="img/logo-alt.png" alt="logo">
-						</a>
-					</div>
-					<!-- /Logo -->
+          <!--  Main navigation  -->
+          <ul class="main-nav nav navbar-nav navbar-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#blog">Notícias</a></li>
+            <li><a href="#portfolio">Pesquisa</a></li>
+            <li><a href="#team">Time</a></li>
+            <li><a href="#about">Parceiros</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+          <!-- /Main navigation -->
+        </div>
+      </nav>
+      <!-- /Nav -->
 
-					<!-- Collapse nav button -->
-					<div class="nav-collapse">
-						<span></span>
-					</div>
-					<!-- /Collapse nav button -->
-				</div>
+      <!-- home wrapper -->
+      <div class="home-wrapper">
+        <div class="container">
+          <div class="row">
+            <!-- home content -->
+            <div class="col-md-10 col-md-offset-1">
+              <div class="home-content">
+                <h1 class="white-text">
+                  INOVAÇÃO & CRIATIVIDADE & DEDICAÇÃO & TECNOLOGIA
+                </h1>
+                <p class="white-text">
+                  O
+                  <b
+                    >Grupo de Estudos em Sistemas de Informação e Inovação
+                    Digital (GESID)</b
+                  >
+                  é um grupo interdisciplinar integrado à Universidade Federal
+                  do Ceará (UFC) - Campus Crateús, cujo principal objetivo
+                  consiste na pesquisa e desenvolvimento de soluções inovadoras
+                  na área de Sistemas de Informação que, através da
+                  transformação digital, viabilizem a resolução de desafios
+                  organizacionais e tecnológicos pertinentes à sociedade.
+                </p>
+              </div>
 
-				<!--  Main navigation  -->
-				<ul class="main-nav nav navbar-nav navbar-right">
-					<li><a href="#home">Home</a></li>
-					<li><a href="#blog">Notícias</a></li>
-					<li><a href="#portfolio">Pesquisa</a></li>
-					<li><a href="#team">Time</a></li>
-					<li><a href="#about">Parceiros</a></li>
-					<li><a href="#contact">Contato</a></li>
-				</ul>
-				<!-- /Main navigation -->
+              <ul class="footer-follow">
+                <li>
+                  <a
+                    href="https://www.researchgate.net/lab/Grupo-de-Estudos-em-Sistemas-de-Informacao-e-Inovacao-Digital-GESID-Allysson-Allex-Araujo"
+                    target="_blank"
+                    ><i
+                      class="fab fa-researchgate"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://github.com/gesid/"
+                    ><i
+                      class="fa fa-github"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    ></i
+                  ></a>
+                </li>
+                
+                <li>
+                  <a
+                    href="https://www.instagram.com/gesid_ufc/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+  
+                <li>
+                  <a
+                    href="https://twitter.com/gesid_ufc"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
+                </li>
+  
+                <li>
+                  <a
+                    href="https://www.facebook.com/gesid.ufc"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+  
+              </ul>
+            </ul> 
 
-			</div>
-		</nav>
-		<!-- /Nav -->
+            </div>
+          </div>
+        </div>
+            <!-- /home content -->
+          </div>
+        </div>
+      </div>
+      <!-- /home wrapper -->
+    </header>
+    <!-- /Header -->
 
-		<!-- home wrapper -->
-		<div class="home-wrapper">
-			<div class="container">
-				<div class="row">
+    <!-- Blog -->
+    <!-- <div id="blog" class="section md-padding bg-grey"> -->
 
-					<!-- home content -->
-					<div class="col-md-10 col-md-offset-1">
-						<div class="home-content">
-							<h1 class="white-text">INOVAÇÃO & CRIATIVIDADE & DEDICAÇÃO & TECNOLOGIA</h1>
-							<p class="white-text">O <b>Grupo de Estudos em Sistemas de Informação e Inovação Digital (GESID)</b> é um grupo interdisciplinar integrado à Universidade Federal do Ceará (UFC) - Campus Crateús, cujo principal objetivo consiste na pesquisa e desenvolvimento de soluções inovadoras na área de Sistemas de Informação que, através da transformação digital, viabilizem a resolução de desafios organizacionais e tecnológicos pertinentes à sociedade.
-							</p>
-						</div>
-					</div>
-					<!-- /home content -->
+    <!-- Container -->
+    <!-- <div class="container">-->
 
-				</div>
-			</div>
-		</div>
-		<!-- /home wrapper -->
+    <!-- Row -->
+    <!-- <div class="row"> -->
 
-	</header>
-	<!-- /Header -->
-
-	<!-- Blog -->
-	<div id="blog" class="section md-padding bg-grey">
-
-		<!-- Container -->
-		<div class="container">
-
-			<!-- Row -->
-			<div class="row">
-
-				<!-- Section header -->
-				<div class="section-header text-center">
+    <!-- Section header -->
+    <!-- <div class="section-header text-center">
 					<h2 class="title">NOTÍCIAS</h2>
-				</div>
-				<!-- /Section header -->
+				</div> -->
+    <!-- /Section header -->
 
-				<!-- blog -->
-				<div class="col-md-4">
+    <!-- blog -->
+    <!-- <div class="col-md-4">
 					<div class="blog">
 						<div class="blog-img">
 							<img class="img-responsive" src="./img/washes20.png" alt="">
@@ -149,11 +232,11 @@
 							<a href="https://www.instagram.com/p/CH02phyMYey/" target="_blank" rel="noopener noreferrer">Veja mais!</a>
 						</div>
 					</div>
-				</div>
-				<!-- /blog -->
+				</div> -->
+    <!-- /blog -->
 
-				<!-- blog -->
-				<div class="col-md-4">
+    <!-- blog -->
+    <!-- <div class="col-md-4">
 					<div class="blog">
 						<div class="blog-img">
 							<img class="img-responsive" src="./img/csbc20.png" alt="">
@@ -167,11 +250,11 @@
 							<a href="https://www.instagram.com/p/CH01Q2qsRzP/" target="_blank" rel="noopener noreferrer">Veja mais!</a>
 						</div>
 					</div>
-				</div>
-				<!-- /blog -->
+				</div> -->
+    <!-- /blog -->
 
-				<!-- blog -->
-				<div class="col-md-4">
+    <!-- blog -->
+    <!-- <div class="col-md-4">
 					<div class="blog">
 						<div class="blog-img">
 							<img class="img-responsive"  src="./img/news1.png" alt="">
@@ -185,778 +268,1007 @@
 							<a href="http://crateus.ufc.br/discentes-de-sistemas-de-informacao-e-ciencia-da-computacao-realizam-visita-tecnica-em-laboratorios-de-pesquisa-e-participam-do-flisol-2019-em-fortaleza/" target="_blank" rel="noopener noreferrer">Veja mais!</a>
 						</div>
 					</div>
-				</div>
-				<!-- /blog -->
-
-			</div>
-			<!-- /Row -->
-
-		</div>
-		<!-- /Container -->
-
-	</div>
-	<!-- /Blog -->
-
-	<!-- Portfolio -->
-	<div id="portfolio" class="section md-padding bg-grey">
-
-		<!-- Container -->
-		<div class="container">
-
-			<!-- Row -->
-			<div class="row">
-
-				<!-- Section header -->
-				<div class="section-header text-center">
-					<h2 class="title">LINHAS DE PESQUISA</h2>
-				</div>
-				<!-- /Section header -->
-
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/prj-blockchain.png" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">						
-						<h3>Inovação Digital através Blockchain e Criptoeconomia</h3>
-						<div class="work-link">
-							<a href="https://www.researchgate.net/project/Digital-Innovation-through-Blockchain-and-Cryptoeconomics" target="_blank" rel="noopener noreferrer"><i class="fa fa-external-link"></i></a>
-							<!--<a class="lightbox" href="./img/work1.jpg"><i class="fa fa-search"></i></a>-->
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
-
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/prj-socio-tecnico.png" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">					
-						<h3>Aspectos Sociotécnicos em Sistemas de Informação e Engenharia de Software</h3>
-						<div class="work-link">
-							<a href="https://www.researchgate.net/project/Socio-technical-Aspects-of-Information-Systems-and-Software-Engineering" target="_blank" rel="noopener noreferrer"><i class="fa fa-external-link"></i></a>
-							<!--<a class="lightbox" href="./img/work2.jpg"><i class="fa fa-search"></i></a>-->
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
-
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/prj-startups.png" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">						
-						<h3>Práticas de Engenharia e Gestão para Transformação Digital</h3>
-						<div class="work-link">
-							<a href="https://www.researchgate.net/project/Management-and-Engineering-Practices-for-Startups" target="_blank" rel="noopener noreferrer"><i class="fa fa-external-link"></i></a>
-							<!--<a class="lightbox" href="./img/work3.jpg"><i class="fa fa-search"></i></a>-->
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
-
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/prj-ubiquo.png" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">					
-						<h3>Computação Ubíqua</h3>
-						<div class="work-link">
-							<a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-external-link"></i></a>
-							<!--<a class="lightbox" href="./img/work4.jpg"><i class="fa fa-search"></i></a>-->
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
-
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/prj-mobile.png" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">						
-						<h3>Computação Móvel</h3>
-						<div class="work-link">
-							<a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-external-link"></i></a>
-							<!--<a class="lightbox" href="./img/work5.jpg"><i class="fa fa-search"></i></a>-->
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
-
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/prj-cloud.png" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">						
-						<h3>Mobile Cloud Computing</h3>
-						<div class="work-link">
-							<a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-external-link"></i></a>
-							<!--<a class="lightbox" href="./img/work6.jpg"><i class="fa fa-search"></i></a>-->
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
-
-			</div>
-			<!-- /Row -->
-
-		</div>
-		<!-- /Container -->
-
-	</div>
-	<!-- /Portfolio -->
-
-	<!-- Why Choose Us -->
-	<div id="features" class="section md-padding bg-grey">
-
-		<!-- Container -->
-		<div class="container">
-
-			<!-- Row -->
-			<div class="row">
-
-				<!-- why choose us content -->
-				<div class="col-md-6">
-					<div class="section-header">
-						<h2 class="title">QUEM SOMOS</h2>
-					</div>
-					<p>O GESID tem como <b>missão</b> pesquisar e desenvolver de <a href="http://gesid.github.io/portfolio" target="_blank" rel="noopener noreferrer">soluções inovadoras</a> na área de Sistemas de Informação que, através da transformação digital, viabilizem a resolução de desafios organizacionais e tecnológicos pertinentes. Temos como <b>visão</b> tornar-se um grupo reconhecido pelos benefícios gerados à sociedade.</p> 
-					<p>Nossos <b>valores</b> são:</p>
-					<div class="feature">
-						<i class="fa fa-check"></i>
-						<p>Usufruir	da <b>INOVAÇÃO</b> para melhorar continuamente;</p>
-					</div>
-					<div class="feature">
-						<i class="fa fa-check"></i>
-						<p>Investir em <b>CRIATIVIDADE</b> para inspirar-se;</p>
-					</div>
-					<div class="feature">
-						<i class="fa fa-check"></i>
-						<p><b>DEDICAR-SE</b> em busca da excelência;</p>
-					</div>
-					<div class="feature">
-						<i class="fa fa-check"></i>
-						<p>Explorar a <b>TECNOLOGIA</b> para transformar positivamente.</p>
-					</div>					
-				</div>
-				<!-- /why choose us content -->
-
-				<!-- About slider -->
-				<div class="col-md-6">
-					<div id="about-slider" class="owl-carousel owl-theme">
-						<img class="img-responsive" src="./img/about1.png" alt="">
-						<img class="img-responsive" src="./img/about2.png" alt="">
-						<img class="img-responsive" src="./img/about3.png" alt="">
-						<img class="img-responsive" src="./img/about4.png" alt="">
-					</div>
-				</div>
-				<!-- /About slider -->
-
-			</div>
-			<!-- /Row -->
-
-		</div>
-		<!-- /Container -->
-
-	</div>
-	<!-- /Why Choose Us -->
-
-
-	<!-- Numbers -->
-	<div id="numbers" class="section sm-padding">
-
-		<!-- Background Image -->
-		<div class="bg-img" style="background-image: url('./img/background2.jpg');">
-			<div class="overlay"></div>
-		</div>
-		<!-- /Background Image -->
-
-		<!-- Container -->
-		<div class="container">
-
-			<!-- Row -->
-			<div class="row" allign="center">
-
-				<!-- number -->
-				<div class="col-sm-3 col-xs-6" >
-					<div class="number">
-						<i class="fa fa-users"></i>
-						<h3 class="white-text"><span class="counter">8</span></h3>
-						<span class="white-text">Discentes de Graduação</span>
-					</div>
-				</div>
-				<!-- /number -->
-
-				<!-- number -->
-				<div class="col-sm-3 col-xs-6">
-					<div class="number">
-						<i class="fa far fa-smile"></i>
-						<h3 class="white-text"><span class="counter">3</span></h3>
-						<span class="white-text">Egressos</span>
-					</div>
-				</div>
-				<!-- /number -->
-
-				<!-- number -->
-				<div class="col-sm-3 col-xs-6">
-					<div class="number">
-						<i class="fa fa-file"></i>
-						<h3 class="white-text"><span class="counter">6</span></h3>
-						<span class="white-text">Artigos Aceitos</span>
-					</div>
-				</div>
-				<!-- /number -->
-
-				<!-- number -->
-				<div class="col-sm-3 col-xs-6">
-					<div class="number">
-						<i class="fa fa-coffee"></i>
-						<h3 class="white-text"><span class="counter">i++</span></h3>
-						<span class="white-text">Copos de Café</span>
-					</div>
-				</div>
-				<!-- /number -->
-
-			</div>
-			<!-- /Row -->
-
-		</div>
-		<!-- /Container -->
-
-	</div>
-	<!-- /Numbers -->
-
-	<!-- Team -->
-	<div id="team" class="section md-padding">
-
-		<!-- Container -->
-		<div class="container">
-
-			<!-- Row -->
-			<div class="row">
-
-				<!-- Section header -->
-				<div class="section-header text-center">
-					<h2 class="title">NOSSO TIME</h2>
-				</div>
-				<!-- /Section header -->
-
-				<!-- team -->
-				<div class="col-sm-3">
-					<div class="team">
-						<div class="team-img">
-							<img class="img-responsive" src="./img/allysson2.png" alt="">
-							<div class="overlay">
-								<div class="team-social">
-									<a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4639894Y4" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"></i></a>
-									<a href="mailto:allysson.araujo@crateus.ufc.br"><i class="fa fa-envelope"></i></a>
-									<a href="https://www.researchgate.net/profile/Allysson_Araujo" target="_blank" rel="noopener noreferrer"><i class="fab fa-researchgate"></i></a>
-									<a href="https://www.linkedin.com/in/allyssonaraujo/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>								
-								</div>
-							</div>
-						</div>
-						<div class="team-content">
-							<h3>Allysson Araújo</h3>
-							<span>Docente Coordenador</span>
-						</div>
-					</div>
-				</div>
-				<!-- /team -->
-
-				<!-- team -->
-				<div class="col-sm-3">
-					<div class="team">
-						<div class="team-img">
-							<img class="img-responsive" src="./img/almada.jpeg" alt="">
-							<div class="overlay">
-								<div class="team-social">
-									<a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4456677D4" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"></i></a>
-									<a href="mailto:almada@crateus.ufc.br"><i class="fa fa-envelope"></i></a>
-									<a href="https://www.linkedin.com/in/anderson-almada-28966870/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>	
-								</div>
-							</div>
-						</div>
-						<div class="team-content">
-							<h3>Anderson Almada</h3>
-							<span>Docente Pesquisador</span>
-						</div>
-					</div>
-				</div>
-				<!-- /team -->
-
-				<!-- team -->
-				<div class="col-sm-3">
-					<div class="team">
-						<div class="team-img">
-							<img class="img-responsive" src="./img/alan.jpeg" alt="">
-							<div class="overlay">
-								<div class="team-social">
-									<a href="#" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"></i></a>									
-									<a href="https://www.linkedin.com/in/alan-rodrigues-chaves-8486b9149/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="team-content">
-							<h3>Alan Rodrigues</h3>
-							<span>Graduando em SI</span><br/>
-						</div>
-					</div>
-				</div>
-				<!-- /team -->
-
-				<!-- team -->
-				<div class="col-sm-3">
-					<div class="team">
-						<div class="team-img">
-							<img class="img-responsive" src="./img/jefferson.jpeg" alt="">
-							<div class="overlay">
-								<div class="team-social">
-									<a href="http://lattes.cnpq.br/7147559687865529" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"></i></a>		
-									<a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="team-content">
-							<h3>Jefferson Macedo</h3>
-							<span>Graduando em SI</span>
-						</div>
-					</div>
-				</div>
-				<!-- /team -->				
-
-				<!-- team -->
-				<div class="col-sm-3">
-					<div class="team">
-						<div class="team-img">
-							<img class="img-responsive" src="./img/william.png" alt="">
-							<div class="overlay">
-								<div class="team-social">
-									<a href="#" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"></i></a>
-									<a href="https://www.linkedin.com/in/william-sousa-bb1493186/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="team-content">
-							<h3>William de Sousa</h3>
-							<span>Graduando em CC</span>
-						</div>
-					</div>
-				</div>
-				<!-- /team -->
-				
-				<!-- team -->
-				<div class="col-sm-3">
-					<div class="team">
-						<div class="team-img">
-							<img class="img-responsive" src="./img/miguel.jpeg" alt="">
-							<div class="overlay">
-								<div class="team-social">
-									<a href="#" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"></i></a>
-									<a href="https://www.linkedin.com/in/miguel-set%C3%BAbal-810a3b1ba/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="team-content">
-							<h3>Miguel Setúbal</h3>
-							<span>Graduando em SI</span>
-						</div>
-					</div>
-				</div>
-				<!-- /team -->
-
-				<!-- team -->
-				<div class="col-sm-3">
-					<div class="team">
-						<div class="team-img">
-							<img class="img-responsive" src="./img/frank.png" alt="">
-							<div class="overlay">
-								<div class="team-social">
-									<a href="#" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"></i></a>
-									<a href="https://www.linkedin.com/in/frankleonel" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="team-content">
-							<h3>Frank Leonel</h3>
-							<span>Graduando em SI</span>
-						</div>
-					</div>
-				</div>
-				<!-- /team -->
-
-				<!-- team -->
-				<div class="col-sm-3">
-					<div class="team">
-						<div class="team-img">
-							<img class="img-responsive" src="./img/johnhattan.png" alt="">
-							<div class="overlay">
-								<div class="team-social">
-									<a href="#" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"></i></a>
-									<a href="https://www.linkedin.com/in/johnhattan-j%C3%A9rome-melo-aa000a19b/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="team-content">
-							<h3>Johnhattan Jérome</h3>
-							<span>Graduando em SI</span>
-						</div>
-					</div>
-				</div>
-				<!-- /team -->
-
-				<!-- team -->
-				<div class="col-sm-3">
-					<div class="team">
-						<div class="team-img">
-							<img class="img-responsive" src="./img/alfredo.png" alt="">
-							<div class="overlay">
-								<div class="team-social">
-									<a href="#" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"></i></a>
-									<a href="https://www.linkedin.com/in/alfredo-henrique-2a2b38181/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="team-content">
-							<h3>Alfredo Henrique</h3>
-							<span>Graduando em CC</span>
-						</div>
-					</div>
-				</div>
-				<!-- /team -->
-
-				<!-- team -->
-				<div class="col-sm-3">
-					<div class="team">
-						<div class="team-img">
-							<img class="img-responsive" src="./img/wellington.png" alt="">
-							<div class="overlay">
-								<div class="team-social">
-									<a href="http://lattes.cnpq.br/9927045415351249" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"></i></a>
-									<a href="https://www.linkedin.com/in/wellingtonsa/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="team-content">
-							<h3>Wellington Araújo</h3>
-							<span>Graduando em CC</span>
-						</div>
-					</div>
-				</div>
-				<!-- /team -->			
-
-			</div>
-			<!-- /Row -->
-
-		</div>
-		<!-- /Container -->
-
-	</div>
-	<!-- /Team -->
-
-	<!-- Testimonial -->
-	<div id="testimonial" class="section md-padding">
-
-		<!-- Background Image -->
-		<div class="bg-img" style="background-image: url('./img/blog1.jpg');">
-			<div class="overlay"></div>
-		</div>
-		<!-- /Background Image -->
-
-		<!-- Container -->
-		<div class="container">
-
-			<!-- Row -->
-			<div class="row">
-
-				<!-- Testimonial slider -->
-				<div class="col-md-10 col-md-offset-1">
-					<div id="testimonial-slider" class="owl-carousel owl-theme">
-
-						<!-- testimonial -->
-						<div class="testimonial">
-							<div class="testimonial-meta">
-								<img src="./img/egresso-saori.png" alt="">
-								<h3 class="white-text">Saori Costa | <a href="http://lattes.cnpq.br/2369887347291391" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"> </i> </a><a href="https://www.linkedin.com/in/saori-costa-73151117b/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></h3>
-								<span>Bacharela em Sistemas de Informação</span>
-
-							</div>
-							<span><a href="" target="_blank" rel="noopener noreferrer">Monografia</a></span>
-							<p class="white-text">GQM+PA: Uma Framework baseado em Goal-Question-Metric e Pesquisa-Ação para Ensino de Medição de Software.</p>
-
-						</div>
-						<!-- /testimonial -->
-
-						<!-- testimonial -->
-						<div class="testimonial">
-							<div class="testimonial-meta">
-								<img src="./img/egresso-wermerson.png" alt="">
-								<h3 class="white-text">Wermeson Rocha | <a href="#" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"> </i> </a><a href="https://www.linkedin.com/in/wermeson-rocha-39054b143/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></h3>
-								<span>Bacharel em Ciência da Computação</span>
-							</div>
-							<span><a href="" target="_blank" rel="noopener noreferrer">Monografia</a></span>
-							<p class="white-text">Estudo Comparativo do Impacto da Segurança em Ambientes de Mobile Cloud Computing.</p>
-						</div>
-						<!-- /testimonial -->
-
-						<!-- testimonial -->
-						<div class="testimonial">
-							<div class="testimonial-meta">
-								<img src="./img/egresso-ariadna.png" alt="">
-								<h3 class="white-text">Ariádna Miranda | <a href="#" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"> </i> </a><a href="https://www.linkedin.com/in/ari%C3%A1dna-miranda-2b7918196/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></h3>
-								<span>Bacharela em Sistemas de Informação</span>
-							</div>
-							<span><a href="" target="_blank" rel="noopener noreferrer">Monografia</a></span>
-							<p class="white-text">O Organizar de Práticas Cooperativas no Contexto de um Ambiente de Estágio em Desenvolvimento de Software.</p>
-						</div>
-						<!-- /testimonial -->
-
-						
-
-					</div>
-				</div>
-				<!-- /Testimonial slider -->
-
-			</div>
-			<!-- /Row -->
-
-		</div>
-		<!-- /Container -->
-
-	</div>
-	<!-- /Testimonial -->
-
-	<!-- About -->
-	<div id="about" class="section md-padding">
-
-		<!-- Container -->
-		<div class="container">
-
-			<!-- Row -->
-			<div class="row">
-
-				<!-- Section header -->
-				<div class="section-header text-center">
-					<h2 class="title">PARCEIROS</h2>
-				</div>
-				<!-- /Section header -->
-
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fa fa-cogs"></i>
-						<h3>GOES.UECE</h3>
-						<p>Grupo de Otimização em Engenharia de Software da Universidade Estadual do Ceará.</p>
-						<a href="http://goes.uece.br" target="_blank" rel="noopener noreferrer">Website</a>
-					</div>
-				</div>
-				<!-- /about -->
-
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fa fa-cloud"></i>
-						<h3>GESAD</h3>
-						<p>Grupo de Engenharia de Software Adaptativo e Distribuído da Universidade Estadual do Ceará.</p>
-						<a href="https://gesad.github.io/" target="_blank" rel="noopener noreferrer">Website</a>
-					</div>
-				</div>
-				<!-- /about -->
-
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fa fa-magic"></i>
-						<h3>GESTIC</h3>
-						<p>Núcleo de Pesquisa em Gestão da Tecnologia, Inovação e Conhecimento da Universidade Estadual do Ceará.</p>
-						<a href="http://www.uece.br/ppga/" target="_blank" rel="noopener noreferrer">Website</a>
-					</div>
-				</div>
-				<!-- /about -->
-
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fas fa-laptop"></i>
-						<h3>INOVE</h3>
-						<p>Núcleo de Inovação e Empreendedorismo da UFC (Campus de Quixadá)</p>
-						<a href="http://www.cemp.ufc.br/institucional/" target="_blank" rel="noopener noreferrer">Website</a>
-					</div>
-				</div>
-				<!-- /about -->
-
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fas fa-briefcase"></i>
-						<h3>CEMP UFC</h3>
-						<p>Centro de Empreendedorismo da Universidade Federal do Ceará.</p>
-						<a href="http://www.cemp.ufc.br/" target="_blank" rel="noopener noreferrer">Website</a>
-					</div>
-				</div>
-				<!-- /about -->
-
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fas fa-code"></i>
-						<h3>NPDS</h3>
-						<p>Núcleo de Prática de Desenvolvimento de Sistemas da UFC (Campus de Crateús)</p>
-						<a href="https://npds.crateus.ufc.br/" target="_blank" rel="noopener noreferrer">Website</a>
-					</div>
-				</div>
-				<!-- /about -->
-
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fas fa-building"></i>
-						<h3>SParC</h3>
-						<p>Ecossistema Parque Tecnológico de Crateús</p>
-						<a href="https://crateus.ufc.br/sparc" target="_blank" rel="noopener noreferrer">Website</a>
-					</div>
-				</div>
-				<!-- /about -->
-
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fas fa-cubes"></i>
-						<h3>Blockchain Ceará</h3>
-						<p>Comunidade cearense de entusiatas da tecnologia Blockchain</p>						
-						<a href="https://blockchainceara.com.br" target="_blank" rel="noopener noreferrer">Website</a>
-					</div>
-				</div>
-				<!-- /about -->
-
-
-			</div>
-			<!-- /Row -->
-
-		</div>
-		<!-- /Container -->
-
-	</div>
-	<!-- /About -->	
-
-	<!-- Contact -->
-	<div id="contact" class="section md-padding">
-
-		<!-- Container -->
-		<div class="container">
-
-			<!-- Row -->
-			<div class="row">
-
-				<!-- Section-header -->
-				<div class="section-header text-center">
-					<h2 class="title">CONTATO</h2>
-				</div>
-				<!-- /Section-header -->
-
-				<!-- contact -->
-				<div class="col-sm-4">
-					<div class="contact">
-						<i class="fa fa-envelope"></i>
-						<h3>E-mail</h3>
-						<p><a href="mailto:allysson.araujo@crateus.ufc.br">gesid@crateus.ufc.br</a></p>
-					</div>
-				</div>
-				<!-- /contact -->
-
-				<!-- contact -->
-				<div class="col-sm-4">
-					<div class="contact">
-						<i class="fa fa-map-marker"></i>
-						<h3>Endereço</h3>
-						<p>Rodovia BR-226, KM 03, s/n - São Vicente, Crateús - CE</p>
-					</div>
-				</div>
-				<!-- /contact -->
-
-				<!-- contact -->
-				<div class="col-sm-4">
-					<div class="contact">
-						<i class="fa fa-folder-open"></i>
-						<h3>Portfólio</h3>
-						<p><a href="https://gesid.github.io/portfolio" target="_blank" rel="noopener noreferrer">https://gesid.github.io/portfolio</a></p>
-					</div>
-				</div>
-				<!-- /contact -->
-
-			</div>
-			<!-- /Row -->
-
-		</div>
-		<!-- /Container -->
-
-	</div>
-	<!-- /Contact -->
-
-
-	<!-- Footer -->
-	<footer id="footer" class="sm-padding bg-dark">
-
-		<!-- Container -->
-		<div class="container">
-
-			<!-- Row -->
-			<div class="row">
-
-				<div class="col-md-12">
-
-					<!-- footer logo -->
-					<div class="footer-logo">
-						<a href="index.html"><img src="img/logo-alt.png" alt="logo"></a>
-					</div>
-					<!-- /footer logo -->
-
-					<!-- footer follow -->
-					<ul class="footer-follow">
-						<li><a href="https://www.researchgate.net/lab/GESID-Allysson-Allex-Araujo" target="_blank"><i class="fab fa-researchgate" target="_blank" rel="noopener noreferrer"></i></a></li>
-						<li><a href="https://github.com/gesid/"><i class="fa fa-github" target="_blank" rel="noopener noreferrer"></i></a></li>
-						<li><a href="https://www.facebook.com/gesid.ufc" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://www.instagram.com/gesid_ufc/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a></li>
-					</ul>
-					<!-- /footer follow -->
-
-					<!-- footer copyright -->
-					<div class="footer-copyright">
-						<p>2020 © GESID | Template provided by <a href="https://colorlib.com/wp/author/aigars-silkalns/" target="_blank" rel="noopener noreferrer">Aigars Silkans</a> for <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a></p>
-					</div>
-					<!-- /footer copyright -->
-
-				</div>
-
-			</div>
-			<!-- /Row -->
-
-		</div>
-		<!-- /Container -->
-
-	</footer>
-	<!-- /Footer -->
-
-	<!-- Back to top -->
-	<div id="back-to-top"></div>
-	<!-- /Back to top -->
-
-	<!-- Preloader -->
-	<div id="preloader">
-		<div class="preloader">
-			<span></span>
-			<span></span>
-			<span></span>
-			<span></span>
-		</div>
-	</div>
-	<!-- /Preloader -->
-
-	<!-- jQuery Plugins -->
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
-
-</body>
-
+				</div> -->
+    <!-- /blog -->
+
+    <!-- </div> -->
+    <!-- /Row -->
+
+    <!-- </div> -->
+    <!-- /Container -->
+
+    <!-- </div> -->
+    <!-- /Blog -->
+
+    <!-- Portfolio -->
+    <div id="portfolio" class="section md-padding bg-grey">
+      <!-- Container -->
+      <div class="container">
+        <!-- Row -->
+        <div class="row">
+          <!-- Section header -->
+          <div class="section-header text-center">
+            <h2 class="title">LINHAS DE PESQUISA</h2>
+          </div>
+          <!-- /Section header -->
+
+          <!-- Work -->
+          <div class="col-md-4 col-xs-6 work">
+            <img class="img-responsive" src="./img/prj-blockchain.png" alt="" />
+            <div class="overlay"></div>
+            <div class="work-content">
+              <h3>Inovação Digital através Blockchain e Criptoeconomia</h3>
+              <div class="work-link">
+                <a
+                  href="https://www.researchgate.net/project/Digital-Innovation-through-Blockchain-and-Cryptoeconomics"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-external-link"></i
+                ></a>
+                <!--<a class="lightbox" href="./img/work1.jpg"><i class="fa fa-search"></i></a>-->
+              </div>
+            </div>
+          </div>
+          <!-- /Work -->
+
+          <!-- Work -->
+          <div class="col-md-4 col-xs-6 work">
+            <img
+              class="img-responsive"
+              src="./img/prj-socio-tecnico.png"
+              alt=""
+            />
+            <div class="overlay"></div>
+            <div class="work-content">
+              <h3>
+                Aspectos Sociotécnicos e Educacionais em Engenharia de Software
+                e Sistemas de Informação
+              </h3>
+              <div class="work-link">
+                <a
+                  href="https://www.researchgate.net/project/Socio-technical-and-Educational-Aspects-of-Software-Engineering-and-Information-Systems"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-external-link"></i
+                ></a>
+                <!--<a class="lightbox" href="./img/work2.jpg"><i class="fa fa-search"></i></a>-->
+              </div>
+            </div>
+          </div>
+          <!-- /Work -->
+
+          <!-- Work -->
+          <div class="col-md-4 col-xs-6 work">
+            <img class="img-responsive" src="./img/prj-startups.png" alt="" />
+            <div class="overlay"></div>
+            <div class="work-content">
+              <h3>
+                Práticas de Engenharia e Gestão para Transformação Digital
+              </h3>
+              <div class="work-link">
+                <a
+                  href="https://www.researchgate.net/project/Management-and-Engineering-Practices-for-Digital-Transformation"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-external-link"></i
+                ></a>
+                <!--<a class="lightbox" href="./img/work3.jpg"><i class="fa fa-search"></i></a>-->
+              </div>
+            </div>
+          </div>
+          <!-- /Work -->
+        </div>
+        <!-- /Row -->
+      </div>
+      <!-- /Container -->
+    </div>
+    <!-- /Portfolio -->
+
+    <!-- Why Choose Us -->
+    <div id="features" class="section md-padding bg-grey">
+      <!-- Container -->
+      <div class="container">
+        <!-- Row -->
+        <div class="row">
+          <!-- why choose us content -->
+          <div class="col-md-6">
+            <div class="section-header">
+              <h2 class="title">QUEM SOMOS</h2>
+            </div>
+            <p>
+              O GESID tem como <b>missão</b> pesquisar e desenvolver de
+              <a
+                href="http://gesid.github.io/portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+                >soluções inovadoras</a
+              >
+              na área de Sistemas de Informação que, através da transformação
+              digital, viabilizem a resolução de desafios organizacionais e
+              tecnológicos pertinentes. Temos como <b>visão</b> tornar-se um
+              grupo reconhecido pelos benefícios gerados à sociedade.
+            </p>
+            <p>Nossos <b>valores</b> são:</p>
+            <div class="feature">
+              <i class="fa fa-check"></i>
+              <p>Usufruir da <b>INOVAÇÃO</b> para melhorar continuamente;</p>
+            </div>
+            <div class="feature">
+              <i class="fa fa-check"></i>
+              <p>Investir em <b>CRIATIVIDADE</b> para inspirar-se;</p>
+            </div>
+            <div class="feature">
+              <i class="fa fa-check"></i>
+              <p><b>DEDICAR-SE</b> em busca da excelência;</p>
+            </div>
+            <div class="feature">
+              <i class="fa fa-check"></i>
+              <p>
+                Explorar a <b>TECNOLOGIA</b> para transformar positivamente.
+              </p>
+            </div>
+          </div>
+          <!-- /why choose us content -->
+
+          <!-- About slider -->
+          <div class="col-md-6">
+            <div id="about-slider" class="owl-carousel owl-theme">
+              <img class="img-responsive" src="./img/about1.png" alt="" />
+              <img class="img-responsive" src="./img/about2.png" alt="" />
+              <img class="img-responsive" src="./img/about3.png" alt="" />
+              <img class="img-responsive" src="./img/about4.png" alt="" />
+            </div>
+          </div>
+          <!-- /About slider -->
+        </div>
+        <!-- /Row -->
+      </div>
+      <!-- /Container -->
+    </div>
+    <!-- /Why Choose Us -->
+
+    <!-- Numbers -->
+    <div id="numbers" class="section sm-padding">
+      <!-- Background Image -->
+      <div
+        class="bg-img"
+        style="background-image: url('./img/background2.jpg')"
+      >
+        <div class="overlay"></div>
+      </div>
+      <!-- /Background Image -->
+
+      <!-- Container -->
+      <div class="container">
+        <!-- Row -->
+        <div class="row" allign="center">
+          <!-- number -->
+          <div class="col-sm-3 col-xs-6">
+            <div class="number">
+              <i class="fa fa-users"></i>
+              <h3 class="white-text"><span class="counter">8</span></h3>
+              <span class="white-text">Discentes de Graduação</span>
+            </div>
+          </div>
+          <!-- /number -->
+
+          <!-- number -->
+          <div class="col-sm-3 col-xs-6">
+            <div class="number">
+              <i class="fa far fa-smile"></i>
+              <h3 class="white-text"><span class="counter">4</span></h3>
+              <span class="white-text">Egressos</span>
+            </div>
+          </div>
+          <!-- /number -->
+
+          <!-- number -->
+          <div class="col-sm-3 col-xs-6">
+            <div class="number">
+              <i class="fa fa-file"></i>
+              <h3 class="white-text"><span class="counter">22</span></h3>
+              <span class="white-text">Artigos Aceitos</span>
+            </div>
+          </div>
+          <!-- /number -->
+
+          <!-- number -->
+          <div class="col-sm-3 col-xs-6">
+            <div class="number">
+              <i class="fa fa-coffee"></i>
+              <h3 class="white-text"><span class="counter">i++</span></h3>
+              <span class="white-text">Copos de Café</span>
+            </div>
+          </div>
+          <!-- /number -->
+        </div>
+        <!-- /Row -->
+      </div>
+      <!-- /Container -->
+    </div>
+    <!-- /Numbers -->
+
+    <!-- Team -->
+    <div id="team" class="section md-padding">
+      <!-- Container -->
+      <div class="container">
+        <!-- Row -->
+        <div class="row">
+          <!-- Section header -->
+          <div class="section-header text-center">
+            <h2 class="title">NOSSO TIME</h2>
+          </div>
+          <!-- /Section header -->
+
+          <!-- team -->
+          <div class="col-sm-3">
+            <div class="team">
+              <div class="team-img">
+                <img class="img-responsive" src="./img/allysson2.png" alt="" />
+                <div class="overlay">
+                  <div class="team-social">
+                    <a
+                      href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4639894Y4"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fas fa-graduation-cap"></i
+                    ></a>
+                    <a href="mailto:allysson.araujo@crateus.ufc.br"
+                      ><i class="fa fa-envelope"></i
+                    ></a>
+                    <a
+                      href="https://www.researchgate.net/profile/Allysson_Araujo"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fab fa-researchgate"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/allyssonaraujo/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-content">
+                <h3>Allysson Araújo</h3>
+                <span>Docente Coordenador</span>
+              </div>
+            </div>
+          </div>
+          <!-- /team -->
+
+          <!-- team -->
+          <div class="col-sm-3">
+            <div class="team">
+              <div class="team-img">
+                <img class="img-responsive" src="./img/jefferson.jpeg" alt="" />
+                <div class="overlay">
+                  <div class="team-social">
+                    <a
+                      href="http://lattes.cnpq.br/7147559687865529"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fas fa-graduation-cap"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-content">
+                <h3>Jefferson Macedo</h3>
+                <span>Graduando em SI</span>
+              </div>
+            </div>
+          </div>
+          <!-- /team -->
+
+          <!-- team -->
+          <div class="col-sm-3">
+            <div class="team">
+              <div class="team-img">
+                <img class="img-responsive" src="./img/william.png" alt="" />
+                <div class="overlay">
+                  <div class="team-social">
+                    <a href="#" target="_blank" rel="noopener noreferrer"
+                      ><i class="fas fa-graduation-cap"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/william-sousa-bb1493186/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-content">
+                <h3>William de Sousa</h3>
+                <span>Graduando em CC</span>
+              </div>
+            </div>
+          </div>
+          <!-- /team -->
+
+          <!-- team -->
+          <div class="col-sm-3">
+            <div class="team">
+              <div class="team-img">
+                <img class="img-responsive" src="./img/miguel.jpeg" alt="" />
+                <div class="overlay">
+                  <div class="team-social">
+                    <a href="#" target="_blank" rel="noopener noreferrer"
+                      ><i class="fas fa-graduation-cap"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/miguel-set%C3%BAbal-810a3b1ba/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-content">
+                <h3>Miguel Setúbal</h3>
+                <span>Graduando em SI</span>
+              </div>
+            </div>
+          </div>
+          <!-- /team -->
+
+          <!-- team -->
+          <div class="col-sm-3">
+            <div class="team">
+              <div class="team-img">
+                <img class="img-responsive" src="./img/isa.jpeg" alt="" />
+                <div class="overlay">
+                  <div class="team-social">
+                    <a
+                      href="http://lattes.cnpq.br/6740813535288439"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fas fa-graduation-cap"></i
+                    ></a>
+                    <a
+                      href="http://www.linkedin.com/in/isa-raquel-freitas"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-content">
+                <h3>Isa Raquel</h3>
+                <span>Graduanda em SI</span>
+              </div>
+            </div>
+          </div>
+          <!-- /team -->
+
+          <!-- team -->
+          <div class="col-sm-3">
+            <div class="team">
+              <div class="team-img">
+                <img class="img-responsive" src="./img/joao.jpg" alt="" />
+                <div class="overlay">
+                  <div class="team-social">
+                    <a
+                      href="http://lattes.cnpq.br/0435628565309196"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fas fa-graduation-cap"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/joaouchoa1/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-content">
+                <h3>João Uchôa</h3>
+                <span>Graduando em CC</span>
+              </div>
+            </div>
+          </div>
+          <!-- /team -->
+
+          <!-- team -->
+          <div class="col-sm-3">
+            <div class="team">
+              <div class="team-img">
+                <img class="img-responsive" src="./img/gabriela.jpg" alt="" />
+                <div class="overlay">
+                  <div class="team-social">
+                    <a href="#" target="_blank" rel="noopener noreferrer"
+                      ><i class="fas fa-graduation-cap"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/gabrielaalves11"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-content">
+                <h3>Gabriela Alves</h3>
+                <span>Graduando em SI</span>
+              </div>
+            </div>
+          </div>
+          <!-- /team -->
+
+          <!-- team -->
+          <div class="col-sm-3">
+            <div class="team">
+              <div class="team-img">
+                <img class="img-responsive" src="./img/alexandre.jpg" alt="" />
+                <div class="overlay">
+                  <div class="team-social">
+                    <a
+                      href="http://lattes.cnpq.br/8679588379838740"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fas fa-graduation-cap"></i
+                    ></a>
+                    <a
+                      href=" https://www.linkedin.com/in/alexandre-de-sousa-feitosa-591411201/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-content">
+                <h3>Alexandre Feitosa</h3>
+                <span>Graduando em CC</span>
+              </div>
+            </div>
+          </div>
+          <!-- /team -->
+
+          <!-- team -->
+          <div class="col-sm-3">
+            <div class="team">
+              <div class="team-img">
+                <img class="img-responsive" src="./img/giniele.png" alt="" />
+                <div class="overlay">
+                  <div class="team-social">
+                    <a
+                      href="http://lattes.cnpq.br/8679588379838740"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fas fa-graduation-cap"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/giniele-pinho-00238320b/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-content">
+                <h3>Giniele Pinho</h3>
+                <span>Graduanda em SI</span>
+              </div>
+            </div>
+          </div>
+          <!-- /team -->
+
+          <!-- team -->
+          <!-- <div class="col-sm-3">
+            <div class="team">
+              <div class="team-img">
+                <img class="img-responsive" src="./img/almada.jpeg" alt="" />
+                <div class="overlay">
+                  <div class="team-social">
+                    <a
+                      href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4456677D4"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fas fa-graduation-cap"></i
+                    ></a>
+                    <a href="mailto:almada@crateus.ufc.br"
+                      ><i class="fa fa-envelope"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/anderson-almada-28966870/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-content">
+                <h3>Anderson Almada</h3>
+                <span>Pesquisador Colaborador</span>
+              </div>
+            </div>
+          </div> -->
+          <!-- /team -->
+        </div>
+        <!-- /Row -->
+      </div>
+      <!-- /Container -->
+    </div>
+    <!-- /Team -->
+
+    <!-- Testimonial -->
+    <div id="testimonial" class="section md-padding">
+      <!-- Background Image -->
+      <div class="bg-img" style="background-image: url('./img/blog1.jpg')">
+        <div class="overlay"></div>
+      </div>
+      <!-- /Background Image -->
+
+      <!-- Container -->
+      <div class="container">
+        <!-- Row -->
+        <div class="row">
+          <!-- Testimonial slider -->
+          <div class="col-md-10 col-md-offset-1">
+            <div id="testimonial-slider" class="owl-carousel owl-theme">
+              <!-- testimonial -->
+              <div class="testimonial">
+                <div class="testimonial-meta">
+                  <img src="./img/egresso-saori.png" alt="" />
+                  <h3 class="white-text">
+                    Saori Costa |
+                    <a
+                      href="http://lattes.cnpq.br/2369887347291391"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fas fa-graduation-cap"> </i> </a
+                    ><a
+                      href="https://www.linkedin.com/in/saori-costa-73151117b/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </h3>
+                  <span>Bacharela em Sistemas de Informação</span>
+                </div>
+                <span
+                  ><a
+                    href="https://www.researchgate.net/publication/357605085_GQMPA_Um_Framework_baseado_em_Goal-Question-Metric_e_Pesquisa-Acao_para_Ensino_de_Medicao_de_Software"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Monografia</a
+                  ></span
+                >
+                <p class="white-text">
+                  GQM+PA: Uma Framework baseado em Goal-Question-Metric e
+                  Pesquisa-Ação para Ensino de Medição de Software.
+                </p>
+              </div>
+              <!-- /testimonial -->
+
+              <!-- testimonial -->
+              <div class="testimonial">
+                <div class="testimonial-meta">
+                  <img src="./img/egresso-ariadna.png" alt="" />
+                  <h3 class="white-text">
+                    Ariádna Miranda |
+                    <a href="#" target="_blank" rel="noopener noreferrer"
+                      ><i class="fas fa-graduation-cap"> </i> </a
+                    ><a
+                      href="https://www.linkedin.com/in/ari%C3%A1dna-miranda-2b7918196/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </h3>
+                  <span>Bacharela em Sistemas de Informação</span>
+                </div>
+                <span
+                  ><a
+                    href="https://www.researchgate.net/publication/357605251_O_Organizar_de_Praticas_Cooperativas_no_Contexto_de_um_Ambiente_de_Estagio_em_Desenvolvimento_de_Software"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Monografia</a
+                  ></span
+                >
+                <p class="white-text">
+                  O Organizar de Práticas Cooperativas no Contexto de um
+                  Ambiente de Estágio em Desenvolvimento de Software.
+                </p>
+              </div>
+              <!-- /testimonial -->
+
+              <!-- testimonial -->
+              <div class="testimonial">
+                <div class="testimonial-meta">
+                  <img src="./img/egresso-rommel.jpg" alt="" />
+                  <h3 class="white-text">
+                    Rômmel de Castro |
+                    <a href="#" target="_blank" rel="noopener noreferrer"
+                      ><i class="fas fa-graduation-cap"> </i> </a
+                    ><a
+                      href="https://www.linkedin.com/in/r%C3%B4mmel-de-castro/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </h3>
+                  <span>Especialista em Engenharia de Software</span>
+                </div>
+                <span
+                  ><a
+                    href="https://www.researchgate.net/publication/357605265_Uma_Proposta_de_Mapa_Interativo_e_Colaborativo_para_o_Ecossistema_de_Inovacao_Cearense"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Monografia</a
+                  ></span
+                >
+                <p class="white-text">
+                  Uma Proposta de Mapa Interativo e Colaborativo para o
+                  Ecossistema de Inovação Cearense
+                </p>
+              </div>
+              <!-- /testimonial -->
+
+              <!-- testimonial -->
+              <div class="testimonial">
+                <div class="testimonial-meta">
+                  <img src="./img/egresso-alan.jpeg" alt="" />
+                  <h3 class="white-text">
+                    Alan Rodrigues |
+                    <a href="#" target="_blank" rel="noopener noreferrer"
+                      ><i class="fas fa-graduation-cap"> </i> </a
+                    ><a
+                      href="https://www.linkedin.com/in/wermeson-rocha-39054b143/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </h3>
+                  <span>Bacharel em Sistemas de Informação</span>
+                </div>
+                <span
+                  ><a
+                    href="https://www.researchgate.net/publication/357604999_Caracterizando_a_evolucao_de_software_de_contratos_inteligentes_um_Estudo_Exploratorio-descritivo_utilizando_GitHub_e_Etherscan"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Monografia</a
+                  ></span
+                >
+                <p class="white-text">
+                  Caracterizando a evolução de software de contratos
+                  inteligentes: um Estudo Exploratório-descritivo utilizando
+                  GitHub e Etherscan
+                </p>
+              </div>
+              <!-- /testimonial -->
+            </div>
+          </div>
+          <!-- /Testimonial slider -->
+        </div>
+        <!-- /Row -->
+      </div>
+      <!-- /Container -->
+    </div>
+    <!-- /Testimonial -->
+
+    <!-- About -->
+    <div id="about" class="section md-padding">
+      <!-- Container -->
+      <div class="container">
+        <!-- Row -->
+        <div class="row">
+          <!-- Section header -->
+          <div class="section-header text-center">
+            <h2 class="title">PARCEIROS</h2>
+          </div>
+          <!-- /Section header -->
+
+          <!-- about -->
+          <div class="col-md-4">
+            <div class="about">
+              <i class="fa fa-cogs"></i>
+              <h3>GOES.UECE</h3>
+              <p>
+                Grupo de Otimização em Engenharia de Software da Universidade
+                Estadual do Ceará.
+              </p>
+              <a
+                href="http://goes.uece.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Website</a
+              >
+            </div>
+          </div>
+          <!-- /about -->
+
+          <!-- about -->
+          <div class="col-md-4">
+            <div class="about">
+              <i class="fa fa-cloud"></i>
+              <h3>GESAD</h3>
+              <p>
+                Grupo de Engenharia de Software Adaptativo e Distribuído da
+                Universidade Estadual do Ceará.
+              </p>
+              <a
+                href="https://gesad.github.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Website</a
+              >
+            </div>
+          </div>
+          <!-- /about -->
+
+          <!-- about -->
+          <div class="col-md-4">
+            <div class="about">
+              <i class="fa fa-magic"></i>
+              <h3>GESTIC</h3>
+              <p>
+                Núcleo de Pesquisa em Gestão da Tecnologia, Inovação e
+                Conhecimento da Universidade Estadual do Ceará.
+              </p>
+              <a
+                href="http://www.uece.br/ppga/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Website</a
+              >
+            </div>
+          </div>
+          <!-- /about -->
+
+          <!-- about -->
+          <div class="col-md-4">
+            <div class="about">
+              <i class="fas fa-laptop"></i>
+              <h3>INOVE</h3>
+              <p>
+                Núcleo de Inovação e Empreendedorismo da UFC (Campus de Quixadá)
+              </p>
+              <a
+                href="http://www.cemp.ufc.br/institucional/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Website</a
+              >
+            </div>
+          </div>
+          <!-- /about -->
+
+          <!-- about -->
+          <div class="col-md-4">
+            <div class="about">
+              <i class="fas fa-briefcase"></i>
+              <h3>CEMP UFC</h3>
+              <p>
+                Centro de Empreendedorismo da Universidade Federal do Ceará.
+              </p>
+              <a
+                href="http://www.cemp.ufc.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Website</a
+              >
+            </div>
+          </div>
+          <!-- /about -->
+
+          <!-- about -->
+          <div class="col-md-4">
+            <div class="about">
+              <i class="fas fa-code"></i>
+              <h3>NPDS</h3>
+              <p>
+                Núcleo de Prática de Desenvolvimento de Sistemas da UFC (Campus
+                de Crateús)
+              </p>
+              <a
+                href="https://npds.crateus.ufc.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Website</a
+              >
+            </div>
+          </div>
+          <!-- /about -->
+        </div>
+        <!-- /Row -->
+      </div>
+      <!-- /Container -->
+    </div>
+    <!-- /About -->
+
+    <!-- Contact -->
+    <div id="contact" class="section md-padding">
+      <!-- Container -->
+      <div class="container">
+        <!-- Row -->
+        <div class="row">
+          <!-- Section-header -->
+          <div class="section-header text-center">
+            <h2 class="title">CONTATO</h2>
+          </div>
+          <!-- /Section-header -->
+
+          <!-- contact -->
+          <div class="col-sm-4">
+            <div class="contact">
+              <i class="fa fa-envelope"></i>
+              <h3>E-mail</h3>
+              <p>
+                <a href="mailto:allysson.araujo@crateus.ufc.br"
+                  >gesid@crateus.ufc.br</a
+                >
+              </p>
+            </div>
+          </div>
+          <!-- /contact -->
+
+          <!-- contact -->
+          <div class="col-sm-4">
+            <div class="contact">
+              <i class="fa fa-map-marker"></i>
+              <h3>Endereço</h3>
+              <p>Rodovia BR-226, KM 03, s/n - São Vicente, Crateús - CE</p>
+            </div>
+          </div>
+          <!-- /contact -->
+
+          <!-- contact -->
+          <div class="col-sm-4">
+            <div class="contact">
+              <i class="fa fa-folder-open"></i>
+              <h3>Portfólio</h3>
+              <p>
+                <a
+                  href="https://gesid.github.io/portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >https://gesid.github.io/portfolio</a
+                >
+              </p>
+            </div>
+          </div>
+          <!-- /contact -->
+        </div>
+        <!-- /Row -->
+      </div>
+      <!-- /Container -->
+    </div>
+    <!-- /Contact -->
+
+    <!-- Footer -->
+    <footer id="footer" class="sm-padding bg-dark">
+      <!-- Container -->
+      <div class="container">
+        <!-- Row -->
+        <div class="row">
+          <div class="col-md-12">
+            <!-- footer logo -->
+            <div class="footer-logo">
+              <a href="index.html"><img src="img/logo-alt.png" alt="logo" /></a>
+            </div>
+            <!-- /footer logo -->
+
+            <!-- footer follow -->
+            <ul class="footer-follow">
+              <li>
+                <a
+                  href="https://www.researchgate.net/lab/Grupo-de-Estudos-em-Sistemas-de-Informacao-e-Inovacao-Digital-GESID-Allysson-Allex-Araujo"
+                  target="_blank"
+                  ><i
+                    class="fab fa-researchgate"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  ></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/gesid/"
+                  ><i
+                    class="fa fa-github"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  ></i
+                ></a>
+              </li>
+              
+              <li>
+                <a
+                  href="https://www.instagram.com/gesid_ufc/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+              </li>
+
+              <li>
+                <a
+                  href="https://twitter.com/gesid_ufc"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.facebook.com/gesid.ufc"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+              </li>
+
+            </ul>
+          </ul>
+            <!-- /footer follow -->
+
+            <!-- footer copyright -->
+            <div class="footer-copyright">
+              <p>
+                2022 © GESID | Template provided by
+                <a
+                  href="https://colorlib.com/wp/author/aigars-silkalns/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Aigars Silkans</a
+                >
+                for
+                <a
+                  href="https://colorlib.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Colorlib</a
+                >
+              </p>
+            </div>
+            <!-- /footer copyright -->
+          </div>
+        </div>
+        <!-- /Row -->
+      </div>
+      <!-- /Container -->
+    </footer>
+    <!-- /Footer -->
+
+    <!-- Back to top -->
+    <div id="back-to-top"></div>
+    <!-- /Back to top -->
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="preloader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <!-- /Preloader -->
+
+    <!-- jQuery Plugins -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
 </html>
