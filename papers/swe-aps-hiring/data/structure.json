@@ -1,0 +1,20 @@
+{
+  "Application": {
+    "T1. Clarity in Job Postings": ["AP25", "AP02", "AP05", "AP08", "AP06", "AP24"],
+    "T2. External Information": ["AP04", "AP16"],
+    "T3. Feedback": ["AP01", "AP09", "AP15", "AP16", "AP19"]
+  },
+  "Assessment": {
+    "T4. Behavioral Assessment": ["AP01", "AP03", "AP09", "AP10", "AP14", "AP19", "AP20"],
+    "T5. Technical Assessment": ["AP13", "AP18", "AP22"]
+  },
+  "Hiring": {
+    "T6. Benefits and Opportunities": ["AP02", "AP05", "AP08", "AP21"]
+  },
+  "Cross-cutting Aspects": {
+    "T7. Conduct of the R&S Process": ["AP03", "AP07", "AP09", "AP10", "AP14", "AP16", "AP19", "AP20"],
+    "T8. Cultural Fit": ["AP08", "AP21"],
+    "T9. Process Status": ["AP01", "AP09", "AP10", "AP14", "AP19"],
+    "T10. Perception of Justice": ["AP09", "AP11", "AP12", "AP16", "AP17", "AP23"]
+  }
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anti-patterns in Online Recruitment</title>
+
+    <!-- Adicionado: Link para o Tailwind CSS via CDN para aplicar os estilos -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Link para o seu CSS personalizado (fontes, animações do modal) -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="flex flex-col min-h-screen bg-black text-slate-200 antialiased">
+
+    <main class="flex-grow p-4 sm:p-8">
+        <div class="max-w-7xl mx-auto">
+
+            <!-- ========= HEADER (Conteúdo de page.tsx) ========= -->
+            <header class="text-center mb-12">
+                <p class="text-base text-slate-400">Support material for the article</p>
+                <h1 class="text-4xl font-bold text-slate-50 mt-4 leading-tight">
+                    Anti-patterns in Online Recruitment and Selection Experienced by Early-Career Software Engineers
+                </h1>
+                <hr class="my-8 border-zinc-800" />
+                
+                <!-- Autores com Ícones Corrigidos -->
+                <div class="space-y-6 text-lg">
+                    <!-- Autor 1 -->
+                    <div>
+                        <p><span class="font-semibold text-slate-200">Gabriel Vasconcelos</span>, <span class="text-slate-400">Federal University of Cariri (UFCA)</span></p>
+                        <div class="flex items-center justify-center gap-4 mt-2">
+                            <a href="mailto:gabriel.vasconcelos@aluno.ufca.edu.br" title="Send an email" class="text-slate-400 hover:text-red-500 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/vasconcel/" target="_blank" rel="noopener noreferrer" title="View LinkedIn profile" class="text-slate-400 hover:text-red-500 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Autor 2 -->
+                    <div>
+                        <p><span class="font-semibold text-slate-200">Allysson Allex Araújo</span>, <span class="text-slate-400">Federal University of Cariri (UFCA)</span></p>
+                        <div class="flex items-center justify-center gap-4 mt-2">
+                            <a href="mailto:allysson.araujo@ufca.edu.br" title="Send an email" class="text-slate-400 hover:text-red-500 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/allyssonaraujo/" target="_blank" rel="noopener noreferrer" title="View LinkedIn profile" class="text-slate-400 hover:text-red-500 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            </a>
+                            <a href="https://scholar.google.com/citations?user=ludS9IAAAAAJ&hl=pt-BR" target="_blank" rel="noopener noreferrer" title="View Google Scholar profile" class="text-slate-400 hover:text-red-500 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2v-5"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Autor 3 -->
+                    <div>
+                        <p><span class="font-semibold text-slate-200">Marvin Wyrich</span>, <span class="text-slate-400">Saarland University</span></p>
+                        <div class="flex items-center justify-center gap-4 mt-2">
+                            <a href="mailto:wyrich@cs.uni-saarland.de" title="Send an email" class="text-slate-400 hover:text-red-500 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/marvin-wyrich/" target="_blank" rel="noopener noreferrer" title="View LinkedIn profile" class="text-slate-400 hover:text-red-500 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            </a>
+                            <a href="https://scholar.google.com/citations?user=KwIl4msAAAAJ&hl=de" target="_blank" rel="noopener noreferrer" title="View Google Scholar profile" class="text-slate-400 hover:text-red-500 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2v-5"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Autor 4 -->
+                    <div>
+                        <p><span class="font-semibold text-slate-200">Marcos Kalinowski</span>, <span class="text-slate-400">Pontifical Catholic University of Rio de Janeiro (PUC-Rio)</span></p>
+                        <div class="flex items-center justify-center gap-4 mt-2">
+                            <a href="mailto:kalinowski@inf.puc-rio.br" title="Send an email" class="text-slate-400 hover:text-red-500 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/kalinowski/" target="_blank" rel="noopener noreferrer" title="View LinkedIn profile" class="text-slate-400 hover:text-red-500 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            </a>
+                            <a href="https://scholar.google.com/citations?user=tKCYoHsAAAAJ&hl=pt-BR" target="_blank" rel="noopener noreferrer" title="View Google Scholar profile" class="text-slate-400 hover:text-red-500 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2v-5"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- ========= ABSTRACT (Conteúdo de page.tsx) ========= -->
+            <section class="bg-zinc-900 border border-zinc-800 rounded-xl p-6 sm:p-8 my-16">
+                <h2 class="text-2xl font-bold text-slate-100 mb-4">Abstract</h2>
+                <div class="text-slate-300 space-y-4 text-base sm:text-lg leading-relaxed">
+                    <p><span class="font-bold text-slate-200">[Context]</span> The escalating demand for Software Engineering (SE) professionals emphasizes the criticality of effective online Recruitment and Selection (R&S) processes. However, these processes often present particular challenges for novice software engineers, whose perspectives on problematic R&S practices remain largely underexplored.</p>
+                    <p><span class="font-bold text-slate-200">[Objective]</span> This paper aims to identify and characterize recurring Anti-patterns (defined as practices perceived by candidates as ineffective, counterproductive, or unfair) within online R&S processes, specifically from the viewpoint of early-career software engineers.</p>
+                    <p><span class="font-bold text-slate-200">[Method]</span> Employing an exploratory qualitative approach grounded in Applicant Attribution-Reaction Theory (AART), we conducted semi-structured online interviews with 22 novice software engineers in Brazil. Their combined experience encompasses over 470 online R&S processes. We used thematic analysis to examine their R&S experiences.</p>
+                    <p><span class="font-bold text-slate-200">[Results]</span> Our analysis revealed 10 central themes that shape candidate perceptions and led to the identification of 25 distinct Anti-patterns (APs). These APs span various facets of the R&S journey, including a lack of clarity in job advertisements, inadequate or absent feedback, poorly conducted process stages, misaligned technical and behavioral assessments, and overarching concerns about fairness and transparency.</p>
+                    <p><span class="font-bold text-slate-200">[Conclusion]</span> This study provides empirically grounded findings into the APs encountered by novice SE professionals during online R&S. By characterizing these detrimental practices, we also offer a set of takeaways for organizations aiming to refine their R&S strategies, enhance candidate experience, and more effectively attract early-career talent.</p>
+                </div>
+            </section>
+            
+            <!-- ========= LISTA DOS 25 APs (Preenchida pelo JS) ========= -->
+            <section class="my-16">
+                <h2 class="text-3xl font-bold text-slate-100 mb-8 text-center">The 25 Identified Anti-patterns</h2>
+                <div id="ap-list-summary" class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6 bg-zinc-900 border border-zinc-800 rounded-xl p-6 sm:p-8">
+                    <!-- JavaScript irá preencher esta lista de resumo -->
+                </div>
+            </section>
+
+            <!-- ========= FILTRO DE PESQUISA (Com ícone) ========= -->
+            <div id="search-container" class="relative w-full max-w-2xl mx-auto mb-16">
+                <div class="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-slate-500">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.3-4.3"></path>
+                    </svg>
+                </div>
+                <input type="text" id="search-input" placeholder="Search by keyword in APs or quotes..." class="w-full pl-12 pr-4 py-3 bg-zinc-900 border border-zinc-700 rounded-lg text-slate-200 placeholder-slate-500 focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition-all duration-200">
+            </div>
+
+            <!-- ========= CONTENTOR PRINCIPAL PARA OS CARTÕES (Preenchido pelo JS) ========= -->
+            <div id="playbook-container" class="space-y-16">
+                <!-- O JavaScript irá gerar e inserir todas as fases, temas e cartões aqui -->
+            </div>
+
+        </div>
+    </main>
+    
+    <!-- ========= FOOTER (Conteúdo de Footer.tsx) ========= -->
+    <footer class="bg-zinc-900 border-t border-zinc-800 mt-24 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+                <div class="text-center md:text-left">
+                    <p class="text-sm text-slate-400">© 2025 All Rights Reserved.</p>
+                    <p class="text-xs text-slate-500 mt-1">This artifact is part of a collaborative research effort.</p>
+                </div>
+                <div class="flex items-center justify-center gap-4">
+                    <a href="https://ufca.edu.br/" title="Universidade Federal do Cariri" target="_blank" rel="noopener noreferrer" class="bg-zinc-800/50 p-3 rounded-lg border border-transparent hover:border-zinc-700 hover:bg-zinc-800 transition-all duration-300 grayscale hover:grayscale-0 opacity-70 hover:opacity-100">
+                        <img src="img/ufca-logo.svg" alt="UFCA Logo" class="h-8 w-auto">
+                    </a>
+                    <a href="https://www.puc-rio.br/index.html" title="Pontifical Catholic University of Rio de Janeiro" target="_blank" rel="noopener noreferrer" class="bg-zinc-800/50 p-3 rounded-lg border border-transparent hover:border-zinc-700 hover:bg-zinc-800 transition-all duration-300 grayscale hover:grayscale-0 opacity-70 hover:opacity-100">
+                        <img src="img/puc-rio-logo.svg" alt="PUC-Rio Logo" class="h-8 w-auto invert brightness-0">
+                    </a>
+                    <a href="https://www.uni-saarland.de/en/home.html" title="Saarland University" target="_blank" rel="noopener noreferrer" class="bg-zinc-800/50 p-3 rounded-lg border border-transparent hover:border-zinc-700 hover:bg-zinc-800 transition-all duration-300 grayscale hover:grayscale-0 opacity-70 hover:opacity-100">
+                        <img src="img/saarland-logo.svg" alt="Saarland University Logo" class="h-8 w-auto">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link para o seu script JavaScript -->
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
