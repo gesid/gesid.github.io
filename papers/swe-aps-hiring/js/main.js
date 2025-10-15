@@ -5,7 +5,7 @@ const appState = {
   allPatterns: null,
   quotesMap: null,
   patternsMap: null,
-  themesMap: null, // Adicionado: para guardar as descrições dos temas
+  themesMap: null,
 };
 
 document.addEventListener('DOMContentLoaded', main);
@@ -18,7 +18,7 @@ async function main() {
   appState.allPatterns = data.allPatterns;
   appState.quotesMap = data.quotesMap;
   appState.patternsMap = new Map(data.allPatterns.map(p => [p.id, p]));
-  appState.themesMap = data.themesMap; // Adicionado: guardar os dados carregados
+  appState.themesMap = data.themesMap;
 
   setupSearchListener();
   createModalElements();
@@ -28,7 +28,6 @@ async function main() {
 
 async function fetchData() {
   try {
-    // Adicionado: fetch do novo ficheiro 'themes.json'
     const [structureRes, patternsRes, quotesRes, themesRes] = await Promise.all([
       fetch('data/structure.json'),
       fetch('data/patterns.json'),
@@ -39,7 +38,7 @@ async function fetchData() {
       playbookStructure: await structureRes.json(),
       allPatterns: await patternsRes.json(),
       quotesMap: await quotesRes.json(),
-      themesMap: await themesRes.json(), // Adicionado: processar os dados
+      themesMap: await themesRes.json(),
     };
   } catch (error) {
     console.error("Failed to fetch data:", error);
@@ -72,7 +71,8 @@ function filterPlaybook(searchTerm) {
         const pattern = appState.patternsMap.get(apId);
         if (!pattern) return false;
         
-        const content = `${pattern.id} ${pattern.name} ${pattern.description}`.toLowerCase();
+        // Corrigido para incluir a descrição na busca, como no seu código original
+        const content = `${pattern.id} ${pattern.name} ${pattern.description || ''}`.toLowerCase();
         if (content.includes(term)) return true;
 
         const quotes = appState.quotesMap[apId] || {};
@@ -110,7 +110,6 @@ function renderPlaybook(structure, searchTerm) {
     for (const [themeFullName, apIds] of Object.entries(themes)) {
       const themeContainer = document.createElement('div');
       
-      // --- CORREÇÃO APLICADA AQUI ---
       const [themeCode, themeName] = themeFullName.split('. ');
       const themeDescription = appState.themesMap[themeCode] || '';
 
@@ -123,7 +122,8 @@ function renderPlaybook(structure, searchTerm) {
       grid.className = 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6';
 
       apIds.forEach(apId => {
-        const card = createCardElement(apId, searchTerm);
+        // CORREÇÃO 1: Passar o 'themeCode' para a função que cria o card
+        const card = createCardElement(apId, themeCode, searchTerm);
         grid.appendChild(card);
       });
       
@@ -135,7 +135,8 @@ function renderPlaybook(structure, searchTerm) {
   }
 }
 
-function createCardElement(apId, searchTerm) {
+// CORREÇÃO 2: A função agora aceita 'themeCode'
+function createCardElement(apId, themeCode, searchTerm) {
   const pattern = appState.patternsMap.get(apId);
   const card = document.createElement('div');
   card.className = "bg-zinc-900 border border-zinc-800 rounded-lg p-5 cursor-pointer hover:bg-zinc-800 hover:border-red-500/50 transition-all duration-200 h-full flex flex-col";
@@ -149,12 +150,13 @@ function createCardElement(apId, searchTerm) {
     <p class="text-slate-400 mt-3 text-sm flex-grow">${descriptionHtml}</p>
   `;
   
-  card.addEventListener('click', () => openModal(apId, searchTerm));
+  // CORREÇÃO 3: Passar 'themeCode' para o modal ao clicar
+  card.addEventListener('click', () => openModal(apId, themeCode, searchTerm));
   return card;
 }
 
 function highlightText(text, highlight) {
-    if (!highlight.trim()) return text;
+    if (!highlight || !highlight.trim()) return text;
     const regex = new RegExp(`(${highlight})`, 'gi');
     return text.replace(regex, `<mark class="bg-red-500/30 text-slate-100 px-1 rounded-sm">$1</mark>`);
 }
@@ -189,7 +191,8 @@ function createModalElements() {
     document.getElementById('modal-close').addEventListener('click', closeModal);
 }
 
-function openModal(apId, searchTerm) {
+// CORREÇÃO 4: A função do modal agora aceita e usa o 'themeCode'
+function openModal(apId, themeCode, searchTerm) {
     const pattern = appState.patternsMap.get(apId);
     
     const header = document.getElementById('modal-header');
@@ -200,12 +203,15 @@ function openModal(apId, searchTerm) {
         <p class="text-slate-400 pt-2 text-base">${pattern.description}</p>
     `;
 
-    const quotes = appState.quotesMap[apId] || {};
+    // CORREÇÃO 5: A lógica agora filtra as citações pelo 'themeCode'
+    const allQuotesForAP = appState.quotesMap[apId] || {};
+    const quotesForTheme = allQuotesForAP[themeCode] || []; // Pega apenas as citações do tema específico
+
     let quotesHTML = `<h3 class="font-bold text-lg text-slate-100 mb-4 border-b border-zinc-700 pb-2">Supporting Quotes</h3>`;
 
-    if (Object.keys(quotes).length > 0) {
+    if (quotesForTheme.length > 0) {
         quotesHTML += '<div class="space-y-6">';
-        Object.values(quotes).flat().forEach(quote => {
+        quotesForTheme.forEach(quote => {
             const parts = quote.split(' - ');
             const text = parts.slice(0, -1).join(' - ');
             const author = parts[parts.length - 1];
@@ -218,7 +224,7 @@ function openModal(apId, searchTerm) {
         });
         quotesHTML += '</div>';
     } else {
-        quotesHTML += '<p class="text-slate-400">No supporting quotes found.</p>';
+        quotesHTML += '<p class="text-slate-400">No supporting quotes found for this specific context.</p>';
     }
     body.innerHTML = quotesHTML;
 
