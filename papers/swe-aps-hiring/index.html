@@ -3,12 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anti-patterns in Online Recruitment</title>
-
-    <!-- Adicionado: Link para o Tailwind CSS via CDN para aplicar os estilos -->
+    <title>From Hope to Frustration: Anti-patterns in Online Recruitment</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Link para o seu CSS personalizado (fontes, animações do modal) -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="flex flex-col min-h-screen bg-black text-slate-200 antialiased">
@@ -16,19 +12,18 @@
     <main class="flex-grow p-4 sm:p-8">
         <div class="max-w-7xl mx-auto">
 
-            <!-- ========= HEADER (Conteúdo de page.tsx) ========= -->
             <header class="text-center mb-12">
                 <p class="text-base text-slate-400">Support material for the article</p>
                 <h1 class="text-4xl font-bold text-slate-50 mt-4 leading-tight">
-                    Anti-patterns in Online Recruitment and Selection Experienced by Early-Career Software Engineers
+                    From Hope to Frustration: Anti-patterns in Online Recruitment and Selection Experienced by Early-Career Software Engineers
                 </h1>
                 <hr class="my-8 border-zinc-800" />
                 
-                <!-- Autores com Ícones Corrigidos -->
-                <div class="space-y-6 text-lg">
+                <!-- Layout de Autores em Grelha -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-base">
                     <!-- Autor 1 -->
                     <div>
-                        <p><span class="font-semibold text-slate-200">Gabriel Vasconcelos</span>, <span class="text-slate-400">Federal University of Cariri (UFCA)</span></p>
+                        <p><span class="font-semibold text-slate-200">Gabriel Vasconcelos</span><br><span class="text-slate-400 text-sm">Federal University of Cariri (UFCA)</span></p>
                         <div class="flex items-center justify-center gap-4 mt-2">
                             <a href="mailto:gabriel.vasconcelos@aluno.ufca.edu.br" title="Send an email" class="text-slate-400 hover:text-red-500 transition-colors">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
@@ -40,7 +35,7 @@
                     </div>
                     <!-- Autor 2 -->
                     <div>
-                        <p><span class="font-semibold text-slate-200">Allysson Allex Araújo</span>, <span class="text-slate-400">Federal University of Cariri (UFCA)</span></p>
+                        <p><span class="font-semibold text-slate-200">Allysson Allex Araújo</span><br><span class="text-slate-400 text-sm">Federal University of Cariri (UFCA)</span></p>
                         <div class="flex items-center justify-center gap-4 mt-2">
                             <a href="mailto:allysson.araujo@ufca.edu.br" title="Send an email" class="text-slate-400 hover:text-red-500 transition-colors">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
@@ -55,9 +50,9 @@
                     </div>
                     <!-- Autor 3 -->
                     <div>
-                        <p><span class="font-semibold text-slate-200">Marvin Wyrich</span>, <span class="text-slate-400">Saarland University</span></p>
+                        <p><span class="font-semibold text-slate-200">Marvin Wyrich</span><br><span class="text-slate-400 text-sm">Saarland University</span></p>
                         <div class="flex items-center justify-center gap-4 mt-2">
-                            <a href="mailto:wyrich@cs.uni-saarland.de" title="Send an email" class="text-slate-400 hover:text-red-500 transition-colors">
+                             <a href="mailto:wyrich@cs.uni-saarland.de" title="Send an email" class="text-slate-400 hover:text-red-500 transition-colors">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
                             </a>
                             <a href="https://www.linkedin.com/in/marvin-wyrich/" target="_blank" rel="noopener noreferrer" title="View LinkedIn profile" class="text-slate-400 hover:text-red-500 transition-colors">
@@ -70,8 +65,8 @@
                     </div>
                     <!-- Autor 4 -->
                     <div>
-                        <p><span class="font-semibold text-slate-200">Marcos Kalinowski</span>, <span class="text-slate-400">Pontifical Catholic University of Rio de Janeiro (PUC-Rio)</span></p>
-                        <div class="flex items-center justify-center gap-4 mt-2">
+                        <p><span class="font-semibold text-slate-200">Marcos Kalinowski</span><br><span class="text-slate-400 text-sm">Pontifical Catholic University of Rio de Janeiro (PUC-Rio)</span></p>
+                         <div class="flex items-center justify-center gap-4 mt-2">
                             <a href="mailto:kalinowski@inf.puc-rio.br" title="Send an email" class="text-slate-400 hover:text-red-500 transition-colors">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
                             </a>
@@ -86,7 +81,7 @@
                 </div>
             </header>
 
-            <!-- ========= ABSTRACT (Conteúdo de page.tsx) ========= -->
+            <!-- Abstract Completo -->
             <section class="bg-zinc-900 border border-zinc-800 rounded-xl p-6 sm:p-8 my-16">
                 <h2 class="text-2xl font-bold text-slate-100 mb-4">Abstract</h2>
                 <div class="text-slate-300 space-y-4 text-base sm:text-lg leading-relaxed">
@@ -98,57 +93,36 @@
                 </div>
             </section>
             
-            <!-- ========= LISTA DOS 25 APs (Preenchida pelo JS) ========= -->
             <section class="my-16">
                 <h2 class="text-3xl font-bold text-slate-100 mb-8 text-center">The 25 Identified Anti-patterns</h2>
-                <div id="ap-list-summary" class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6 bg-zinc-900 border border-zinc-800 rounded-xl p-6 sm:p-8">
-                    <!-- JavaScript irá preencher esta lista de resumo -->
-                </div>
+                <div id="ap-list-summary" class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6 bg-zinc-900 border border-zinc-800 rounded-xl p-6 sm:p-8"></div>
             </section>
 
-            <!-- ========= FILTRO DE PESQUISA (Com ícone) ========= -->
             <div id="search-container" class="relative w-full max-w-2xl mx-auto mb-16">
                 <div class="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-slate-500">
-                        <circle cx="11" cy="11" r="8"></circle>
-                        <path d="m21 21-4.3-4.3"></path>
-                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-slate-500"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
                 </div>
                 <input type="text" id="search-input" placeholder="Search by keyword in APs or quotes..." class="w-full pl-12 pr-4 py-3 bg-zinc-900 border border-zinc-700 rounded-lg text-slate-200 placeholder-slate-500 focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition-all duration-200">
             </div>
 
-            <!-- ========= CONTENTOR PRINCIPAL PARA OS CARTÕES (Preenchido pelo JS) ========= -->
-            <div id="playbook-container" class="space-y-16">
-                <!-- O JavaScript irá gerar e inserir todas as fases, temas e cartões aqui -->
-            </div>
-
+            <div id="playbook-container" class="space-y-16"></div>
         </div>
     </main>
     
-    <!-- ========= FOOTER (Conteúdo de Footer.tsx) ========= -->
     <footer class="bg-zinc-900 border-t border-zinc-800 mt-24 py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-8">
             <div class="flex flex-col md:flex-row items-center justify-between gap-8">
-                <div class="text-center md:text-left">
-                    <p class="text-sm text-slate-400">© 2025 All Rights Reserved.</p>
-                    <p class="text-xs text-slate-500 mt-1">This artifact is part of a collaborative research effort.</p>
-                </div>
+                <div class="text-center md:text-left"><p class="text-sm text-slate-400">© 2024 All Rights Reserved.</p><p class="text-xs text-slate-500 mt-1">This artifact is part of a collaborative research effort.</p></div>
+                
                 <div class="flex items-center justify-center gap-4">
-                    <a href="https://ufca.edu.br/" title="Universidade Federal do Cariri" target="_blank" rel="noopener noreferrer" class="bg-zinc-800/50 p-3 rounded-lg border border-transparent hover:border-zinc-700 hover:bg-zinc-800 transition-all duration-300 grayscale hover:grayscale-0 opacity-70 hover:opacity-100">
-                        <img src="img/ufca-logo.svg" alt="UFCA Logo" class="h-8 w-auto">
-                    </a>
-                    <a href="https://www.puc-rio.br/index.html" title="Pontifical Catholic University of Rio de Janeiro" target="_blank" rel="noopener noreferrer" class="bg-zinc-800/50 p-3 rounded-lg border border-transparent hover:border-zinc-700 hover:bg-zinc-800 transition-all duration-300 grayscale hover:grayscale-0 opacity-70 hover:opacity-100">
-                        <img src="img/puc-rio-logo.svg" alt="PUC-Rio Logo" class="h-8 w-auto invert brightness-0">
-                    </a>
-                    <a href="https://www.uni-saarland.de/en/home.html" title="Saarland University" target="_blank" rel="noopener noreferrer" class="bg-zinc-800/50 p-3 rounded-lg border border-transparent hover:border-zinc-700 hover:bg-zinc-800 transition-all duration-300 grayscale hover:grayscale-0 opacity-70 hover:opacity-100">
-                        <img src="img/saarland-logo.svg" alt="Saarland University Logo" class="h-8 w-auto">
-                    </a>
+                    <a href="https://ufca.edu.br/" title="Universidade Federal do Cariri" target="_blank" rel="noopener noreferrer" class="bg-zinc-800/50 p-3 rounded-lg border border-transparent hover:border-zinc-700 hover:bg-zinc-800 transition-all duration-300 grayscale hover:grayscale-0 opacity-70 hover:opacity-100"><img src="img/ufca-logo.svg" alt="UFCA Logo" class="h-8 w-auto"></a>
+                    <a href="https://www.puc-rio.br/index.html" title="Pontifical Catholic University of Rio de Janeiro" target="_blank" rel="noopener noreferrer" class="bg-zinc-800/50 p-3 rounded-lg border border-transparent hover:border-zinc-700 hover:bg-zinc-800 transition-all duration-300 grayscale hover:grayscale-0 opacity-70 hover:opacity-100"><img src="img/puc-rio-logo.svg" alt="PUC-Rio Logo" class="h-8 w-auto invert brightness-0"></a>
+                    <a href="https://www.uni-saarland.de/en/home.html" title="Saarland University" target="_blank" rel="noopener noreferrer" class="bg-zinc-800/50 p-3 rounded-lg border border-transparent hover:border-zinc-700 hover:bg-zinc-800 transition-all duration-300 grayscale hover:grayscale-0 opacity-70 hover:opacity-100"><img src="img/saarland-logo.svg" alt="Saarland University Logo" class="h-8 w-auto"></a>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- Link para o seu script JavaScript -->
     <script src="js/main.js" type="module"></script>
 </body>
 </html>
