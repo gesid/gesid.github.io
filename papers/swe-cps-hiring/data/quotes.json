@@ -1,0 +1,509 @@
+{
+  "CP01": {
+    "T1": [
+      "I think what's in that information has to be very objective things about the job. [...] And even more important is being able to see reviews from people who have already participated. - P00",
+      "There. I assess that it's important for them to be extremely descriptive, as I had mentioned before. If you are looking for a professional who works with X technologies, [...] you need to have all these things described. - P00",
+      "Information I like to see in a job ad would be more cohesive information about a project. [...] back-end language, a specific framework, a front-end language, the specific framework, a database language - P01",
+      "it would be a vacancy, I like these job ads, that are more cohesive, more incisive, for people who might have a greater specialty than before. It would be a more real ad - P01",
+      "And the salary issue itself, having the description of the salary and the company in question, already makes... already makes more sense [...] - P01",
+      "to improve ads, to improve employee expectations, it would be a more cohesive point, to put more objectivity in the ads, specific technologies, salary, company. - P01",
+      "[...] other [vacancies] do the opposite. They are very specific and describe in detail what is needed. - P02",
+      "I think the main thing about a job is what you will do, the modality, the salary, and the benefits, if any. I think that's the main thing for a person to be at least interested in a vacancy. - P02",
+      "Man, like, it really depends on the company, it really depends on the recruiter. Today, I'd say most of the time they are clear. [...] if I were to put it in a percentage, I don't know, out of every ten, about six are clear. - P03",
+      "The information I consider most important [is]: seniority, language, and some project specification. Subsequently, benefits tied to the vacancy, be it home office aid, be it meal vouchers, these things, anyway, some benefits of this type, you understand? - P03",
+      "They are clear and objective. They detail all the technologies they require, the level of education. [...] we go there and see if the vacancy suits us or not. - P04",
+      "Hiring model. If it's CLT, if it's PJ, I think that's the main thing. Salary, I don't think it's that important. - P05",
+      "I think companies need to be more direct. Sometimes you see a job ad and there are a thousand and one pieces of information. I think when the text is more concise, it's easier for you to understand. It's better for companies to make the whole process more objective. - P05",
+      "In most of the vacancies I observe, especially on LinkedIn, the information is well detailed. They usually list the requirements, technologies, frameworks, if it's for the programming area... - P06",
+      "It's no use generalizing, as I said, putting various things in a very broad way. I think it has to be more minimalist. And, whether you like it or not, actually bring, as much as possible, the day-to-day routine [of the employer]. - P07",
+      "I believe that functionality, requirements, benefits are always clearer in the interview requests, but this part about salaries and other points are usually more related to personal meetings... - P08",
+      "Man, the salary, as I already commented, right? [...] it's a very crucial point, because then you can already have a basis. In the end, we plan based on many things, right? - P09",
+      "I think depending on where you find that job vacancy, it's a specific audience. [...] I see that they are a bit more professional, like, in the sense of being well-written, well-detailed, with more information - P10",
+      "I think it would be important, besides saying what the day-to-day will be like in that vacancy, in that condition, it would be very good if they included, without losing ethical issues, information about the context in which the person will work. For example, you will work with a client in the oil and gas industry. - P12",
+      "Responsibilities, I think that's one of the main ones, right? What you will do when you get there. Location, what is the work regime, right? If it's in-person, hybrid, online. [...] especially what the location is if it's in-person, you know, to consider - P13",
+      "And today, for me, salary range. Or at least, bonus. Because when you have a bonus, you know the location, the idea of the location, at least you have a general idea. - P13",
+      "It also depends on the vacancy, right? [...] public service exams [...] always have a public notice and this notice is always well explained. - P13",
+      "salary part, sometimes they don't want to show it at first, but at least put an average, right, the average salary for this one, according to so-and-so, put a reference to show it's impersonal - P13",
+      "I can… I even find the information that comes quite clear, at least for the vacancies I got to see, but they are very… how can I say… There's a lot of information there. - P14",
+      "important information is: how the work will be done, if it's hybrid, remote, in-person. If it's in-person, it's very good to have the location - P15",
+      "what would be the employee's responsibilities regarding the vacancy, what are the necessary technologies, to provide a small description of what products the vacancy and the company work with. - P15",
+      "Some companies detail it very well, it's very clear there. [...] some have a very vast description. Now there are others that are very poor [...] you can't get any insight into what the vacancy is, what they are asking for - P18",
+      "the main point I look at nowadays is the responsibilities, what they want me to do and what they expect from me. - P18",
+      "if it were like this, one thing that cannot be missing in the ad is the budget for the vacancy. - P18",
+      "I think it goes through them knowing what problem they want to solve. If they don't know, the vacancies will be generic. - P19",
+      "Defining the problem better is the main thing. If the problem is cloud computing, you need a cloud engineer or architect. From there, define languages, libraries. - P19",
+      "I think the most important thing is the activities to be performed. This makes it clear what the person will do, whether they will take care of a project, solve day-to-day problems, tickets, legacy functionalities, etc. - P20",
+      "Benefits should also be exposed. It is necessary to know what one is receiving. Something rare to see is the salary. Most of the time, it's 'to be agreed' or only at the end of the process. - P20",
+      "I can't think of any more besides the ones I've already mentioned: salary, work mode, and requirements. Maybe issues like whether it's temporary, PJ [independent contractor] or CLT [formal employment], but that's usually well structured. - P20",
+      "some companies detail well what they want, but others seem like they sometimes don't know what they want. - P21",
+      "Some companies are more detailed [...] but they are few. usually they are larger companies - P21"
+    ],
+    "T2": [
+      "There are companies that make videos of what the office is like, of the employee's actual routine, [...] Showing how they feel. - P07"
+    ],
+    "T6": [
+      "The salary part, benefits are also very important today, although there's PJ [independent contractor] employment, there's this, there's that, but the benefits part is also considerable, it's very attractive, the company culture as well. - P07",
+      "Requirements, job functions, what you will have to develop in that role, well-established, and information about benefits and budget. - P10",
+      "Workload, technologies to be used, company culture is also interesting. Another point is the issue of growth in the company, whether there's a career plan or not. - P11",
+      "Workload issue, issue of... I think, sometimes, for example, also, the scholarship amount is interesting, but I know that, due to the company, sometimes, it may not happen. Benefits. And I think that's it. - P15",
+      "And the benefits package. [...] it's the main thing a vacancy has to have. - P18"
+    ],
+    "T7": [
+      "I also believe that regarding your responsibilities they should be well discussed in relation to the company, both the issue of workload, issue of how overtime works in the company, how your responsibilities would be regarding your position. - P15"
+    ],
+    "T8": [
+      "It's important to know the company's mission and values, what it seeks, what it supports, what it expects from the professional, what it wants to deliver to the client. - P06",
+      "I think it's cool to have a hint in the vacancy to get an idea of the organizational climate, if it's something more formal, if it's something more relaxed, some companies have it in the dress code, and so on, an example, right? - P10",
+      "platforms that were company-specific [...] had a bit more description [...] directed to pages that told more about the culture, usually employee records - P12",
+      "[Trainees], like, from large, already established companies in the market, you find a lot, yes. In fact, that's what they do most. So, they put it right on the website, post videos, put a representative from each area to explain what the area is. - P13",
+      "Some, really are some very specific ones, I see this more when they are multinationals, they first put a little more about the company and then more about what they really want from the person. - P14",
+      "Some vacancies express this sense well and others you need to research a bit more about the company, go to the website, read a little about the company itself to try to understand, try to see if there's that fit. - P16"
+    ],
+    "T4": [
+      "I find this transparency very important, as the candidate is looking for a job opportunity. Transparency helps a lot, even if the answer is negative. - P06"
+    ]
+  },
+  "CP02": {
+    "T1": [
+      "I think what's in that information has to be very objective things about the job. [...] And even more important is being able to see reviews from people who have already participated. - P00"
+    ],
+    "T2": [
+      "I see that the vacancies that are more... That have more stars, you can rate them. [...] Those are the vacancies you get more excited to participate in, really. [...] I think it's a good thing to pay attention to, the reviews. - P00",
+      "There are companies that make videos of what the office is like, of the employee's actual routine, [...] Showing how they feel. - P07",
+      "And this part about feedback from former employees or people who know someone who works there is something that we end up being influenced by a lot. - P08",
+      "Man, I evaluate it as a very important point. Especially, for example, platforms that allow employees to go there and type whatever they want, for example, you understand? - P09",
+      "[...] Glassdoor, which I've used to check some companies, where people go there and really type, you understand? They really speak from the heart there [...] - P09",
+      "[...] if there are reviews, it means you can know what it's like there and that the company is also open to employees making this assessment. - P09",
+      "[...] I think this briefing from the people who work there is very important and not just the institutional part that the company passes on, because there you will have something that you won't have on the company's website, which are real accounts. - P10",
+      "I believe the two strongest and best for the candidate to understand the company are Glassdoor and LinkedIn. Glassdoor has the mechanic of anonymous reviews from other employees, including salary... - P20",
+      "That's why I consider the information that platforms like Glassdoor and LinkedIn can deliver as crucial, because it's the person's life that's at stake. - P20"
+    ],
+    "T8": [
+      "[Trainees], like, from large, already established companies in the market, you find a lot, yes. In fact, that's what they do most. So, they put it right on the website, post videos, put a representative from each area to explain what the area is. - P13"
+    ]
+  },
+  "CP09": {
+    "T1": [
+      "Look, I think that in the part of defining the requirements, it would be cool to talk to the responsible team of the area where the person is being hired, right? - P02",
+      "Hire qualified recruitment and selection people to understand the positions, because I think many times an HR person who is working, sometimes is a generalist, or sometimes... - P10",
+      "I think it would be interesting either to train employees, or to have a chat with someone from the area who will work directly with this person who will be hired, to try to get as close as possible to that profile. - P10",
+      "I think it's essential to have someone from the department, or someone who fulfills that role within the company, helping to put together these aspects of the... ad, so we can be more certain. - P16",
+      "Usually they are vacancies, you can reduce it macro-wise, vacancies from technology companies, where the person writing the vacancy is someone from the field and knows what they are looking for. Then it's usually a better-described vacancy. - P17"
+    ]
+  },
+  "CP10": {
+    "T2": [
+      "And the most sincere ones, the ones I prefer today, is the classic: resume by email, you know? It's what I feel still has more feedback, at least the perception I've had so far. - P17"
+    ],
+    "T7": [
+      "[...] so basically I concentrate everything on LinkedIn, mainly on vacancies that are simplified vacancies. Those are the ones I value most. - P03",
+      "I prefer vacancies published on LinkedIn itself, which direct to the company's website. This way, it's easier to receive feedback from the recruiter. I've managed to get several interviews this way. - P06",
+      "the application flow is very heavy. [...] I have LinkedIn, there I have a resume that LinkedIn itself creates, but then the resume I created [...] I can use it on LinkedIn [...] and have the simplified application, which I like a lot. - P14"
+    ]
+  },
+  "CP03": {
+    "T3": [
+      "When the feedback is perceptibly automatic, it's just a message that only changes the person's name, I think it's horrible. But when it's feedback, for example, where they review [...] your technical challenge, it tells you what you did wrong, what you erred on. Then it's something completely different. - P00",
+      "actually, twice it happened to me that the interviewer sent a message with feedback. In that case, it was for two vacancies that were even frozen. - P01",
+      "And I think the improvement would be this, to make feedback a necessity, not to make it optional [...] but to provide feedback in a more humanized way if the candidate reached a certain stage [...] - P01",
+      "[...] so I think more important than the feedback that you passed is feedback on why you were rejected. Because then you can learn from it and maybe improve in some way for the next selection process that comes along. - P02",
+      "It never happened to me, I have an ease of expressing myself well, conversing, anyway, I never had this problem. But, for example, with the recruiter, it would be interesting for the company to say: 'Look, you failed...', well, not with these words, but like: 'You fell short in your expression'. - P03",
+      "And the other one, I received feedback completely... They called me for a meeting and it was in this feedback that they gave me the opportunity to apply to participate in another interview, for the same company, but for another vacancy [...] - P04",
+      "[...] that my profile matched better. So, they said several positive things and also gave me... even gave me study material and everything. [...] I got the job. - P04",
+      "Yes, definitely, because the feedbacks I've received, everything I said, that I received from the guy who was senior... [...] he gave me several contents that he himself produced, he gave contents from some authors. - P04",
+      "I've also had one that gave me the CTFL material, like, these are things that add value, and they also talk a bit about the professional profile they want, [...] it's a way for you to improve for other interviews too. - P04",
+      "[...] so these are things you absorb and try to improve as a professional, like, they want, they, the market also wants a more theoretical professional, instead of something more technical, so you absorb that and improve [...] - P04",
+      "Definitely! It's essential that the company provide this feedback, especially if it's more technical feedback, or even not, it doesn't even need to be that technical, because, for example, if I'm applying for a testing position, and they say: ah, I really liked this aspect, but, for example, ah, there's this automation framework - P05",
+      "So, then this helps me [feedback], because I can know where I'm going wrong. - P05",
+      "And throughout the entire bootcamp process, feedback was given, because the bootcamp teachers and tutors were third parties in relation to the company. So, we passed constant feedback from the entire team. - P07",
+      "I think the feedback… after the meetings still needs to improve, related to the user interface, but in the meetings we manage to delve deeper and understand that that point was for us, whether we have it or not. - P08",
+      "Of course, certainly. All feedback, whether negative or positive, is important for us. [...] it's a way for you to verify how a second person, besides yourself, sees what you are doing. - P09",
+      "Man, the way I see it would be a way that should be the standard. So, describe what the participant's performance was during the process, during the stages, like, more generally [...] - P09",
+      "[...] and describe specifically, for example, for those who didn't make it to the end of the process, at what point they ended up not being able to meet the needs of that vacancy. - P09",
+      "[...] the feedback, is a personalized feedback, because sending feedback just saying, look, you didn't pass this time, stay tuned, you're in the talent pool, like, it's kind of irrelevant, right, like, you don't have much to do. - P10",
+      "I think feedback can help me mainly if it's sincere. [...] I think hearing that I need to improve my speech, know how to sell myself better, would help me. - P11",
+      "Besides giving feedback, I really like to receive it. In all my processes where I talked to someone, to a human, I always asked for feedback. - P12",
+      "It would be much better if the company said [...] your feedback is as follows: “Ah, I don't know, your experience time wasn't enough.” And then, that's feedback I consider minimal feedback. - P12",
+      "Junior Enterprise is where you see feedback the most. [...] it's cool to receive personalized feedback, right? About what you... what you can improve, the reason you were stopped at that phase, for example. - P13",
+      "The main thing is to see where you are failing, where you have something to improve. Is it communication? Ah, so let's try to look for, read something about how to improve communication - P13",
+      "When you receive something more personalized, it's cool to at least say which part it was. [...] you could look more into effective communication, public speaking, diction, something like that. - P13",
+      "Then when I got to receive the feedback, mainly from the one I chased after, I really understood everything. There I was evaluating all the points she told me. - P14",
+      "But the girl who passed, she had more connections with the Porto Digital companies [...] And also, at least, a feedback for me that I really saw I failed [...] was in my activity description. - P14",
+      "minimally, I hope to receive a response that can add something. - P15",
+      "I believe that if the company were really transparent, showing… because there's also the whole issue of sensitivity with the person, with their feelings and all that, but I believe that this part of criticism is very important in your career. - P15",
+      "I think that, regarding the image I will have of the company, if it's transparent, if it really talks about points it finds positive, points it finds negative… - P15",
+      "And this greatly improves the image of my company… of the company, in this case. So, if I am eliminated because of this and it gives me feedback, I would definitely apply to it again… I would go after this company, because it saw value there in the candidate and, thus, I see value in the company too. - P15",
+      "Even if, for example, I were rejected and I had this feedback, this more transparent thing, I would say: Wow, this company here is... – sorry, the word is awesome, because it's keeping me in the loop of what's happening - P16",
+      "You weren't recruited because we found someone whose resume matches better – something like that. Then it's fine. But just the rejection isn't fine. I don't like that. - P16",
+      "when something isn't good for me, I try... And the person says: Hey, Thayna, pay attention to this point here, it can be improved, or it's bad... I go... I go over everything I know, I start to question what I know, and if I really know that. - P16",
+      "So, that's why I say feedback is important, because, if you don't know what you're bad at, you don't know what you can improve. It's obvious you can always improve, but, sometimes, there's something you don't think you're bad at - P16",
+      "Man, I really like it, I really like receiving feedback [...] And then, with that, you can evolve, you know? Seeing your points of... where you are failing and where you can improve. - P18",
+      "Not being generic, you know? Trying to really pass on to the interviewee why they were not selected [...] Doing something personalized. - P18",
+      "If the feedback comes from the technical interview, it has validity. If it comes from the beginning of the selection process, maybe it's not so relevant. - P19",
+      "Definitely. It helps me be a more complete professional. When it goes to another side, that doesn't make me more complete, the feedback needs to be rethought. - P19",
+      "Technical feedback, from the technical interview, like the issue of zeros in the column, was sincere. I can use it in another interview, try to give an answer. - P19",
+      "For example, 'lacked demonstration of knowledge in Java'. Six months later, I could return to the vacancy with this consolidated knowledge. This transparency is lacking. - P20",
+      "I ended up getting used to understanding that 'return to the selection process' by email means negative feedback. But the few positive feedbacks I received were good for knowing what to study, where I went wrong, and what to do for the next vacancy. - P20",
+      "Feedback is necessary, especially for those at the beginning of their career, like junior developers. I have colleagues who graduate without an internship, so this feedback is even more important. - P20",
+      "Yes, especially for those who are starting. It helps the person to grow, gain experience, maturity, know how to communicate, what to improve, what to study, and what the market asks for. - P20",
+      "Today there is doubt: what technology does the market want? Python? JavaScript? Apple development? Gemini API? Machine Learning? Data Science? Feedback helps the candidate to have a direction. - P20",
+      "Make explicit why the non-hiring. If they didn't pass the screening, why? 'Because you have experience in Java and we want someone with Python'. It's blunt, but it's the reason. - P20",
+      "'You need to improve your communication and we are looking for someone more communicative'. It's blunt, but it's the reason. A bonus would be to make explicit what the candidate got right. 'You demonstrated good knowledge of programming logic. We liked that'. - P20",
+      "I liked it, because I could improve [...] it has a lot to do with how updated you are in the market. What technologies we are using. - P21"
+    ],
+    "T5": [
+      "And also on the technical part, when we receive feedback on the technical part. Saying that, like: 'Ah, your experience is little, in this point and that point, we expected you to know this and that,' you understand? Just be a little more technical, so the person already... 'Ah, gets it'. - P03"
+    ],
+    "T7": [
+      "Not to mention that at the end of each stage, I always gave feedback. They would say, they made it clear they were evaluating other people. But they already gave me feedback. - P04",
+      "And that already gives us an idea if we did well or not, to receive the results of the next stages. Because nowadays, these processes, they usually have five, six stages. - P04",
+      "In all of them, I received feedback, both on the positive and negative points, which I found well-structured. The process was also fast: in one or two days [...] I already received the answer... - P06",
+      "If… if it's a clear process, if it's an objective process, if it gives feedback, whether positive or negative, I tend to accept - P12"
+    ],
+    "T8": [
+      "There are the P&P meetings, which are for you to get to know a certain person from your team better. [...] feedback from the entire team, your feedback, I think this is fundamental, like, it has to be in the routine of all companies. - P07"
+    ],
+    "T10": [
+      "some companies that really spoke, gave reasons… which were very few… This, I think, is highly valued for a future application you might have at the company, that you see the company really cares even about who it's disqualifying, wants to really see improvement and all that. - P15"
+    ],
+    "T4": [
+      "I mainly evaluate the points they consider we are not suitable for. Points for improvement, so I mainly focus on these points, whether they are technical or cultural points, so we like to focus... - P08",
+      "If it's feedback that someone gave based exactly on my process, on my planning, I first try to remove my emotion from the moment [...] to understand in which points I can improve. - P12",
+      "I believe I didn't pass because I didn't know how to answer a question about clean code, but that's a guess. Nobody told me: 'Pedro, you didn't pass due to lack of knowledge in clean code and design patterns'. That's missing. - P20"
+    ]
+  },
+  "CP06": {
+    "T3": [
+      "actually, twice it happened to me that the interviewer sent a message with feedback. In that case, it was for two vacancies that were even frozen. - P01",
+      "They've asked me in the part of... But then it was already the final part, already in the interview itself, the recruiter asking if I had any doubts [...] - P01",
+      "And I think the improvement would be this, to make feedback a necessity, not to make it optional [...] but to provide feedback in a more humanized way if the candidate reached a certain stage [...] - P01",
+      "[...] because they are automatic things and that bothers me, only, but the ones I participated in and everything was very smooth. - P04",
+      "I think feedback can help me mainly if it's sincere. [...] I think hearing that I need to improve my speech, know how to sell myself better, would help me. - P11"
+    ],
+    "T7": [
+      "...when it's something that is more truly interpersonal, when you have more contact with people than with a machine, I think it's important. [...] it's better than just talking directly to the computer, just clicking and moving forward on the form. - P00",
+      "On LinkedIn, like, although you have a lot of ghosts there, like, in the sense of, today we know there are many fake vacancies, right, the market is like that, but you still manage to get a better little response, here and there, a contact from a recruiter [...] - P03",
+      "[...] things like that. A situation like that, of moral harassment, things like that, has never happened to me. But all the processes I've participated in so far were at least within what the script dictates, everyone very polished, very polite, anyway. - P03",
+      "But the whole process, always on WhatsApp, I think it gives a certain... I don't know if it's something more informal, something more... It makes us more relaxed. Because it seems to be something simpler, but... - P04",
+      "So, I think when that comes, right in the admission process, the whole interview process, you immediately feel that the company is organized, that the company's culture is cool, especially if people are warmer, [...] - P04",
+      "With the team in general, recruiter, management, until the end of the interview… yes, the whole process… yes, I think that, in general, we can consider it very satisfactory - P08",
+      "But, in general, I prefer a more direct approach. [...] describe specifically why. [...] I see that this transparency… [...] is also a very important point, especially for the professional - P09",
+      "[...] the process was all in one day, and I felt a connection, and like... humanization from a company that at the same time is gigantic. [...] And so, sometimes a smaller company can't have that contact. - P10",
+      "[...] they have to convey professionalism, they have to convey interest, listen to the candidates, demonstrate that they are really looking for the ideal profile. There are companies that conduct interviews and it seems like it's a prompt there, that they are reading a prompt, you know? - P10",
+      "So, I think it's important to convey interest, like, to convey that they are really looking for a person with that profile and to be attentive to people, right? Not just read something that's there on the slide and, like, it seems the process is kind of mechanical - P10",
+      "There were companies I tried for, the process was cool, they accepted me [...] And there were companies where I went through the process, the process wasn't cool, or they didn't give me feedback [...] I was already working [...] I don't accept - P12",
+      "And for companies that really do something closer, more personal, I think it's really just a little more care. Maybe even narrow it down more. - P14",
+      "Yes, definitely. I believe that… of course, basic things like education, like… there you see that the company really has… how do you say… sees value in you, as an employee too, as a person. - P15",
+      "how this interview will be orchestrated, how I will be treated, I think this is also very important, because there is the first… vision you have of the company. - P15",
+      "there were companies where in the recruitment and selection process itself, I ended up becoming, creating a network with the recruiters [...] there are other profiles that... So fuck you - P18",
+      "there are companies that will treat you like a person, there are companies that will treat you like a CNPJ number, a CPF there, especially for the PJ folks - P18",
+      "It will be more laborious to understand, to put oneself in the asker's shoes. Transparency is clarity about what is being said. When they pass me clarity, it facilitates for everyone. - P19",
+      "Yes. The interviewer is the company's ambassador to the candidate. They represent what the company is. In many interviews, they explained to me what the company did, which I consider fair. - P20",
+      "If who represents me is disrespectful, I will think everyone is. If the person is kind and shows interest in helping, I will think everyone is like that. - P20"
+    ],
+    "T8": [
+      "When the team is more collaborative, it's interesting, even though we still work a lot in the home office model, it's a positive point when the team is more collaborative. - P03",
+      "I evaluate it positively. Then it gets similar to the question you asked, which I already answered. When the company's culture clicks well with ours, of respect, of patience, we feel more comfortable, because we know it won't be an environment of much pressure, an environment of disrespect, of moral harassment [...] - P03",
+      "The two I had were very satisfactory [...] they were very relaxed talking about how the environment was and everything. - P15"
+    ],
+    "T10": [
+      "Yes, right, as I told you, if it has a... If it, even in the selection process, treats the candidate with respect, I have a good view of the company, even if I'm not accepted, I even think about applying again for vacancies and I even recommend it. - P03",
+      "Man, of the tests I participated in, I never had a perception of inequality. I had a feeling of equality. - P09",
+      "Man, in my… own experiences, I always saw that the process was fair, like, as much as possible [...] my vision was always of justice in the processes I participated in. - P09",
+      "some companies that really spoke, gave reasons… which were very few… This, I think, is highly valued for a future application you might have at the company, that you see the company really cares even about who it's disqualifying, wants to really see improvement and all that. - P15"
+    ],
+    "T4": [
+      "Ah, I'm very happy. It's very good when you... There have been companies I participated in, this last one I'm in, where I received feedback on the same day. So, that's wonderful. They tell you right away, there's not much stalling. It's great. You perceive they are concerned and give an answer quickly. - P05",
+      "Man, in general, yes. When I applied... like, in general, it was satisfactory, yes. - P09",
+      "Well, it shows from the beginning that the company cares about your well-being, from the selection process, from what you felt when participating in that process, if you had any doubts that were not resolved [...] - P10",
+      "they were very present, it was all online, and they were really very present, they were very helpful. - P14",
+      "the HR team was very helpful even when I contacted them later to find out if there would be a process… still… Because I was a bit frustrated because I had reached the end, passed everything, but when it came to… let's see, it wasn't… - P14"
+    ]
+  },
+  "CP18": {
+    "T3": [
+      "They've asked me in the part of... But then it was already the final part, already in the interview itself, the recruiter asking if I had any doubts [...] - P01",
+      "Then you say: Geez, it's true, I wasn't even looking at that. So I believe it's mega important for people to have feedback, accept feedback, give feedback, because it's a mutual growth there, a two-way street. - P16"
+    ],
+    "T7": [
+      "if it's a process, like, that has a real interest in hiring, not just excluding a candidate, I think it's no longer interesting. - P01",
+      "How can they impact? Look, they can impact both positively and negatively, as I told you. If the selection process, even if we are not hired, if this selection process follows rites of a cool script, like, we have a conversation with the recruiter [...] - P03",
+      "It's a two-way process, right? You are presenting yourself and the company has to present itself, so that's fundamental. - P07"
+    ],
+    "T10": [
+      "I believe this might indeed be necessary in a process already of hiring, of negotiation between you and the company. I think there I wouldn't mind giving this information, because the company would also be giving me information about itself. - P15"
+    ],
+    "T4": [
+      "Well, it shows from the beginning that the company cares about your well-being, from the selection process, from what you felt when participating in that process, if you had any doubts that were not resolved [...] - P10",
+      "[...] the position of, look, I'm a person who needs a vacancy, but I'm also important and I also have a voice here to say if the process was cool, if it was a nice experience. And you can feel that... - P10"
+    ]
+  },
+  "CP16": {
+    "T3": [
+      "[...] so I think more important than the feedback that you passed is feedback on why you were rejected. Because then you can learn from it and maybe improve in some way for the next selection process that comes along. - P02",
+      "[...] that my profile matched better. So, they said several positive things and also gave me... even gave me study material and everything. [...] I got the job. - P04",
+      "Yes, definitely, because the feedbacks I've received, everything I said, that I received from the guy who was senior... [...] he gave me several contents that he himself produced, he gave contents from some authors. - P04",
+      "I've also had one that gave me the CTFL material, like, these are things that add value, and they also talk a bit about the professional profile they want, [...] it's a way for you to improve for other interviews too. - P04",
+      "The main thing is to see where you are failing, where you have something to improve. Is it communication? Ah, so let's try to look for, read something about how to improve communication - P13",
+      "Technical feedback, from the technical interview, like the issue of zeros in the column, was sincere. I can use it in another interview, try to give an answer. - P19"
+    ],
+    "T5": [
+      "If it's a very specific vacancy, for very specific technologies, I think... I think the practical part of it is cool in the sense of the person talking about their own experiences of what they did or what can be done - P01",
+      "[...] it wasn't something rigid, it was something very dynamic, it was even something that I left with more knowledge than I entered, because there, when who does your technical interview, generally, are people of higher seniority. - P04",
+      "[...] I was scared, but of thinking: 'Wow, what are they going to ask here?' But it was something so dynamic, and it was more of a conversation, they would ask me, I would answer, then with my answer they would take it and ask me other things and we [...] - P04",
+      "[...] would talk about it, you see? So, I think as it happens this way, then I believe there isn't this issue of priorities, of favoring someone. I think it's by what you say, by your own composure, the technical part. - P04",
+      "I think we delve deeper in technical interviews, we can work with a slightly more technical language regarding that structure and our functions that we will establish there - P08",
+      "I think that company is cool that... is more concerned with knowing about your experience during the interview, talking about things you've already managed to solve, what you've already added to the companies you've worked for. - P10",
+      "workshop, in-person work is also cool when it's personalized, the company knows, when you have personalized group work, the company's experience, something, a real case, right, - P13",
+      "And then, when they sent me... when I was participating in processes and they were sending me, I saw that I was improving. So, like, when I got the job, I was already much better than when I went to do the first practice. - P16",
+      "So it's important... because there you even perceive your level of knowledge, the level you're at, the level you can reach: Geez, I didn't pass because of this, because I let this slip, and so on. This one I could have done - P16",
+      "And then you exchange these ideas during the interview and you get new ideas, how you can implement things, even for your portfolio. - P21"
+    ],
+    "T7": [
+      "I think, man, the idea of the bootcamp is genius. [...] three months practicing what the company wants, they call the best from that specific bootcamp. - P07",
+      "they really showed what they taught. You were an intern, for example, especially the intern issue, which is the most complicated. [...] they weren't worried about you knowing. They were really there to be able to teach you. - P14",
+      "I don't consider that I chose the vacancy and didn't like it. It's part of learning. For that vacancy, in the future, I'll ask questions I learned and they will direct me to another decision. - P19"
+    ],
+    "T4": [
+      "This helps with professional growth. The interview is an experience that, even if not useful for that company, will be for another. The mistake of one interview can be overcome in the next. As they say: 'didn't pass this one, but you're closer to the next'. - P20"
+    ]
+  },
+  "CP12": {
+    "T3": [
+      "On a couple of occasions, in the current one I'm working at, I was asked, they send a form afterwards, for us to evaluate how the conversation with the recruiter was, if they made all points clear, if the conversation was calm, if there was no disrespect, anyway, those things. - P03",
+      "About the selection process, yes, yes, there are selection processes that are well organized at that level, asking for feedback, what you thought of the selection process, what you thought of the platform - P13"
+    ],
+    "T7": [
+      "Yes, after in the two companies I joined, they, after you join, then you have a check-in meeting, where you go there and say what you're thinking, what you thought of the process, what you thought of the company, the culture [...] - P04",
+      "[...] of the company, of the project. So, in the two I joined, there was that. And also when you finish the whole process of submitting your documentation and everything, you go there and answer forms to know how the process went. - P04"
+    ],
+    "T4": [
+      "[...] the position of, look, I'm a person who needs a vacancy, but I'm also important and I also have a voice here to say if the process was cool, if it was a nice experience. And you can feel that... - P10"
+    ]
+  },
+  "CP15": {
+    "T3": [
+      "And the other one, I received feedback completely... They called me for a meeting and it was in this feedback that they gave me the opportunity to apply to participate in another interview, for the same company, but for another vacancy [...] - P04",
+      "[...] that my profile matched better. So, they said several positive things and also gave me... even gave me study material and everything. [...] I got the job. - P04"
+    ]
+  },
+  "CP11": {
+    "T3": [
+      "I think that, regarding the image I will have of the company, if it's transparent, if it really talks about points it finds positive, points it finds negative… - P15"
+    ],
+    "T7": [
+      "Yes, for example, when communication with the recruiter is good, you already see there that the company at least treats the employee better. - P03",
+      "When communication is good, you already see that the company has a better environment, it has better processes, there. And when communication is not good, it probably doesn't have such good processes. - P03",
+      "Yes, because from the moment you see that the whole process is organized, that communication is clear, this makes you think that the company is also like that, that the culture, the way people treat you, approach you, you see? - P04",
+      "So, I think when that comes, right in the admission process, the whole interview process, you immediately feel that the company is organized, that the company's culture is cool, especially if people are warmer, [...] - P04",
+      "So, then you already see greater organization. You see that they provide a platform to help, infographics to explain what the selection process is like - P13",
+      "the way the company will communicate, will talk about how it works, how your collaboration for the company would also be, right? I think the clearer, the more transparent it is, I think it greatly improves how I will see the company itself - P15",
+      "if it really conveys confidence in what it's saying, whether through an interview, whether through emails, specifying what my responsibilities would be, I think I create a much more reliable and secure image to be able to join this company. - P15",
+      "I think this part of documenting processes, documenting decisions, tasks… This is practical, but it's important. Communication would be in that sense. - P19",
+      "Yes. The interviewer is the company's ambassador to the candidate. They represent what the company is. In many interviews, they explained to me what the company did, which I consider fair. - P20",
+      "If who represents me is disrespectful, I will think everyone is. If the person is kind and shows interest in helping, I will think everyone is like that. - P20",
+      "you get to know the personalities of the people there, right? So, when the company is more direct in this regard, at least I take Instituto Atlântico as an example. - P21"
+    ],
+    "T8": [
+      "Alright, in that sense, I think that, at least the companies I've been through in selection processes, they made this very clear, they said, I don't know, that we support these programs that do this for society, or here we value employees a lot, here we value various types of communities, etc. - P05",
+      "I think it's cool to have a hint in the vacancy to get an idea of the organizational climate, if it's something more formal, if it's something more relaxed, some companies have it in the dress code, and so on, an example, right? - P10",
+      "I will participate in other processes, if you know this. It's a company that, at least, its image, its culture passed to me that it's a good place to work. - P14",
+      "The two I had were very satisfactory [...] they were very relaxed talking about how the environment was and everything. - P15"
+    ]
+  },
+  "CP14": {
+    "T3": [
+      "Even if, for example, I were rejected and I had this feedback, this more transparent thing, I would say: Wow, this company here is... – sorry, the word is awesome, because it's keeping me in the loop of what's happening - P16"
+    ],
+    "T7": [
+      "Yes, like, in the part of engaging to do the selection process, yes. In the companies where I did the selection process, applied for the selection process, they sent me emails, if I provided my phone number, they sent me WhatsApp messages, but to do the process. - P02",
+      "Not to mention that at the end of each stage, I always gave feedback. They would say, they made it clear they were evaluating other people. But they already gave me feedback. - P04",
+      "So, then you already see greater organization. You see that they provide a platform to help, infographics to explain what the selection process is like - P13"
+    ],
+    "T9": [
+      "I, kind of, freeze the person. So, I think it's important to have this monitoring of the selection process, like, kind of... what's the word? I don't know anymore, sorry, my brain is already fried. But it's good to have this monitoring, like that. - P16"
+    ]
+  },
+  "CP19": {
+    "T3": [
+      "'Look, I'm from HR, we didn't choose you now, but we'll keep your resume in our database.' That's also cool, it's interesting. Because, in fact, I've already been called for an interview because of these resume databases - P16"
+    ]
+  },
+  "CP04": {
+    "T5": [
+      "If you have a candidate who went through training that your company offered [...] you're already there, you're already filtering candidates [...] then yes, you'll really need to do a technical interview, or solve a technical challenge. I think it's important, even for the company. - P00",
+      "I find it much more feasible, right, to put the person to... have this more macro view of things, not something very specific, that we study, sometimes, very specific things. - P01",
+      "Look, I think that, at least in the technical tests I participated in, I found them super relevant. There are some technical tests that people simply gave up on and started doing. - P02",
+      "In my case, I'm a test analyst, so all my technical interviews were situations and problems. [...] and I think they evaluated the types of tests I had to apply in that situation, or else the type of documentation [...] - P04",
+      "[...] how I would have to develop, if I took on a zero project, how my analysis would be from start to finish. [...] it was very smooth, it was consistent with what the vacancy asked for, and with my knowledge too, with the seniority issue [...] - P04",
+      "In the technical part? I think… I think in the technical part they actually evaluate your knowledge, because they give you a problem situation there, [...] it was even one of the… like… all that I've participated in, that I reached the technical phase, it was something even… [...] - P04",
+      "But there are many companies that I've heard, at least some colleagues commenting, that, like, sometimes they required a test that didn't even, didn't have much to do with what you were going to do. But, at least, the ones I did were tests that were more technical interviews, and it really was focused because I really would use it day-to-day. - P05",
+      "In general, the tests seek to assess whether the candidate has knowledge of the requirements described in the vacancy. In the tests I took, I noticed there was coherence between the vacancy requirements and the content assessed. - P06",
+      "I find these technical challenges interesting, because we can get an idea of what we will or will not face during, if we are hired, [and] will perform that function. - P08",
+      "Ah, perfect. Man, this practical test issue, specifically for the development area, which is my area [...] the technical part [...] is extremely crucial [...] - P09",
+      "I think that company is cool that... is more concerned with knowing about your experience during the interview, talking about things you've already managed to solve, what you've already added to the companies you've worked for. - P10",
+      "For me, there are many activities that are really relevant, even if they are long. Sometimes we don't receive feedback, but they are relevant. - P11",
+      "I evaluate it positively. [...] for me, having [technical assessments] in the process is very good. [...] it's cool, I evaluate these activities well. - P12",
+      "workshop, in-person work is also cool when it's personalized, the company knows, when you have personalized group work, the company's experience, something, a real case, right, - P13",
+      "I believe more in tests that are more specific to your vacancy… that you are applying for. You can… gosh, I can't even count the number of tests I've done related to Portuguese tests, logic tests, which sometimes can't really prove the candidate's quality, their technical quality. - P15",
+      "technical tests just of… of projects themselves, the technical test of you building an API, are more focused really on your… how your day-to-day work would be, which is something closer to the market itself, I think those are interesting, I think they're cool - P15",
+      "Look, it's good, it's good. At least for my area, the tests I had, which were necessary – which is logic, and sometimes some things to test a screen there, functional – were good, my experiences were good. - P16",
+      "technical challenge build a landing page there, or make, I don't know, a website that makes a request to the Pokémon API there. I honestly think the technical part is very cool. I think it's very, very, very cool. I think it's the ideal way to know the level of who is coming in - P17",
+      "Then, like, in terms of technical challenges, all the ones I've done today I always found them all very... very... honest... you know? In terms of difficulty level, in terms of... deadline... All the ones I did, I found them very straightforward. - P17",
+      "there was a company where I really felt they tried, in the technical test, they passed on this... this vision of what I would find in day-to-day. - P18",
+      "If the rules are well defined, deadlines, what is delivered, or the live technical interview, if the recruiter defined the limits well, you can feel it's relevant. - P19",
+      "This applies to college assignments. If there's no limit, we don't know the materiality of what will be delivered. [...] It gives me the notion that they know what they're asking for. - P19",
+      "In the beginning, I was against the activities. Some don't make sense for the job. I understand those that assess the employee's social aspect, but I can understand practical activities related to programming and logic, to see if the professional has the knowledge. - P20",
+      "The market went through a 'scare' with the pandemic, with the 'six-month seniors'. So, I think it's fair to have practical programming tests. But the activity needs to be something that will be applied day-to-day, and not just for the company to say it 'follows standards'. - P20"
+    ],
+    "T7": [
+      "I think, man, the idea of the bootcamp is genius. [...] three months practicing what the company wants, they call the best from that specific bootcamp. - P07"
+    ]
+  },
+  "CP22": {
+    "T5": [
+      "If it's a very specific vacancy, for very specific technologies, I think... I think the practical part of it is cool in the sense of the person talking about their own experiences of what they did or what can be done - P01",
+      "[...] the technical test will be a watershed for you, and I believe it will be about 40%, 45% of what the company expects from you. [...] I just don't consider it more important than the behavioral factor. - P09"
+    ],
+    "T7": [
+      "if it's a process, like, that has a real interest in hiring, not just excluding a candidate, I think it's no longer interesting. - P01"
+    ],
+    "T8": [
+      "I've been through some in-person selection processes, which were much more about cultural fit and [...] more about getting to know the person, really cultural fit with the company [...] and they didn't emphasize skills requirements as much. - P14"
+    ],
+    "T10": [
+      "But I don't necessarily consider it bad, because then I see that the company wants to know more about me a little… obviously it depends on the process, but that the company wants to know a little more about me as a person than my technical capacity. - P14",
+      "because they wanted to know the person, really soft skills, really in terms of cultural fit and everything. So this I consider something fair, you know? - P14",
+      "I've never been through that. [...] they don't want to know much about your religion, physical appearance and such, they want to know the basics there, how you are as a person, to know if you will fit into the company's ecosystem and your professional self. - P18"
+    ],
+    "T4": [
+      "Knowing about technical capacity isn't bad, but it's a bit more personal, you know? It cares more, or at least wants to know more about you. You're not just an employee who will perform a function. - P14"
+    ]
+  },
+  "CP05": {
+    "T5": [
+      "But for me, in my perception, the best interviews I've ever had are when we have a chat with the tech area, usually when we pass a phase, a tech leader from some team comes, or something like that, and starts asking: 'Ah, do you know such language?' 'Yes.' 'Ah, the architectural model you know...' [...] - P03",
+      "[...] I was scared, but of thinking: 'Wow, what are they going to ask here?' But it was something so dynamic, and it was more of a conversation, they would ask me, I would answer, then with my answer they would take it and ask me other things and we [...] - P04",
+      "[...] would talk about it, you see? So, I think as it happens this way, then I believe there isn't this issue of priorities, of favoring someone. I think it's by what you say, by your own composure, the technical part. - P04"
+    ],
+    "T7": [
+      "Ah, it's one hundred percent. Depending on how it was conducted. If you had the chance to chat with your probable future project manager, with someone from the team, with HR to really get to know the company culture... that's something that weighs heavily on the professional's decision. - P00",
+      "I identified this point more in person with hunters [...] The ones that were, like, the conversation with the company's own HR [...] was where I had the best insights, the best conversations, and the best networks. - P18",
+      "I look more towards the end [...] I don't... If I don't feel a network between them, feel a... a relationship there, I very easily decline - P18",
+      "you get to know the personalities of the people there, right? So, when the company is more direct in this regard, at least I take Instituto Atlântico as an example. - P21"
+    ],
+    "T8": [
+      "There are the P&P meetings, which are for you to get to know a certain person from your team better. [...] feedback from the entire team, your feedback, I think this is fundamental, like, it has to be in the routine of all companies. - P07",
+      "I would like to see more about culture, more personal aspects of the team, even what type of team we will work with, which is a team that encompasses a junction of teams related to an end client... - P08"
+    ]
+  },
+  "CP20": {
+    "T5": [
+      "But for me, in my perception, the best interviews I've ever had are when we have a chat with the tech area, usually when we pass a phase, a tech leader from some team comes, or something like that, and starts asking: 'Ah, do you know such language?' 'Yes.' 'Ah, the architectural model you know...' [...] - P03",
+      "[...] it wasn't something rigid, it was something very dynamic, it was even something that I left with more knowledge than I entered, because there, when who does your technical interview, generally, are people of higher seniority. - P04",
+      "I think we delve deeper in technical interviews, we can work with a slightly more technical language regarding that structure and our functions that we will establish there - P08",
+      "When you arrive to do the technical interview [...] there's always a more senior person there and they give you feedback. - P21"
+    ],
+    "T4": [
+      "I can perceive it in two moments: when it starts, because someone defined the rules, and if the person interviewing knows something or is just stalling. [...] If there's no limit, we don't know the materiality of what will be delivered. [...] It gives me the notion that they know what they're asking for. - P19"
+    ]
+  },
+  "CP13": {
+    "T5": [
+      "And before the interview, do something technical, even if it's some technical questions for you to answer in a quiz, or do a coding test, a HackerRank type of thing. But don't let that take over the interview - P10"
+    ],
+    "T7": [
+      "Yes, like, in the part of engaging to do the selection process, yes. In the companies where I did the selection process, applied for the selection process, they sent me emails, if I provided my phone number, they sent me WhatsApp messages, but to do the process. - P02",
+      "[...] And in these other two, which were other platforms, I got a faster response. So those were them. - P04",
+      "There's this last one I did, that I'm working at today. They responded very quickly. [...] I would do a stage on Monday. By Friday, I already had a response. - P04",
+      "In all of them, I received feedback, both on the positive and negative points, which I found well-structured. The process was also fast: in one or two days [...] I already received the answer... - P06",
+      "[...] the process was all in one day, and I felt a connection, and like... humanization from a company that at the same time is gigantic. [...] And so, sometimes a smaller company can't have that contact. - P10",
+      "If… if it's a clear process, if it's an objective process, if it gives feedback, whether positive or negative, I tend to accept - P12"
+    ],
+    "T9": [
+      "No. Of the interviews I did, some, I think are average, some, for example, I received feedback very quickly, like, for example, this last one I joined was very fast, I applied one day, two days later I did the technical interview and on the same day I already received the result. - P05"
+    ],
+    "T4": [
+      "Ah, I'm very happy. It's very good when you... There have been companies I participated in, this last one I'm in, where I received feedback on the same day. So, that's wonderful. They tell you right away, there's not much stalling. It's great. You perceive they are concerned and give an answer quickly. - P05"
+    ]
+  },
+  "CP07": {
+    "T6": [
+      "I think it's important that for certain vacancies, for a certain number of vacancies, it's important that a percentage of those vacancies are really allocated to people... who need it, who are out of the ordinary, you know? People with disabilities, black people, people from specific communities. - P00",
+      "Alright, speaking more to the social aspect, I see today that there are many vacancies, like, reserved for women, for example, we know that women are minorities in the technology area, so that's very cool, there are many vacancies reserved for PWDs [People with Disabilities], so that's also cool [...] - P05",
+      "Alright, so, there's this issue that I think there are many vacancies that are reserved for a specific audience, women, even black people too, disabled people, anyway, that's very cool. So, I think this issue is good [...] - P05",
+      "There has been this change recently, companies wanting to adapt more to this issue of culture, of having more participation from various communities of people there, so LGBTQIA+, the racial issue as well. - P07"
+    ],
+    "T8": [
+      "Alright, in that sense, I think that, at least the companies I've been through in selection processes, they made this very clear, they said, I don't know, that we support these programs that do this for society, or here we value employees a lot, here we value various types of communities, etc. - P05",
+      "[...] this cultural part, if the company is not adept at this nowadays, for me, this company, man, it's prone to go bankrupt, for sure, and I wouldn't join a company like that, okay? - P07"
+    ],
+    "T10": [
+      "So much so that today, several companies, I've seen, open specific vacancies for women. Because it's a minority. - P04",
+      "I only saw, I think, two vacancies aimed at women, only for women, and one vacancy for people with disabilities. [...] most of the vacancies I see always ask if you have any disability, need any support - P11",
+      "And when it's to fill some quota, I consider it fair that the person makes it clear that it's for that, you know? - P14",
+      "I think this is flawed, as remote work could be useful for those who live in more distant regions. To go to downtown Rio, I lose at least two hours by bus, and the return trip is never less than two and a half or three hours. - P20"
+    ]
+  },
+  "Inclusion": {
+    "T6": [
+      "I think it's important that for certain vacancies, for a certain number of vacancies, it's important that a percentage of those vacancies are really allocated to people... who need it, who are out of the ordinary, you know? People with disabilities, black people, people from specific communities. - P00",
+      "Alright, speaking more to the social aspect, I see today that there are many vacancies, like, reserved for women, for example, we know that women are minorities in the technology area, so that's very cool, there are many vacancies reserved for PWDs [People with Disabilities], so that's also cool [...] - P05",
+      "Alright, so, there's this issue that I think there are many vacancies that are reserved for a specific audience, women, even black people too, disabled people, anyway, that's very cool. So, I think this issue is good [...] - P05",
+      "There has been this change recently, companies wanting to adapt more to this issue of culture, of having more participation from various communities of people there, so LGBTQIA+, the racial issue as well. - P07"
+    ],
+    "T8": [
+      "Alright, in that sense, I think that, at least the companies I've been through in selection processes, they made this very clear, they said, I don't know, that we support these programs that do this for society, or here we value employees a lot, here we value various types of communities, etc. - P05",
+      "[...] this cultural part, if the company is not adept at this nowadays, for me, this company, man, it's prone to go bankrupt, for sure, and I wouldn't join a company like that, okay? - P07"
+    ],
+    "T10": [
+      "So much so that today, several companies, I've seen, open specific vacancies for women. Because it's a minority. - P04",
+      "I only saw, I think, two vacancies aimed at women, only for women, and one vacancy for people with disabilities. [...] most of the vacancies I see always ask if you have any disability, need any support - P11",
+      "And when it's to fill some quota, I consider it fair that the person makes it clear that it's for that, you know? - P14",
+      "I think this is flawed, as remote work could be useful for those who live in more distant regions. To go to downtown Rio, I lose at least two hours by bus, and the return trip is never less than two and a half or three hours. - P20"
+    ]
+  },
+  "and Accessibility": {
+    "T6": [
+      "I think it's important that for certain vacancies, for a certain number of vacancies, it's important that a percentage of those vacancies are really allocated to people... who need it, who are out of the ordinary, you know? People with disabilities, black people, people from specific communities. - P00",
+      "Alright, speaking more to the social aspect, I see today that there are many vacancies, like, reserved for women, for example, we know that women are minorities in the technology area, so that's very cool, there are many vacancies reserved for PWDs [People with Disabilities], so that's also cool [...] - P05",
+      "Alright, so, there's this issue that I think there are many vacancies that are reserved for a specific audience, women, even black people too, disabled people, anyway, that's very cool. So, I think this issue is good [...] - P05",
+      "There has been this change recently, companies wanting to adapt more to this issue of culture, of having more participation from various communities of people there, so LGBTQIA+, the racial issue as well. - P07"
+    ],
+    "T8": [
+      "Alright, in that sense, I think that, at least the companies I've been through in selection processes, they made this very clear, they said, I don't know, that we support these programs that do this for society, or here we value employees a lot, here we value various types of communities, etc. - P05",
+      "[...] this cultural part, if the company is not adept at this nowadays, for me, this company, man, it's prone to go bankrupt, for sure, and I wouldn't join a company like that, okay? - P07"
+    ],
+    "T10": [
+      "So much so that today, several companies, I've seen, open specific vacancies for women. Because it's a minority. - P04",
+      "I only saw, I think, two vacancies aimed at women, only for women, and one vacancy for people with disabilities. [...] most of the vacancies I see always ask if you have any disability, need any support - P11",
+      "And when it's to fill some quota, I consider it fair that the person makes it clear that it's for that, you know? - P14",
+      "I think this is flawed, as remote work could be useful for those who live in more distant regions. To go to downtown Rio, I lose at least two hours by bus, and the return trip is never less than two and a half or three hours. - P20"
+    ]
+  },
+  "CP08": {
+    "T6": [
+      "Benefits, definitely. Company benefits. Career plan. [...] And opportunity within the company for the professional to develop. Educational aid, for the professional to seek development while at the company. - P00",
+      "Salary. It has to be a salary that is higher than what I'm receiving for me to go. But not only that. I also analyze the duration of employees in the company. LinkedIn, for example, shows the average time employees stay at that company. If it's a company where the employee stayed, for example, on average - P05",
+      "Usually it's at the company. Many companies hire a lot... But they also fire a lot, they stay in that volatility. So, I analyze... These factors are crucial for me. The time people are at the company... For example, me, at least for me, I don't want to keep jumping from company to company - P05",
+      "I want to be a senior within that company, and for that I'll have to spend some time, acquire my experiences, and then if I'm going to join a company where the average for each employee is one year there, then I don't even, no longer, I no longer want to go to that company. So it would be the salary issue, it would be the time - P05",
+      "If he started as a junior, and then in that company he managed to become a senior, because I don't want to spend my whole life in a company as a junior either. I want to see the growth opportunity that's there. So, that's also essential. - P05",
+      "Today, as I am employed, I consider if that fit matches the same thing. For example, today I consider companies that don't want you to exceed that schedule very good. - P12",
+      "Responsibilities, possibility of growth and rotation in the company, which is having the possibility to study other areas, enter other areas. - P13",
+      "Usually, like… this is a very personal context for me, but usually it's first: remuneration, obviously [...] But also, mainly, benefits. [...] and also the company, if I have a career plan. - P14"
+    ]
+  },
+  "CP17": {
+    "T6": [
+      "I think the salary issue is important, if the salary is in accordance with the job requirements. [...] Basically, I assess if the salary matches what the company requires of the professional. - P06",
+      "I have certification, I have education, I have a post-grad, I have this and that, so I will want a salary compatible with that, because I made all the investment in relation to that. There's no way I can accept less. - P07",
+      "The salary part, benefits are also very important today, although there's PJ [independent contractor] employment, there's this, there's that, but the benefits part is also considerable, it's very attractive, the company culture as well. - P07",
+      "along with this, comes the issue of salary, of your benefits that you will have in relation to the company. Whether you like it or not, it's an exchange between you and the company, so this is also very important. - P15"
+    ]
+  },
+  "CP21": {
+    "T7": [
+      "it was very positive, usually everything done or automated. [...] I consider that some things shouldn't be automated, like this process of giving feedback - P21"
+    ]
+  }
+}
