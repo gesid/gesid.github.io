@@ -1,0 +1,20 @@
+{
+  "Application Phase": {
+    "T1. Clarity in Job Postings": ["CP01", "CP09"],
+    "T2. External Information": ["CP02"],
+    "T3. Feedback": ["CP03", "CP12", "CP15", "CP19"]
+  },
+  "Assessment Phase": {
+    "T4. Behavioral Assessment": ["CP22"],
+    "T5. Technical Assessment": ["CP04", "CP16", "CP20"]
+  },
+  "Hiring Phase": {
+    "T6. Benefits and Opportunities": ["CP08", "CP17"]
+  },
+  "Cross-cutting Aspects": {
+    "T7. Conduct of R&S Process": ["CP05", "CP06", "CP10", "CP11", "CP13", "CP18", "CP21"],
+    "T8. Cultural Fit": ["CP01", "CP03", "CP05", "CP06", "CP07", "CP11", "CP22"],
+    "T9. Process Status": ["CP14"],
+    "T10. Perception of Justice": ["CP07"]
+  }
+}
