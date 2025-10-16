@@ -1,0 +1,34 @@
+/* css/style.css */
+
+@import url('https://assets.vercel.com/raw/upload/v1587415301/fonts/2/Geist-Regular.woff2');
+@import url('https://assets.vercel.com/raw/upload/v1587415301/fonts/2/Geist-Medium.woff2');
+@import url('https://assets.vercel.com/raw/upload/v1587415301/fonts/2/Geist-Bold.woff2');
+@import url('https://assets.vercel.com/raw/upload/v1587415301/fonts/2/GeistMono-Regular.woff2');
+
+body {
+    font-family: 'Geist', sans-serif;
+}
+
+pre, code {
+    font-family: 'GeistMono', monospace;
+}
+
+mark {
+    background-color: rgba(34, 197, 94, 0.3); /* bg-green-500/30 */
+    color: #f1f5f9;
+    padding: 0.1rem 0.25rem;
+    border-radius: 0.2rem;
+}
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
+@keyframes zoomIn { from { opacity: 0; transform: translate(-50%, -50%) scale(0.95); } to { opacity: 1; transform: translate(-50%, -50%) scale(1); } }
+@keyframes zoomOut { from { opacity: 1; transform: translate(-50%, -50%) scale(1); } to { opacity: 0; transform: translate(-50%, -50%) scale(0.95); } }
+
+#modal-backdrop:not(.hidden) { animation: fadeIn 0.2s ease-out; }
+#modal-content:not(.hidden) { animation: zoomIn 0.2s ease-out; }
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: #1a1a1a; }
+::-webkit-scrollbar-thumb { background-color: #4a4a4a; border-radius: 10px; border: 2px solid #1a1a1a; }
+::-webkit-scrollbar-thumb:hover { background-color: #6a6a6a; }
