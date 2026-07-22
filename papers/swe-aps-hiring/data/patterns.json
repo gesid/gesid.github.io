@@ -1,27 +1,127 @@
 [
-  { "id": "AP01", "name": "Generic or non-existent feedback", "description": "Absence of feedback, or standardized feedback, without specific information about the candidate's performance or the reason for rejection." },
-  { "id": "AP02", "name": "Lack of clarity in requirements and job description", "description": "Job advertisements with vague, contradictory information, or with excessive and seniority-incompatible requirements." },
-  { "id": "AP03", "name": "Poorly conducted and bureaucratic R&S process", "description": "Selection processes with unnecessary, poorly explained stages, excessive bureaucracy, or conducted hastily and inattentively." },
-  { "id": "AP04", "name": "Negative reputation on review sites or social media", "description": "Existence of negative reviews about the company on specialized websites or social media, impacting candidates' perception." },
-  { "id": "AP05", "name": "Lack of transparency about contractual conditions before the offer", "description": "Omission or late disclosure of essential information about the vacancy, such as salary, benefits, hiring company, and work location." },
-  { "id": "AP06", "name": "Excessive use of jargon or confusing technical terms", "description": "Use of complex language that is difficult for less experienced candidates to understand, hindering comprehension of the vacancy." },
-  { "id": "AP07", "name": "Posting non-existent or ghost jobs", "description": "Publication of vacancies that do not actually exist or are closed without communication to candidates, generating frustrated expectations." },
-  { "id": "AP08", "name": "Lack of clarity about organizational values and culture", "description": "Difficulty in conveying the company's culture and values during the selection process, leading to misalignment between candidate and organization." },
-  { "id": "AP09", "name": "Lack of humanization and clarity in the recruitment process", "description": "Recruitment and selection processes lacking human interactions and clear communication, generating insecurity and demotivation in candidates." },
-  { "id": "AP10", "name": "Lack of regular updates on process status", "description": "Lack of communication about the selection process status, leaving candidates without information about their progression." },
-  { "id": "AP11", "name": "Unequal treatment among candidates", "description": "Perception that the selection process is not conducted isonomically, favoring some candidates over others." },
-  { "id": "AP12", "name": "Perception of discrimination based on personal characteristics unrelated to work", "description": "Consideration of factors such as appearance, gender, race, or academic background as selection criteria, instead of focusing on skills and competencies." },
-  { "id": "AP13", "name": "Tests or practical activities disconnected from actual job responsibilities", "description": "Application of practical assessments that do not reflect the daily demands and challenges of the role, leading to an inadequate candidate evaluation." },
-  { "id": "AP14", "name": "Delayed or no feedback after interviews", "description": "Delay or lack of communication with candidates after interviews, generating uncertainty and anxiety." },
-  { "id": "AP15", "name": "Failure to request candidate feedback on the process", "description": "Not seeking candidates' opinions about their experience in the selection process, losing the opportunity to improve R&S practices." },
-  { "id": "AP16", "name": "Excessive automation", "description": "Recruitment and Selection processes that have many automated stages, usually through software." },
-  { "id": "AP17", "name": "Lack of standardization in assessments", "description": "Absence of clear and uniform criteria for evaluating candidates, leading to subjective and inconsistent judgments." },
-  { "id": "AP18", "name": "Misalignment between selection process stages and job competencies", "description": "Misalignment between the selection process stages and the essential competencies for job performance." },
-  { "id": "AP19", "name": "Lack of explanation for decisions made during the process", "description": "Not providing candidates with a clear and transparent justification for decisions made during the selection process, such as non-approval for the next stage." },
-  { "id": "AP20", "name": "Lack of recruiter training", "description": "Unprepared recruiters to conduct interviews, assess candidates' competencies, and adequately represent the company." },
-  { "id": "AP21", "name": "Unfulfilled promises", "description": "Failure to fulfill promises made to candidates during the selection process, such as benefits, career plan, or other incentives." },
-  { "id": "AP22", "name": "Excessively complex tests or practical activities", "description": "Application of tests or practical activities with a level of complexity disproportionate to the job requirements or the time available for their completion." },
-  { "id": "AP23", "name": "Irrelevant academic background requirements", "description": "Academic background requirements that are not essential for job performance, unnecessarily limiting access for qualified candidates." },
-  { "id": "AP24", "name": "Lack of accessibility in the selection process for people with disabilities", "description": "Barriers in the selection process that impede or hinder the participation of people with disabilities, limiting diversity and inclusion." },
-  { "id": "AP25", "name": "Perception of Disorganization and Lack of Technical Knowledge from HR", "description": "Lack of organization and technical knowledge from HR in preparing job descriptions, which can lead to inaccurate or irrelevant information." }
+  {
+    "id": "AP01",
+    "name": "Automated or absent post-application feedback",
+    "description": "Absence of feedback, or delivery of generic automated feedback, after application submission or early assessment stages, without information that helps candidates understand the outcome or improve future applications."
+  },
+  {
+    "id": "AP02",
+    "name": "Generic, contradictory, or seniority-misaligned job requirements",
+    "description": "Job advertisements containing vague, contradictory, inflated, or seniority-incompatible requirements that prevent candidates from accurately understanding the role and calibrating their qualifications."
+  },
+  {
+    "id": "AP03",
+    "name": "Unannounced changes to process format or schedule",
+    "description": "Changes to interview format, process stages, schedule, or timeline introduced without prior communication or adequate explanation to candidates."
+  },
+  {
+    "id": "AP04",
+    "name": "Negative reputation on review sites or social media",
+    "description": "Negative information from review platforms, social media, or other external sources that undermines trust in the organization and influences candidates' willingness to proceed."
+  },
+  {
+    "id": "AP05",
+    "name": "Late disclosure of contractual conditions",
+    "description": "Late disclosure or omission of essential contractual information, such as salary, benefits, hiring model, work arrangement, or employer identity, until advanced stages of the recruitment process."
+  },
+  {
+    "id": "AP06",
+    "name": "Use of corporate jargon and informal language in job postings",
+    "description": "Use of corporate jargon, technical buzzwords, or informal expressions that obscure job expectations or make job postings difficult for candidates to understand."
+  },
+  {
+    "id": "AP07",
+    "name": "Posting non-existent or ghost jobs",
+    "description": "Publication or maintenance of vacancies that are inactive, already filled, or not intended for immediate hiring, creating false expectations among candidates."
+  },
+  {
+    "id": "AP08",
+    "name": "Generic or unverifiable statements about organizational culture",
+    "description": "Use of generic, superficial, or unverifiable statements about organizational culture and values that prevent candidates from understanding the actual work environment."
+  },
+  {
+    "id": "AP09",
+    "name": "Standardized, template-based candidate communication",
+    "description": "Use of impersonal, standardized, or template-based communications that discourage meaningful interaction and convey a lack of individual consideration toward candidates."
+  },
+  {
+    "id": "AP10",
+    "name": "Delayed or omitted application status updates",
+    "description": "Failure to provide timely, scheduled, or proactive updates about candidates' progression throughout the recruitment process."
+  },
+  {
+    "id": "AP11",
+    "name": "Observed variation in process conditions across candidates",
+    "description": "Differences in recruitment conditions, opportunities, or treatment observed across candidates, leading to perceptions of unequal procedural fairness."
+  },
+  {
+    "id": "AP12",
+    "name": "Inquiries about personal characteristics unrelated to job qualifications",
+    "description": "Questions, evaluation criteria, or decisions based on personal characteristics unrelated to job qualifications, such as gender, family status, appearance, geographic origin, or other non-job-related attributes."
+  },
+  {
+    "id": "AP13",
+    "name": "Tests or practical activities disconnected from actual job responsibilities",
+    "description": "Technical assessments whose content, format, or tasks do not reflect the actual responsibilities, tools, or competencies required for the target role."
+  },
+  {
+    "id": "AP14",
+    "name": "Delayed or no feedback after interviews",
+    "description": "Failure to provide timely feedback or any response after interviews, leaving candidates without closure regarding interview outcomes."
+  },
+  {
+    "id": "AP15",
+    "name": "Omission of candidate-experience feedback mechanisms",
+    "description": "Absence of mechanisms that allow candidates to provide feedback about their recruitment experience, preventing organizations from collecting information to improve their hiring practices."
+  },
+  {
+    "id": "AP16",
+    "name": "Fully automated candidate interactions without human touchpoints",
+    "description": "Recruitment processes in which candidate interactions rely almost exclusively on automated systems, without accessible human touchpoints for communication, clarification, or support."
+  },
+  {
+    "id": "AP17",
+    "name": "Inconsistent assessment conditions across candidates",
+    "description": "Application of inconsistent evaluation conditions, criteria, or assessment procedures across candidates, compromising perceptions of procedural fairness."
+  },
+  {
+    "id": "AP18",
+    "name": "Misalignment between selection process stages and job competencies",
+    "description": "Selection process stages or evaluation methods that fail to assess the competencies actually required for successful job performance."
+  },
+  {
+    "id": "AP19",
+    "name": "Non-disclosure of evaluation criteria and rejection reasons",
+    "description": "Failure to communicate the evaluation criteria, decision rationale, or rejection reasons used throughout the recruitment process."
+  },
+  {
+    "id": "AP20",
+    "name": "Recruiter unfamiliarity with role-specific technical content",
+    "description": "Recruiters demonstrating insufficient familiarity with the technical domain of the role, limiting their ability to explain requirements, conduct interviews, or evaluate candidates appropriately."
+  },
+  {
+    "id": "AP21",
+    "name": "Unfulfilled promises",
+    "description": "Failure to honor explicit commitments or expectations established during recruitment, including promises regarding compensation, career development, work conditions, or organizational culture."
+  },
+  {
+    "id": "AP22",
+    "name": "Test complexity and deadlines disproportionate to the role's seniority level",
+    "description": "Assignment of technical tests or take-home activities whose scope, complexity, or deadlines are disproportionate to the advertised seniority level or expected responsibilities of the position."
+  },
+  {
+    "id": "AP23",
+    "name": "Formal degree or institution-prestige requirements unlinked to job tasks",
+    "description": "Requirements for formal academic degrees or institutional prestige that are not necessary for performing the actual job responsibilities."
+  },
+  {
+    "id": "AP24",
+    "name": "Job posting formats incompatible with assistive technologies",
+    "description": "Job advertisements or recruitment materials presented in formats that are incompatible with assistive technologies or otherwise create unnecessary accessibility barriers for candidates with disabilities."
+  },
+  {
+    "id": "AP25",
+    "name": "Technically inconsistent or impossible job requirements",
+    "description": "Job advertisements containing technically inconsistent, contradictory, or impossible requirements that indicate poor alignment between recruitment practices and the realities of the technical role."
+  }
 ]
