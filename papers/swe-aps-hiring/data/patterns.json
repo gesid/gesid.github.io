@@ -96,13 +96,13 @@
   },
   {
     "id": "AP20",
-    "name": "Recruiter unfamiliarity with role-specific technical content",
-    "description": "Recruiters demonstrating insufficient familiarity with the technical domain of the role, limiting their ability to explain requirements, conduct interviews, or evaluate candidates appropriately."
+    "name": "Recruiter-led interactions without role-specific technical detail",
+    "description": "Recruiter-led interactions that lack role-specific technical information, detail, or clear explanations of process steps, leaving candidates without essential technical context regarding the vacancy."
   },
   {
     "id": "AP21",
-    "name": "Unfulfilled promises",
-    "description": "Failure to honor explicit commitments or expectations established during recruitment, including promises regarding compensation, career development, work conditions, or organizational culture."
+    "name": "Discrepancy between advertised and experienced organizational conditions",
+    "description": "Differences between the organizational culture, work expectations, or contractual conditions advertised during recruitment and those actually experienced by candidates during subsequent stages, onboarding, or trial periods."
   },
   {
     "id": "AP22",
@@ -121,7 +121,7 @@
   },
   {
     "id": "AP25",
-    "name": "Technically inconsistent or impossible job requirements",
-    "description": "Job advertisements containing technically inconsistent, contradictory, or impossible requirements that indicate poor alignment between recruitment practices and the realities of the technical role."
+    "name": "Job advertisements specifying conflicting or chronologically incompatible technical requirements",
+    "description": "Job advertisements specifying technical requirements that conflict with one another or are chronologically incompatible with technology release timelines."
   }
 ]
