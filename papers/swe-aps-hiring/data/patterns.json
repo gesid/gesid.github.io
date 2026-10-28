@@ -97,12 +97,12 @@
   {
     "id": "AP20",
     "name": "Recruiter-led interactions without role-specific technical detail",
-    "description": "Recruiter-led interactions that lack role-specific technical information, detail, or clear explanations of process steps, leaving candidates without essential technical context regarding the vacancy."
+    "description": "Recruiter-led interactions that do not provide role-specific technical detail, limiting candidates' ability to clarify requirements, interview content, or the technical expectations of the role."
   },
   {
     "id": "AP21",
     "name": "Discrepancy between advertised and experienced organizational conditions",
-    "description": "Differences between the organizational culture, work expectations, or contractual conditions advertised during recruitment and those actually experienced by candidates during subsequent stages, onboarding, or trial periods."
+    "description": "Discrepancy between the conditions advertised or communicated during recruitment and the conditions candidates actually experience, including compensation, career development, work conditions, or organizational culture."
   },
   {
     "id": "AP22",
@@ -122,6 +122,6 @@
   {
     "id": "AP25",
     "name": "Job advertisements specifying conflicting or chronologically incompatible technical requirements",
-    "description": "Job advertisements specifying technical requirements that conflict with one another or are chronologically incompatible with technology release timelines."
+    "description": "Job advertisements specifying conflicting or chronologically incompatible technical requirements, which indicate poor alignment between recruitment practices and the realities of the technical role."
   }
 ]
