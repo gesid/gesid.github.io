@@ -1,6 +1,6 @@
 {
   "Application": {
-    "T1. Clarity in Job Postings": ["AP25", "AP02", "AP05", "AP08", "AP06", "AP24"],
+    "T1. Clarity in Job Postings": ["AP02", "AP05", "AP06", "AP08", "AP24", "AP25"],
     "T2. External Information": ["AP04", "AP16"],
     "T3. Feedback": ["AP01", "AP09", "AP15", "AP16", "AP19"]
   },
@@ -9,7 +9,7 @@
     "T5. Technical Assessment": ["AP13", "AP18", "AP22"]
   },
   "Hiring": {
-    "T6. Benefits and Opportunities": ["AP02", "AP05", "AP08"]
+    "T6. Benefits and Opportunities": ["AP02", "AP05"]
   },
   "Cross-cutting Aspects": {
     "T7. Conduct of the R&S Process": ["AP03", "AP07", "AP09", "AP10", "AP14", "AP16", "AP19", "AP20"],
