@@ -158,7 +158,9 @@ function openModal(apId, themeCode, searchTerm) {
     `;
     
     const allQuotesForAP = appState.quotesMap[apId] || {};
-    const quotesForTheme = allQuotesForAP[themeCode] || []; 
+    const quotesForTheme = Object.entries(allQuotesForAP)
+      .sort(([a], [b]) => a.localeCompare(b))
+      .flatMap(([theme, quotes]) => quotes);
     let quotesHTML = `<h3 class="font-bold text-lg text-slate-100 mb-4 border-b border-zinc-700 pb-2">Supporting Quotes</h3>`;
 
     if (quotesForTheme.length > 0) {
